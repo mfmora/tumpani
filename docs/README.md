@@ -5,7 +5,7 @@
 [Trello link][trello] **Change it!**
 
 [heroku]: http://www.herokuapp.com
-[trello]: https://trello.com/b/ALgfuX0Q/freshernote
+[trello]: https://trello.com/b/bYp6lSoT/tumpani
 
 ## Minimum Viable Product
 
@@ -19,7 +19,7 @@ sufficient CSS styling:
 - [ ] Attractions Page
 - [ ] Search
 - [ ] Maps
-- [ ] Add attraction to trip
+- [ ] Trips
 - [ ] Production README [sample](docs/production_readme.md)
 
 ## Design Docs
