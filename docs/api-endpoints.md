@@ -38,6 +38,7 @@
 ### Trips
 
 - `POST /api/users/:user_id/trips`
+- `GET /api/trips/:trip_id`
 - `DELETE /api/trips/:trip_id`
 - `PATCH /api/trips/:trip_id`
 - `GET /api/users/:user_id/trips`

@@ -2,7 +2,7 @@
 
 [Heroku link][heroku]
 
-[Trello link][trello] **Change it!**
+[Trello link][trello]
 
 [heroku]: http://www.herokuapp.com
 [trello]: https://trello.com/b/bYp6lSoT/tumpani
