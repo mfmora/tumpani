@@ -19,7 +19,7 @@ sufficient CSS styling:
 - [ ] Attractions Page
 - [ ] Search
 - [ ] Maps
-- [ ] Add to Trip
+- [ ] Add attraction to trip
 - [ ] Production README [sample](docs/production_readme.md)
 
 ## Design Docs
@@ -65,3 +65,5 @@ sufficient CSS styling:
 ### Bonus Features (TBD)
 - [ ] Discover attractions
 - [ ] Multiple Trips
+- [ ] Generate route between attractions in the itinerary
+- [ ] Gallery of images for each attraction
