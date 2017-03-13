@@ -28,11 +28,11 @@ id          | integer   | not null, primary key
 name        | string    | not null
 
 ## taggings
-column name | data type | details
-------------|-----------|-----------------------
-id          | integer   | not null, primary key
-attraction_id     | integer   | not null, foreign key (references attraction), indexed, unique [tag_id]
-tag_id      | integer   | not null, foreign key (references tags), indexed
+column name   | data type | details
+--------------|-----------|-----------------------
+id            | integer   | not null, primary key
+attraction_id | integer   | not null, foreign key (references attraction), indexed, unique [tag_id]
+tag_id        | integer   | not null, foreign key (references tags), indexed
 
 ## trips
 column name | data type | details
@@ -45,6 +45,6 @@ user_id     | integer   | not null, foreign key (references users), indexed
 column name   | data type | details
 --------------|-----------|-----------------------
 id            | integer   | not null, primary key
-trip_id       | string    | not null, foreign key (references trips), indexed
+trip_id       | integer    | not null, foreign key (references trips), indexed
 attraction_id | integer   | not null, foreign key (references attractions), indexed
 ord           | integer   | not null
