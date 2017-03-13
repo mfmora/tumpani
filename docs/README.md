@@ -4,7 +4,7 @@
 
 [Trello link][trello]
 
-[heroku]: http://www.herokuapp.com
+[heroku]: http://www.tumpani.com
 [trello]: https://trello.com/b/bYp6lSoT/tumpani
 
 ## Minimum Viable Product
