@@ -21,11 +21,10 @@
 - Trip index
   * TripStopsIndexItemContainer
 
-
 **AttractionIndexContainer**
 - AttractionIndex
+  * Photo
   * AttractionIndexItem
-  * Map
 
 **AttractionDetailContainer**
 - AttractionDetail
