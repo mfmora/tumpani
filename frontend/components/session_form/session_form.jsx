@@ -5,87 +5,94 @@ class SessionForm extends React.Component {
     super(props);
     this.state = {username: "", password: "", formType: "login"};
 
-    this.loadEvents.apply(this);
-
-    // this.handleSubmit = this.handleSubmit.bind(this);
-    // this.handleUsername = this.handleUsername.bind(this);
-    // this.handlePassword = this.handlePassword.bind(this);
-    // this.changeFormType = this.changeFormType.bind(this);
+    this._loadEvents.apply(this);
   }
 
-  loadEvents() {
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleUsername = this.handleUsername.bind(this);
-    this.handlePassword = this.handlePassword.bind(this);
-    this.changeFormType = this.changeFormType.bind(this);
+  _loadEvents() {
+    this._handleSubmit = this._handleSubmit.bind(this);
+    this._handleChange = this._handleChange.bind(this);
+    this._changeFormType = this._changeFormType.bind(this);
   }
 
-  handleSubmit(e) {
+  _handleSubmit(e) {
     e.preventDefault();
-    const user = Object.assign({}, this.state);
-    this.props.processForm(user).then(() => this.redirect());
+    const user = { username: this.state.username,
+                   password: this.state.password
+                 };
+    if(this._loginForm()) {
+      this.props.login(user);
+    }
+
+    this.props.processForm(user).then(() => this._redirect());
     this.state = {username: "", password: ""};
   }
 
-  redirect() {
+  _redirect() {
     this.props.router.push('/')
   }
 
-  handleUsername(e) {
-    this.setState({ username: e.target.value });
+  _handleChange(e) {
+    this.setState({ [e.target.id]: e.target.value });
   }
 
-  handlePassword(e) {
-    this.setState({ password: e.target.value });
+  _loginForm() {
+    return (this.state.formType === "login");
   }
 
-  changeFormType() {
-    if(this.state.formType === "login") {
+  _changeFormType() {
+    if(this._loginForm()) {
       this.setState({ formType: "signup" });
     } else {
       this.setState({ formType: "login" });
     }
   }
 
+  _sessionInfo() {
+    let session = {};
+    if(this._loginForm()) {
+      session = { header: "Log In",
+                  footer: "New to Tumpani? ",
+                  link: "Sign Up"
+                }
+    } else {
+      session = { header: "Sign Up",
+                  footer: "Already on Tumpani? ",
+                  link: "Log In"
+                }
+    }
+    return session;
+  }
+
   render() {
 
-    let session_header;
-    let session_footer;
-    let session_footer_link;
-    if(this.state.formType === "login") {
-      session_header = "Log In";
-      session_footer = "New to Tumpani? ";
-      session_footer_link = "Sign Up"
-    } else {
-      session_header = "Sign Up";
-      session_footer = "Already on Tumpani? ";
-      session_footer_link = "Log In"
-    }
+    let session = this._sessionInfo();
 
     return (
-      <div onSubmit={this.handleSubmit}>
-        <h2>{ session_header }</h2>
+      <div onSubmit={this._handleSubmit}>
+        <h2>{ session.header }</h2>
         <form>
           <label>
             Username:
             <input type="text"
+              id="username"
               value={this.state.username}
-              onChange={this.handleUsername}
+              onChange={this._handleChange}
             />
           </label>
           <label>
             Password:
             <input type="password"
+              id="password"
               value={this.state.password}
-              onChange={this.handlePassword}
+              onChange={this._handleChange}
             />
           </label>
           <input type="submit" value="Login" />
         </form>
         <p>
-          { session_footer }
-          <a href="#" onClick={ this.changeFormType }>
-            {session_footer_link}
+          { session.footer }
+          <a href="#" onClick={ this._changeFormType }>
+            { session.link }
           </a>
         </p>
       </div>
