@@ -33,7 +33,6 @@ class SessionForm extends React.Component {
   }
 
   _cleanState() {
-    console.log("cleaning!");
     this.state = {username: "", password: ""};
   }
 
