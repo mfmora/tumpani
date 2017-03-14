@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router';
 
 class SessionForm extends React.Component {
   constructor(props) {
@@ -12,6 +13,8 @@ class SessionForm extends React.Component {
     this._handleSubmit = this._handleSubmit.bind(this);
     this._handleChange = this._handleChange.bind(this);
     this._changeFormType = this._changeFormType.bind(this);
+    this._renderErrors = this._renderErrors.bind(this);
+    this._cleanState = this._cleanState.bind(this);
   }
 
   _handleSubmit(e) {
@@ -19,16 +22,23 @@ class SessionForm extends React.Component {
     const user = { username: this.state.username,
                    password: this.state.password
                  };
-    if(this._loginForm()) {
-      this.props.login(user);
-    }
 
-    this.props.processForm(user).then(() => this._redirect());
+    const action = this._loginForm() ? this.props.login : this.props.signup;
+    // if(this._loginForm()) {
+    //   this.props.login(user).then(() => this._redirect());
+    // } else {
+    //   this.props.signup(user).then(() => this._redirect());
+    // }
+    action(user).then(() => this._cleanState()).then(() => this._redirect());
+  }
+
+  _cleanState() {
+    console.log("cleaning!");
     this.state = {username: "", password: ""};
   }
 
   _redirect() {
-    this.props.router.push('/')
+    this.props.router.push('/home')
   }
 
   _handleChange(e) {
@@ -45,6 +55,7 @@ class SessionForm extends React.Component {
     } else {
       this.setState({ formType: "login" });
     }
+    this.props.clearErrors();
   }
 
   _sessionInfo() {
@@ -56,20 +67,26 @@ class SessionForm extends React.Component {
                 }
     } else {
       session = { header: "Sign Up",
-                  footer: "Already on Tumpani? <3",
+                  footer: "Already on Tumpani?",
                   link: "Log In"
                 }
     }
     return session;
   }
 
+  _renderErrors() {
+    return this.props.errors.map(error => (
+      <li>{ error }</li>
+    ));
+  }
+
   render() {
-
     let session = this._sessionInfo();
-
+    let errors = this._renderErrors();
     return (
       <div onSubmit={this._handleSubmit}>
         <h2>{ session.header }</h2>
+        <p>{ errors }</p>
         <form>
           <label>
             Username:
@@ -100,4 +117,4 @@ class SessionForm extends React.Component {
   }
 }
 
-export default SessionForm;
+export default withRouter(SessionForm);
