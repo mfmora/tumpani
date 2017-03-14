@@ -56,7 +56,7 @@ class SessionForm extends React.Component {
                 }
     } else {
       session = { header: "Sign Up",
-                  footer: "Already on Tumpani? ",
+                  footer: "Already on Tumpani? <3",
                   link: "Log In"
                 }
     }
