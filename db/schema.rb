@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170315154022) do
+ActiveRecord::Schema.define(version: 20170315165332) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,12 +18,27 @@ ActiveRecord::Schema.define(version: 20170315154022) do
   create_table "attractions", force: :cascade do |t|
     t.string   "name",           null: false
     t.string   "place_id",       null: false
-    t.string   "street_address", null: false
-    t.string   "city",           null: false
-    t.string   "state",          null: false
     t.string   "image_url",      null: false
+    t.float    "rating"
+    t.string   "street_address"
+    t.string   "city"
+    t.string   "state"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
+  end
+
+  create_table "taggings", force: :cascade do |t|
+    t.integer  "attraction_id", null: false
+    t.integer  "tag_id",        null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.index ["attraction_id", "tag_id"], name: "index_taggings_on_attraction_id_and_tag_id", unique: true, using: :btree
+  end
+
+  create_table "tags", force: :cascade do |t|
+    t.string   "name",       null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|

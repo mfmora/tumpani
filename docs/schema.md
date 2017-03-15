@@ -15,11 +15,12 @@ column name    | data type | details
 id             | integer   | not null, primary key
 name           | string    | not null
 place_id       | string    | not null
-street_address | string    | not null
-city           | string    | not null
-state          | string    | not null
-zip            | string    | not null
+rating         | float     |
 image_url      | string    | not null
+street_address | string    |
+city           | string    |
+state          | string    |
+zip            | string    |
 
 ## tags
 column name | data type | details

@@ -1,0 +1,851 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CpQCAwEAAIMe6TxW45Rc2Md9x8ENvMnkwh2L0HeHQTyVWJHqFiWPq5XpXgDxTuwufxsbn360FyMqAfwcahJ2apXm8ivC2fRjeMJjHQGo_F8D5TiCAae4FaP6CBtaWXp2KjdKp-N9WVPYJk3G6nxbFQawQ7nJVycnncYw7Dim-E3iMZk81zFCy4_qWS31h6yLM1NRbPAmyB2D2eC_QatRqWFpR27jIHjLD8QheWvtzxY2zlx_q8GejdF7ZZ_3rqeNFuTrhl19fPZefehra2ti8nuS7TH39fRuOsPnuoTjXe80iarvzaZpIl6RKhLbB2Yk9oV7apm_r11JFNG2wUwSZkKBagp_moeGUKurNYeO-_dLNj1BpWdTEhCd2Bb__-Unyb23E8INHgH9GhST73tBlWWE70ubF1npzqW12IfLqw",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7669661,
+               "lng" : -122.4667025
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.76831508029149,
+                  "lng" : -122.4653535197085
+               },
+               "southwest" : {
+                  "lat" : 37.76561711970849,
+                  "lng" : -122.4680514802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "830dfe0bf1a6054745f6229fc4348dc10c8323e2",
+         "name" : "San Francisco Botanical Garden",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1227,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107222691897909406867/photos\"\u003eSan Francisco Botanical Garden\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAACBI4aKsSBAzR9hy_42aOGnKIuKhAbPaiGBgiY0SudkksktcRQqm8G6OtgMdCv47zqGG49rHx5n2YuckcGizwV6LO8vQSMcLM1H-bzjaUAZDZhRNMGXDXvqlWS889b3_6bJAgJpHIyUFCveHrBUqDxSziEMt7X5e4p34u01xzt1vEhB5uuCzkVu1ff1yiW8T1Jp9GhRKF2YgljFYiu9WObZToZfpQUNaYg",
+               "width" : 1228
+            }
+         ],
+         "place_id" : "ChIJW5w2V2iHhYARQoOl_ZsQlOg",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAORuqjY00B-Di-tK1hC_miTFCNRk8a4neHysIlThDz4oRVWB0QrCxsVVIVyyNcMdWsA3CCN6mKE-dXZC9_pk0Fc6ydu1c_U5d0lNfT9V8S6l9eVoqsH7Yzu60DiOaef3PEhB5J7Iw4CkD0P4ZyT4TYbkJGhT1OsH8gwyapVrKa-lrG54IEobtpg",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1199 9th Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.76986459999999,
+               "lng" : -122.4660947
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.77145033029149,
+                  "lng" : -122.4650549697085
+               },
+               "southwest" : {
+                  "lat" : 37.76875236970849,
+                  "lng" : -122.4677529302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "d920c64674d4af2f684358adccbdf3f04eb70002",
+         "name" : "California Academy of Sciences",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104821790922590586552/photos\"\u003eVivek Veeramani\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJIt1s90-yj1vLKrz4xx_xNUEAmxrxYX5gkGaF8XIPk5C_cCvR_Nq1O_nJfsPlfUj_wLwt2_WFnIgk-isyOY3gG5iyGb-Ghm1yo4FBKCLy_n6YKrWNrkOiY8iZ-JZTNjIfKE4uf_Xc9kM-2UX6dgDLu7kdrRDwXPHxAfVsXOgqCFEhAjZ8jYoGdkkWStkpa5PoLAGhStvH1EqzTFswJvyGnkfqVwJYZLcw",
+               "width" : 4272
+            }
+         ],
+         "place_id" : "ChIJIUT7rEOHhYARucp3wM-HhBs",
+         "price_level" : 3,
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAJ8xzcH6YWg8ynW-GYQo-DBQcPh4keICFcYGJp-aNt6RLtgUY0ImugQdBAjShqlVySN_2FFQexNEudRFGJTIrNrhjWl-GTC7ja9S2hKSM1aH7i7IPUDKx4X-w9X1i6SYWEhDVAj7ULdARJcPjpQSgjLqpGhS-e87H2gNFwBZwafZ_KkhQa0wgQA",
+         "scope" : "GOOGLE",
+         "types" : [ "aquarium", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "55 Music Concourse Drive, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.771469,
+               "lng" : -122.4686755
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.77264263029149,
+                  "lng" : -122.4669661697085
+               },
+               "southwest" : {
+                  "lat" : 37.76994466970849,
+                  "lng" : -122.4696641302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "2a7464f9faa0b872fcc3132045a4b29e7661f83c",
+         "name" : "de Young Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 953,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104010277220168946324/photos\"\u003ede Young Museum\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMqq8DVfnbPy1_YApoYBs7xbw9JpANw9sGdDc5jy8mlEHg81ztNQiLdctzcpcwcKPcG2CnlGVoNCixBtJ65uQYCjNmXlISc4iZoDey34JvQAgiRAMAZYdJPjPja8_UM-ViIqZN8euQDexm4bnime2F0VudY01fbXbGV2DeGoD0_WEhB36MLRK4QuW9tct_LrHpVsGhQ0i69-vAHThz431B4OtAc6Svfw6Q",
+               "width" : 953
+            }
+         ],
+         "place_id" : "ChIJI7NivpmAhYARSuRPlbbn_2w",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAWWj-bhYviECeco2T-Chm65zBVwBegpS1HDAWgJc7xnF004ZZdbLlc8FU4xM249h1OdsK9fJhg8cwdqY3yjnD6fsREK6NrBU6sc8i6zAdYIyoFlrQCqAILWRmCqBC4V6vEhBjw_LYKFmokJtvluzNVk7cGhT7w3hw7GXIQdYIOqEG2ecyOqsnxA",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "50 Hagiwara Tea Garden Drive, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78016369999999,
+               "lng" : -122.4161985
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78146573029149,
+                  "lng" : -122.4151926697085
+               },
+               "southwest" : {
+                  "lat" : 37.77876776970849,
+                  "lng" : -122.4178906302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "af74a79530a92f6a069a8264135a0b1f1b07c090",
+         "name" : "Asian Art Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112311730646477194456/photos\"\u003ePanupong Yokyongsakul\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHEDueoiJu1dkIVxrI2QEeRMoFRyCQHJNJDx8dAM_yCIdmckHi20xpV2FCywH9lTFWftBnNwVtuG7cscmG-7FQtFCntV-P7MQSFCmLhpzptL9ndGNMZA0azP6s05Akz7nM6d2yfi6EJhO45jEIkCpHr5ldfOQmZmDD3rq87bIAvvEhDzOoM74DlPRki_s-oPr4a6GhQAi205Qe6Qp2NxHl8TFuNPwGevjA",
+               "width" : 4912
+            }
+         ],
+         "place_id" : "ChIJkQQVTZqAhYARHxPt2iJkm1Q",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAADh-0MMm6uxyoxKz4gCMwTg8BvsLUefl2k5KUhjFaX5rkrT0U2XZnZ6SCDLAaszgmWjVAlRIiMnpsVLzt9qbTgopQsEPV1lSm2r49GXe_Ue3IWQ2TbggAUkJtXg5AdiH6EhCJDEYuGtSexhjyIIqT9e-vGhT_sIVm8cqiWz3xUNhLcIcFLGBJcQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "200 Larkin Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78331719999999,
+               "lng" : -122.4021201
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78452353029149,
+                  "lng" : -122.4009248697085
+               },
+               "southwest" : {
+                  "lat" : 37.7818255697085,
+                  "lng" : -122.4036228302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "632070a1becd989f9bb8aab008146cdd3eee0f5f",
+         "name" : "Children's Creativity Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2574,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110171932238566208341/photos\"\u003eKeith Achorn\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADApBMQxi-vmbH8Hfee8cmfBR1GlCwXncztu_LjOO0YfLSzZzPP0UnG18cXvSvZzTIluCLreD4WvKSSVEXVON5LCX0K-ePSf59DrarzYw100I-2F7lKELeiqnyFsF4fQNjg0odLvoN1BSROCwKegwT_jjB9vdQwuzpZewSYP3WGfEhB_KIQXrgdSEhR56LNZTLSpGhQd8rds74_6z80F_dSJO79GFI8bxw",
+               "width" : 3849
+            }
+         ],
+         "place_id" : "ChIJt1SMQ4eAhYAR-8dkWSoHKZI",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAABe4k9kwTbIG1GwIKygZzLnIu55REZyLrbp-wkb61slorQlNmCIuWLvzKhPL5pVYG18xONvRKomGCOuTxwjrsQcwBHy48k2-_VGehvtd420qptDNejS_9inLNQri3DzIrEhC6gIFmx4Qh7DR5pDh1tBfoGhQWAFsBcADCNvnR759kk79cRjEvHw",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "221 4th Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7857182,
+               "lng" : -122.4010508
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7870077302915,
+                  "lng" : -122.3997759197085
+               },
+               "southwest" : {
+                  "lat" : 37.7843097697085,
+                  "lng" : -122.4024738802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "8fb740a6229eaa2f30d2004cb6bc2497ed2de650",
+         "name" : "San Francisco Museum of Modern Art",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3022,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117753513166890136363/photos\"\u003eBrian Greenaway\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAH4w5k2guvmsFnErUnX-mjBe9p2PNySPmZ-NLVFnQtBa9GsVNOOH0amWlIt4i5_bpiTxj6T2DxGrNqCPrM744rNKAvfx2x4BiR6y1C7fYg4QSkKYfgfzUGAyPxumE7D8rMcnJ4BgBq0-7Z-Ruxa6taarbH9fol3GhVHdFRffhLWuEhBs8Iwr4sv25qE9fuLno5E8GhQTjm7y1Y0TJxRJg0hICqTF-YzUYA",
+               "width" : 4034
+            }
+         ],
+         "place_id" : "ChIJ53I1Yn2AhYAR_Vl1vNygfMg",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAA62ceCO7EtiS7muHNv14-khr1_t-Ol_VpBZ3lc8T0iDVF72jtEqnYsmcJ000L03tH1n1nDbXV8pl906Ccq2-c2E51b_Qdw5JDuSZ1Zvv_2C2bnOLKw6dY_avFF9NCHxcKEhCcXJkB9rdOmV7rqi3R-Ul9GhTA0awqGd2V60fO7e1JCpHHoc7MlA",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "151 3rd Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.8014548,
+               "lng" : -122.4586558
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.8025267802915,
+                  "lng" : -122.4578459197085
+               },
+               "southwest" : {
+                  "lat" : 37.7998288197085,
+                  "lng" : -122.4605438802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "b1467bcc46fa06becac3805afdfcbe5e26806199",
+         "name" : "The Walt Disney Family Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2090,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114841324920905621317/photos\"\u003eMarnix van Ammers\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHLbx6xylrNlAHTX_NR1svAMcILMeU9n7boQ3ixrRMnb9pCMuie_R16klIXL1NiOVlcrr2Ki47nbC5Fw9stps_kC--v_IUzVmmkyJnlsh60JZr_pFbJkq1KHoa7iwjPVTmMXGT7W0xooRj7wuIk_xnIFl6EY-nNiWRwcHYslOphiEhAdiFt5TAn5w3GmQRrwL25GGhSrCKFDdWUqK8cIH1GFgQ8DML793g",
+               "width" : 3896
+            }
+         ],
+         "place_id" : "ChIJ5f7ZKtiGhYAR9WaYFS6bH1U",
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAut9fz6QmDwNlLiLYBrop5lMwh0RDwccypTRb4J0BQGnemi9623rdHrQh82SnwPummPFGQsmipGyF69Ae5dEjWD6HUa61n45TjBqGa-bVrU7XUSR_2rAxcT9Vo1sArFBSEhDLh94A4rdh-AZhxrkpUQ0DGhTBW2SgX2JMDXpDhpgds174Lc2cGg",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "104 Montgomery Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78600849999999,
+               "lng" : -122.4037009
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7875693302915,
+                  "lng" : -122.4023891197085
+               },
+               "southwest" : {
+                  "lat" : 37.7848713697085,
+                  "lng" : -122.4050870802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "86618dfd0dd69ea29f88b4ba9cf3669d6976cd44",
+         "name" : "Contemporary Jewish Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108748403616914555044/photos\"\u003eNaveen Kamath\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAG69gt3WsSzbHOmm7GX7YMiS-wWMNGNdt-U-rurI__quogPNZae4yH7jht1jhnwPRrKXbnPAeYukRTRWz4JxFu1zkvq0gS9lcu-yDA49fcZTqy4YIGl_QdnBkC7JTBbAoIneIxAq2w1VBjYDerplWId49zrmfo7nwUwu4Pn1p9VJEhDaB73E4eYbkQlsjF5c4RN2GhQOdkthPFkMIOqIzQZv4ngD6GpeAw",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJQ4ofxYeAhYARnLQjgdsj76k",
+         "rating" : 4,
+         "reference" : "CmRSAAAAaIqtS-RLd3EWgokTeUhLCQ7BKBSPcd4IiThy65Yz_UfQW_ihkUQE8GQ_ALJLLHrvlBuERTSAdljffdh1T8cc5bzwmGjf-DtU7lKZ7uFYE7u__ybvmV0wy8bcGfuMJnepEhAMsLsYbHw4dc0swKxUIh5aGhSH-6kKG-qmUR0uehim5jkXKbBi1A",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "736 Mission Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.79330940000001,
+               "lng" : -122.4249832
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7946921302915,
+                  "lng" : -122.4234683197085
+               },
+               "southwest" : {
+                  "lat" : 37.79199416970851,
+                  "lng" : -122.4261662802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "306eeeae1df8a9325977922a4a3ca88b173df724",
+         "name" : "San Francisco Heritage",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4752,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113348736951055038973/photos\"\u003eThomas Devaux\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFVN_Rbfzw7UtKDGKis1utG-iBFpbNToRVPDK-U2Mo6eaYLGLSagjJspD_DMojOUatzCRi7_eBh5Vep2AFloXkMVp_9vBT6u4gr0zrsrw0MHTKQTH0VUvMJY-xJ2-5SjxmKvu2iuH-BbjLNQz-N2-SCzBHUwrmVBD4OT7phGP9EHEhCDoc1jzPv19EfLzHKZjYwsGhTwzbOmOYcLFnJlgB6f8fyq84D8rQ",
+               "width" : 3168
+            }
+         ],
+         "place_id" : "ChIJDwAg6cGAhYARMtotoVn97qY",
+         "rating" : 3.9,
+         "reference" : "CmRSAAAAWmKmAg_PhHkGjqQzA7yFQu9nIKnGRbMgjSgI-cet2zkS4UObvQ-cqFdCsSS9bIsNU549lIxJQtGj7VoHxNnVsElg39rnTDgvvsTuvR00pqCPLStmWS36-OiI0tlcjIxlEhBwxM4R9ESSErHIMiANmiL3GhTdcdmIo6bphHSJ726woWIWUYDlkA",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "2007 Franklin Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.786873,
+               "lng" : -122.401544
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78816313029149,
+                  "lng" : -122.4001168697085
+               },
+               "southwest" : {
+                  "lat" : 37.7854651697085,
+                  "lng" : -122.4028148302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "237dc53aae0627962727671ca3c1d0e52c54fb9f",
+         "name" : "California Historical Society",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101838513148221185225/photos\"\u003eCalifornia Historical Society\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALT_ZRw-kozPjhOP_EdzAOaTMi0zLALT7WrIDrB2zIsChIHVHvpAldLmMLWcaHQdRX-8rBoQbFaKIl57P5Xcrqvb6mBXeEWpBlZBSR6KGkLAg518229f5NaWQXthm5dWPWQpOfhUj1O764nh7692vZPwfgxKnQ7QzvB0vZb6_8wTEhDq3z0GfwuxfeMp7dole8sbGhT89Bsr8dhLlQHYIwTaApqv-WMZuQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJx2NZ-IeAhYARwOHJPBZJJBA",
+         "rating" : 3.6,
+         "reference" : "CmRRAAAAgKnunbQAFVInePMheK2pJz8stUN7QmuYhVNUoCa9Sn-5dL_yUMsAVIPst9K32WAmMAdxqwdGchv9GFelCkD6COSYtZQ0MsrqTl6F6edVeJ4NhY-JkhZETHbYO9GCFsFfEhAXQNUk_FacwRt1T7BRIhioGhQ_ZkZstHt0lcqz90QfmpBwcDfAhQ",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "678 Mission Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7938436,
+               "lng" : -122.4087786
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7952481302915,
+                  "lng" : -122.4074733197085
+               },
+               "southwest" : {
+                  "lat" : 37.7925501697085,
+                  "lng" : -122.4101712802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "ae557a1740972f46f0fd6022cbbbb5ebcc334569",
+         "name" : "Chinese Historical Society of America Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108367888818246206574/photos\"\u003eYunwen Huang\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAGgL0UzZq8_gldyUeitMqOBcxeT7R2o7hhja8BdDZfaUMiY1vQtFHhqNpueSw1z3qA-7GNDwXWKGr_akhsVBzJ_E4zNkiSSF4HSUWJhbd0VfWro95I_yasEYjkr0eNjuruQ0t1TE1ozZNKPjd1CmhhI2jkTDf3AEKFdjOeXoR1EpEhBDEF5Oo3xcH7sw6QKRde4LGhRlDSTB1RfS5DO3EvpUJ0qwkeGfMw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJQS4IxoyAhYARBylg5_xO8TE",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAWwgBYRXs_WR4t2HBH9erY5TBI8fTNYeNiyuvG3g0PVknf4q8zTBjp7_HrFGSK83GYDZ1RlwWUunnC-7JviZXnYXX92g_0pzX5hyh4IHbrJindq1fX1iH7n07Cz8RxJGoEhBJn9Sez3KTFpGn63LZJn-qGhSr_YorUGbfR8m_wQAPsxvt9SWiLw",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "965 Clay Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7568398,
+               "lng" : -122.3877999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7581687802915,
+                  "lng" : -122.3865946197085
+               },
+               "southwest" : {
+                  "lat" : 37.7554708197085,
+                  "lng" : -122.3892925802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "5893a3cf42d96a3fd769fbf7333262a6cfd3a797",
+         "name" : "The Museum of Craft and Design",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 750,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115030512821080613053/photos\"\u003eThe Museum of Craft and Design\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHbjX5oNyQt9OOn1H7P1Jv8aWINK8bXo5ZDoejbsZ4xHg3x7LnH2Kn9bMIGCRkv9L4n3oUY0mD-GPpXoSR1MGqxD5bYuiTt-OTz7WbEvND95XJWGmcWHKGF4GUgp5-DXfR2QD_FB_7YU1olkaRp0ityyp23K60mhAEJTuqv0hie9EhBj5QHke_158fvzz6AC1D8FGhSytG5fT3B06_NaKOJzwN5QZdnu-A",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJn8w1go6AhYARdfFGEuY4mIc",
+         "rating" : 4.2,
+         "reference" : "CmRSAAAAlyyzAwXSRfFaE4U6HbEkxPE-YZO7ngSjrdh7Hw8-zipuimUgOPyVGNusycSkWbjBG7A-kNPs5fuSV1dEkdztVvD7LXF-o6OTTPIcPQUGwqwVUToBnVsyJSx5dRWBjM8zEhBf2rLk9BEJA75-kohY0mzTGhQx16TpTAYYctg_IvFC2mPH0pNXQw",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "2569 3rd Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.787133,
+               "lng" : -122.4108954
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78842918029149,
+                  "lng" : -122.4095458197085
+               },
+               "southwest" : {
+                  "lat" : 37.7857312197085,
+                  "lng" : -122.4122437802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "40db5ac4c0eec87bf1747fc0de66e0096f089e83",
+         "name" : "San Francisco Art Exchange",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110002972424162625220/photos\"\u003eSan Francisco Art Exchange\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAACCXx9xxRSwIJFKXO9sef6QrovSzRcubkvRuiYQc4UnbxpNtszwy-TpVdcPNnZ4Y5VH3Lsjc8NdNp9LRJk3vWh6jfMB5vyfUOfTAU6g-cesD9hdWLUahemKQ_KYtc5oH-EWuQ_rfNpL2SFCPMUK1UGBfL1d9vCVQ70lspv6G3pJ1EhAmMzYcHlg5YINiuah3DpJsGhQ9lBZKntHjQevNM5cTe3n9LE6AUA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJr81GT46AhYARqWcU4i7jjbc",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAFTMsVyM46BPXSox4qbPD-5-AweCBSp5284yNq76BUUnTLobJNf8ZLATt3O6r9miXtZ6s29A67J7Ur9pwfX2Wgpi3ts2cVYKxQN8agY0i7OZycFhnfxyCxvtZ38kaAwpsEhBfszYbo1PhR-RHStG1TbA-GhTuasKJ-e8gUl1rTpYeexM23muhZQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "458 Geary Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.791141,
+               "lng" : -122.412913
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7927122802915,
+                  "lng" : -122.4116092697085
+               },
+               "southwest" : {
+                  "lat" : 37.7900143197085,
+                  "lng" : -122.4143072302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1bc222a209f5eecd85243d7e80ad972dbbe17498",
+         "name" : "Masons Grand Lodge of California",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 972,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115877612390906203055/photos\"\u003eWalkertwo SFO\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAACOSTgD5VLuQLTq575NjGPEfJejy6qKAq07dCh2OUlbXnZRrxOGeIVsAuAMikCqSuybtoKHyZkr3xvw1iAORHLIly-u-01nDaCLV7X0lQKC4NZdSTbMtqe1qIpr-iZSKYe3Ts2GmOFlSEVlg4gMB9JetXsGmoJGp-nBnf-9GVaJ6EhCIhSnwtza-4jec0RZWvh5XGhTeqYTtLLG5B0VUHtmhffXr0BBKgQ",
+               "width" : 1296
+            }
+         ],
+         "place_id" : "ChIJFWlUmpKAhYARtHc-Eoj17y4",
+         "rating" : 4,
+         "reference" : "CmRRAAAAO34sng15UD0jV1QQSwlu8UeBuvORVCz9pNSmqYH0Q3-6l4MflMZBW-l9VrLVkecJbmJslDUuP91DxWnTrlOKIKXyb0x-mI8V2F0WwEhEtDEdlkTVcUu-e0PK-usaxYhMEhBmNccLgHkr2hUj2Q2abIICGhT0B94wXdFco_-zGIMubs9zYNpXcA",
+         "scope" : "GOOGLE",
+         "types" : [ "library", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1111 California Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7606979,
+               "lng" : -122.4356494
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7621241302915,
+                  "lng" : -122.4343073197085
+               },
+               "southwest" : {
+                  "lat" : 37.7594261697085,
+                  "lng" : -122.4370052802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "c0531ad899e9eb822f70baafb2d7f7ea2ce7ca62",
+         "name" : "GLBT History Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114921447529095333982/photos\"\u003eCryingHomunculi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMYJYR9Ya3oMcLRfXz0TqWsScq1OlRhoJnVqGaiEGlm7dP5-plTHXCbyiXPK4c-8JHe4tZTUCYAFjMgNrevrRDdCJoZuX7FPshPi9CZ6Si36l4ai37HGMO5Gc8XwDdBZ3Wav0DRZSe3rI2OL7hzwKd9e4ahj6AVahWI2pnmRWVBSEhCKnBmJyaJFdBlK7Yc-N3KIGhQFXCyAj4j8d5Pl-aeK_JoSFYeENg",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJiaELzAR-j4ARq0FRvpCYv1Q",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAhFloLMZhH_PLMFt7w4Q115bLi8Pw57NdmgoDZ9mNCJsagZlLM-0aid_dz5usAKELHHSb3TUg6D3gt_uW7LnwBbRNW719BDQ_8ZiAF3hVezPo-HxjN0SdRuPEyhE_KDN3EhC4qQGMTgHp_LbtR2-LUANqGhSJNCod5ALDf_nm2ibdhlB3CV0Rwg",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "4127 18th Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7854101,
+               "lng" : -122.4408916
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7866229302915,
+                  "lng" : -122.4395152197085
+               },
+               "southwest" : {
+                  "lat" : 37.7839249697085,
+                  "lng" : -122.4422131802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "d635ae302e62e1efc32770dba47d6fd52207156a",
+         "name" : "Museum of Russian Culture",
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107801185613225873898/photos\"\u003eNikon Rasumov\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALizlT2nwvQv4x8KJ_kXVILVXAsLlW9lMnuDzV1kKkHJ9rvGwNtmy0-8nk_Pa2TSEg1okPkYe3TaF5AsbcOb5FhXr1AvUQa6-KC8nf6CWxvU6Nnml_mReUwW5FzlDyDiahpNCpCg6mZW7oDHRQwdvVSA1wZWDo1TQRVmkNN_eIxbEhBhgLoimtOEDSdZc0_MGvCNGhRLAW5yzVsWyzjK4woIzi-IZxREWg",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJ8cUX98mAhYAR9gpEbO077dE",
+         "rating" : 3.7,
+         "reference" : "CmRSAAAAoLaCvsQi372r4d-vA2x8yGyu_hdBSEB4g_r92HE2AYSrIo93na7BdFGeieWlv2wKwbomL9MmPjkvMleCx4aQPvGpF86k4Q4Yq9L3fHfjaQiiiSuT_h2ANsyQcCZBI3uVEhCbVJpUYc4GOlIoLg8Q2XI1GhSOl9-yM_WLQ-JIpGZC_lgihMwIUw",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "2450 Sutter Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.79806490000001,
+               "lng" : -122.4062256
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.79934978029149,
+                  "lng" : -122.4048609197085
+               },
+               "southwest" : {
+                  "lat" : 37.7966518197085,
+                  "lng" : -122.4075588802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "8a53dd455243cf2cef1a81689cdb46cd2d80272d",
+         "name" : "Beat Museum",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106170335079428053302/photos\"\u003eCorrie Davidson\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADMQu0aebNTAgJZtkOGOxnx1oq62BfBcFyd4R2g1qZ0pq3R50CwLiA8ZCvk0a92BMharbrysiSxxnGtBEmVnsH2CHCtMQaGbbiOzGeKzfbYFvpilb8DEPBD_RM1RepvYr4IiIEwPRGUBK747Fm8c2mlADX90BXGvcT3Yf3YCYFUcEhDF3kIvtsVG2b4Vvrqz_Gy-GhSz-32Kw9zyJNZ7U6E3wSIyC8eCOg",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJY6qvZfSAhYARE-zWxUt9vxE",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA885xC7-OSxN7gC5qDmZEqt-7wzc-gkqnIGYe1AhvBVIMU5wB5n7TfrgB3rb2XZxaeMjYKnoC6dAhpkdyY5Sp5fZRK52Nvb_mAytEeinYURzzSWg7oiY7wKQ-xDsbUDABEhCsaNQxBLinqWiG1oqWPQU2GhSkDNsDSQHoW4LH-UEiX-wefMFqVQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "book_store", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "540 Broadway, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.781452,
+               "lng" : -122.41073
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7829148302915,
+                  "lng" : -122.4095306197085
+               },
+               "southwest" : {
+                  "lat" : 37.7802168697085,
+                  "lng" : -122.4122285802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "f40c0ee970adfa31c5795e72ced4eef5a3242ad5",
+         "name" : "International Art Museum of America",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105470727697681630412/photos\"\u003eSteven Smith\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAM7V-mX6pbFAdFsfTV-urUXBgA1zw_ldsOCN0P_gwJJ6K8mq_YrjUAuu18CBWgRGQHKn78P71WCtjXH5juiqcSNmD3XT9wfS5eA0-4c17AkIBjxOQ1BGLsvTDp7huWAt9-q8atfpsEwnmx_XgCRj_cViFPFcnQK6rWbKOHiGKwoREhBIa0lSeah6RWjIDfe3FdOSGhTPlhoCn0aLS2Fq_soCNICGCHEpig",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJyQNK-4SAhYARO2DZaJleWRc",
+         "rating" : 3.8,
+         "reference" : "CmRRAAAA95REhTTpJwLbYc6tMQ1WGBDHlhIj_lh6c49LUuuncMX66-qjquHvVxUQS-DxO-F6zNYHYX_aBxePExZ-a4rNEnb5DHwdxSbv6PGDs4bl1TEZ_5XiPBpMmD_2gl0p5wLKEhAP2l3uBMJH54488aw8RBYWGhQAPFyatKHxPfKPx37zBBl4pyQS7A",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1025 Market Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7890963,
+               "lng" : -122.4107247
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7903855802915,
+                  "lng" : -122.4093531697085
+               },
+               "southwest" : {
+                  "lat" : 37.7876876197085,
+                  "lng" : -122.4120511302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "9ad1dba371f2e94e514f41763a2827b37dde6a1e",
+         "name" : "Academy of Art University",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108918724202930496912/photos\"\u003eRika Aman\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAEkA3WtUxrVLQQAR_IG1AMg2kpwdJsQhd4P-YmuwiPQwmYXM_Q0HpGiG9G4_nKC9Ow0Kusjr0MjY0cwtTk9T6xnbKS-HPpPgbPRrhyimNC58M737DiYU9MhTDzUj3hr0s9r8Yzddg4zc6Cy99ZqPE6J4zXaZHJbdm8WwEtvzFrGtEhBpDDqWccZrvEgqr41Xbn94GhTPudkLJt0kXB44zqk5It-NHqD_8g",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJmV4JeI6AhYARTV7ZqxuOdKY",
+         "reference" : "CmRSAAAA4Fe7NeDfkRiO1CHpO3t7pHL8MtJY89P_ha3H-FX5H8SdWGYVNKhRnS_j1thuQKk8pMkai5XdMSPF5ntHWTo7IOHJPKf34jaJyTSfAXtK44bWT83T4sUTs96azsYsM0bAEhDfJXKsjhsYN0aGP825ae5nGhTOx4MPD6ZAzGn5wNBR0BQveZaaYA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "university",
+            "amusement_park",
+            "gym",
+            "health",
+            "museum",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "620 Sutter Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.771516,
+               "lng" : -122.468647
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7726000802915,
+                  "lng" : -122.4670405197085
+               },
+               "southwest" : {
+                  "lat" : 37.7699021197085,
+                  "lng" : -122.4697384802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "ca0f93655a37d076e68d97726027b9169757736c",
+         "name" : "Fine Arts Museums of San Francisco",
+         "opening_hours" : {
+            "exceptional_date" : [],
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111300151215619674662/photos\"\u003e三澤直哉\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFKrFXdSSzyr1h2nYwka-yg87qnPsaBvhjC1JAP_fOXLrKa4kQFXST2k8mqPdIVqq_HWvvurGFv30CN_UqOlIL2_Dl4WQ50blnnBD_QClBW2L6HjywrLNLS-GgZzsWUvCjbLCKhFJ0UE12iWNArSIzb0snDYbbjpkEK15zw-BMRGEhBfPsBJkepSRC7YWtujIc4SGhRQmjBKUeNHOkQ8UQUjRlL4rd14Cw",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJVVVVVXKHhYARPWqqMGP79Yk",
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAOIjUxZV6uiEJaBEU5rPBElf9OQfvYRf0iahnLi00Eb_A4UT6x7kM2uw8kApgZB6CjqWlaCLOLO6TylxdIvTcVPNqE3NRwMRFjEfPK1Tj4jsGdWTjau6J87fTwI68n2hlEhDihmYpDOdghhAN3oRXnoFDGhRVPt386M8H4CLNr60NITPAoOJ8Ng",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "50 Hagiwara Tea Garden Dr, San Francisco"
+      }
+   ],
+   "status" : "OK"
+}
