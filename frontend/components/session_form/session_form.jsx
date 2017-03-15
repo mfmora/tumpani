@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router';
+// import { Button } from 'react-toolbox/lib/button';
 
 class SessionForm extends React.Component {
   constructor(props) {
@@ -24,11 +25,7 @@ class SessionForm extends React.Component {
                  };
 
     const action = this._loginForm() ? this.props.login : this.props.signup;
-    // if(this._loginForm()) {
-    //   this.props.login(user).then(() => this._redirect());
-    // } else {
-    //   this.props.signup(user).then(() => this._redirect());
-    // }
+
     action(user).then(() => this._cleanState()).then(() => this._redirect());
   }
 
@@ -83,20 +80,18 @@ class SessionForm extends React.Component {
     let session = this._sessionInfo();
     let errors = this._renderErrors();
     return (
-      <div onSubmit={this._handleSubmit}>
+      <section id="session-form" onSubmit={this._handleSubmit}>
         <h2>{ session.header }</h2>
         <p>{ errors }</p>
         <form>
-          <label>
-            Username:
+          <label><h3>Username</h3>
             <input type="text"
               id="username"
               value={this.state.username}
               onChange={this._handleChange}
             />
           </label>
-          <label>
-            Password:
+          <label><h3>Password</h3>
             <input type="password"
               id="password"
               value={this.state.password}
@@ -105,13 +100,13 @@ class SessionForm extends React.Component {
           </label>
           <input type="submit" value="Login" />
         </form>
-        <p>
+        <h4>
           { session.footer }
           <a href="#" onClick={ this._changeFormType }>
             { session.link }
           </a>
-        </p>
-      </div>
+        </h4>
+      </section>
     );
   }
 }
