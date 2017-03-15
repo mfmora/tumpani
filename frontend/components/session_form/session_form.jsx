@@ -72,7 +72,7 @@ class SessionForm extends React.Component {
     } else {
       session = { header: "Sign Up",
                   button: "Signup",
-                  footer: "Already on Tumpani?",
+                  footer: "Already on Tumpani? ",
                   link: "Log In"
                 }
     }
@@ -91,7 +91,7 @@ class SessionForm extends React.Component {
     return (
       <section id="session-form">
         <h2>{ session.header }</h2>
-        <p>{ errors }</p>
+        <ul>{ errors }</ul>
         <form>
           <label><h3>Username</h3>
             <input type="text"
