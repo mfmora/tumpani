@@ -16,6 +16,7 @@ class SessionForm extends React.Component {
     this._changeFormType = this._changeFormType.bind(this);
     this._renderErrors = this._renderErrors.bind(this);
     this._cleanState = this._cleanState.bind(this);
+    this._demoLogin = this._demoLogin.bind(this);
   }
 
   _handleSubmit(e) {
@@ -30,7 +31,13 @@ class SessionForm extends React.Component {
   }
 
   _cleanState() {
-    this.state = {username: "", password: ""};
+    this.state = { username: "", password: "", formType: this.state.formType };
+  }
+
+  _demoLogin(e) {
+    e.preventDefault();
+    let demo = { username: "demo", password: "secret" };
+    this.props.login(demo).then(() => this._cleanState()).then(() => this._redirect());
   }
 
   _redirect() {
@@ -58,11 +65,13 @@ class SessionForm extends React.Component {
     let session = {};
     if(this._loginForm()) {
       session = { header: "Log In",
+                  button: "Login",
                   footer: "New to Tumpani? ",
                   link: "Sign Up"
                 }
     } else {
       session = { header: "Sign Up",
+                  button: "Signup",
                   footer: "Already on Tumpani?",
                   link: "Log In"
                 }
@@ -80,7 +89,7 @@ class SessionForm extends React.Component {
     let session = this._sessionInfo();
     let errors = this._renderErrors();
     return (
-      <section id="session-form" onSubmit={this._handleSubmit}>
+      <section id="session-form">
         <h2>{ session.header }</h2>
         <p>{ errors }</p>
         <form>
@@ -98,7 +107,10 @@ class SessionForm extends React.Component {
               onChange={this._handleChange}
             />
           </label>
-          <input type="submit" value="Login" />
+          <section id="buttons">
+            <button onClick={this._handleSubmit}>{ session.button }</button>
+            <button onClick={ this._demoLogin }>Demo</button>
+          </section>
         </form>
         <h4>
           { session.footer }
