@@ -1,19 +1,22 @@
 #session-form {
   box-shadow: 2px 2px 2px 1px black;
+  box-sizing: border-box;
   background-color: rgba(0,0,0,0.7);
-  color: white;
+  color: $gray;
   right: 0%;
   top: 30%;
-  width: 190px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   text-align: center;
   border-radius: 5%;
-  padding: 20px 50px;
+  padding: 20px 10px;
   margin-right: 10%;
-  font-family: 'Arial', sans-serif;
+  font-family: $font-subheader;
 
   * {
-    display: inline-block;
+    // display: inline-block;
     font-size: 16px;
     text-align: center;
   }
@@ -21,7 +24,7 @@
   h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $font-header;
   }
 
   h3 {
@@ -32,41 +35,41 @@
 
   h4 {
     font-size: 14px;
-    color: white;
+    color: $gray;
     margin-top: 10px;
 
     a {
-      color: white;
+      color: $gray;
       font-size: 14px;
     }
   }
 
   ul {
     font-size: 12px;
-    color: #ED4700;
+    color: $dark-teal;
   }
 
   input[type="text"], input[type="password"] {
     background: transparent;
     border: none;
-    border-bottom: 1px solid white;
-    color: white;
+    border-bottom: 1px solid $gray;
+    color: $gray;
     text-align: center;
     font-size: 16px;
     margin-bottom: 10px;
   }
 
   button {
-    color: white;
+    color: $gray;
     font-size: 14px;
     padding: 3px 20px;
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-right: 2px;
-    margin-left: 2px;
-    background-color: #951008;
-    border-color: #951008;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: $orange;
+    border-color: $orange;
   }
 
 
