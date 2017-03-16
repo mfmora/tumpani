@@ -1,6 +1,7 @@
 class Api::AttractionsController < ApplicationController
   def index
-    @attractions = Attraction.where('name LIKE ?', "%#{params[:text]}%")
+    @attractions = Attraction.find_by_text(params[:text])
+    # @attractions = Attraction.where('name LIKE ?', "%#{params[:text]}%")
     render :index
   end
 

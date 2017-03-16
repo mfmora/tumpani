@@ -5,7 +5,7 @@
   position: relative;
 
   #search-input {
-    padding: 10px 100px 10px 50px;
+    padding: 10px 100px 10px 18px;
     // font-family: $font-body;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 81.25%;
@@ -29,8 +29,17 @@
   i {
     position: absolute;
     top: 6px;
-    left: 13px;
+    right: 13px;
     color: $light-gray;
+  }
+
+  i:hover {
+    color: white;
+  }
+
+  i.active-search {
+    color: white;
+    cursor: pointer;
   }
 
 }
