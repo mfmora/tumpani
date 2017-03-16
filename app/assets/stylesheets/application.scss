@@ -12,9 +12,11 @@
  *
  *= require_self
  */
-@import "variables";
+@import "./base/variables";
 @import "./base/reset";
 @import "./base/layout";
+@import "./base/material_design";
 @import "./components/app";
 @import "./components/session_form";
 @import "./components/header";
+@import "./components/search";

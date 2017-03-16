@@ -1,0 +1,22 @@
+#search-bar {
+  display: block;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+
+  #search-input {
+    padding: 8px 50px 8px 50px;
+    font-family: $font-body;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  i {
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    color: $teal;
+  }
+
+}

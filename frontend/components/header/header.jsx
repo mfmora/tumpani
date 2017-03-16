@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchContainer from '../search/search_container';
 import { withRouter } from 'react-router';
 
 class Header extends React.Component {
@@ -23,6 +24,10 @@ class Header extends React.Component {
   render() {
     return(
       <section id="header">
+        <section id="logo">
+          Tumpani
+        </section>
+        <SearchContainer />
         <a id="logout" onClick={this._logout}>Logout</a>
         { this.props.children }
       </section>

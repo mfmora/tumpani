@@ -4,7 +4,7 @@
   background-color: $dark-teal;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   -webkit-transition: background .15s;
   transition: background .15s;
   box-sizing: border-box;
@@ -19,5 +19,12 @@
 
   #logout:hover {
     cursor: pointer;
+  }
+
+  #logo {
+    margin-left: 20px;
+    font-family: $font-subheader;
+    color: $light-gray;
+    font-size: 16px;
   }
 }
