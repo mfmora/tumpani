@@ -6,13 +6,12 @@ const _defaultState = {
   attraction: null
 }
 
-const AttractionReducer = (state = _defaultState, action) => {
+const AttractionReducer = (state = {}, action) => {
   Object.freeze(state);
   switch (action.type) {
     case RECEIVE_ATTRACTIONS:
-      debugger;
       let attractions = action.attractions;
-      return merge({}, _defaultState, { attractions });
+      return action.attractions;
     case RECEIVE_ATTRACTION:
       let attraction = action.attraction;
       return merge({}, state, { attraction });

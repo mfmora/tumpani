@@ -14,6 +14,8 @@ class Search extends React.Component {
 
   _handleClick(e) {
     e.preventDefault();
+    e.target.toggle('test');
+    this.setState({ text: '' });
   }
 
   _handleChange(e) {
@@ -24,6 +26,7 @@ class Search extends React.Component {
   _handleKeyPress(e) {
     if (e.key === 'Enter') {
       this.props.search(this.state.text);
+      // this.setState({ text: '' });
     }
   }
 
