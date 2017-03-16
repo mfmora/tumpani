@@ -14,7 +14,7 @@ class Search extends React.Component {
 
   _handleClick(e) {
     e.preventDefault();
-    e.target.toggle('test');
+    // e.target.toggle('active-search');
     this.setState({ text: '' });
   }
 
