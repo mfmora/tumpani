@@ -5,18 +5,28 @@
   position: relative;
 
   #search-input {
-    padding: 8px 50px 8px 50px;
+    padding: 8px 100px 8px 50px;
     font-family: $font-body;
     font-size: 14px;
     border: none;
     border-radius: 5px;
+    background-color: #007F8F;
+    transition: background-color .3s;
+  }
+
+  #search-input:hover {
+    background-color: #0091A3;
+  }
+
+  #search-input::-webkit-input-placeholder {
+    color: $light-gray;
   }
 
   i {
     position: absolute;
     top: 4px;
     left: 13px;
-    color: $teal;
+    color: $light-gray;
   }
 
 }
