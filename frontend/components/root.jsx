@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { Router, Route, hashHistory } from 'react-router';
 import App from './app';
 import HomeContainer from './home/home_container';
-import HeaderContainer from './header/header_container';
+import AttractionIndexContainer from './attraction/attraction_index_container';
 
 const Root = ({ store }) => {
 
@@ -23,7 +23,8 @@ const Root = ({ store }) => {
     <Provider store={ store }>
       <Router history={ hashHistory }>
         <Route path="/" component={ App } onEnter={_redirectIfLoggedIn} />
-        <Route path="/home" component={ HeaderContainer } onEnter={_redirectIfNotLoggedIn}>
+        <Route path="/home" component={ HomeContainer } onEnter={_redirectIfNotLoggedIn}>
+          <Route path="search" component={ AttractionIndexContainer } />
         </Route>
       </Router>
     </Provider>

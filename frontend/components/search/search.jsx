@@ -11,10 +11,17 @@ class Search extends React.Component {
     this._handleChange = this._handleChange.bind(this);
     this._handleKeyPress = this._handleKeyPress.bind(this);
     this._handleIconClick = this._handleIconClick.bind(this);
+    this._redirect = this._redirect.bind(this);
+    this._search = this._search.bind(this);
+  }
+
+  _redirect() {
+    this.props.router.push('/home/search');
   }
 
   _handleClick(e) {
     e.preventDefault();
+    e.target.parentElement.parentNode.classList.add('searching');
     e.target.select();
   }
 
@@ -31,15 +38,19 @@ class Search extends React.Component {
 
   _handleKeyPress(e) {
     if (e.key === 'Enter') {
-      this.props.search(this.state.text);
+      this._search(this.state.text);
     }
   }
 
   _handleIconClick(e) {
     e.preventDefault();
     if(this.state.text.length > 0) {
-      this.props.search(this.state.text);
+      this._search(this.state.text);
     }
+  }
+
+  _search(text) {
+    this.props.search(text).then(() => this._redirect());
   }
 
   render () {
@@ -60,4 +71,4 @@ class Search extends React.Component {
   }
 }
 
-export default Search;
+export default withRouter(Search);

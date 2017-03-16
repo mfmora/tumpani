@@ -41,6 +41,6 @@
 |-------------------------------|-----------------------------|
 | "/"                           | "SessionFormContainer"      |
 | "/home"                       | "HomeContainer"             |
-| "/attraction-search"          | "AttractionIndexContainer"  |
+| "/search"                     | "AttractionIndexContainer"  |
 | "/attraction/:id"             | "AttractionDetailContainer" |
 | "/trips/:id"                  | "TripIndexContainer"        |

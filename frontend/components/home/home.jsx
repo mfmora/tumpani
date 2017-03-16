@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router';
+import HeaderContainer from '../header/header_container';
 
 class Home extends React.Component {
 
@@ -23,8 +24,7 @@ class Home extends React.Component {
   render() {
     return(
       <div>
-        <h1>Home! Add Header Here</h1>
-        <button onClick={this._logout}>Logout</button>
+        <HeaderContainer />
         { this.props.children }
       </div>
     )
