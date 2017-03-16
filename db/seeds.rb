@@ -38,11 +38,11 @@ end
 
 User.create(username: "demo", password: "secret")
 
-Tag.create(name: "point_of_interest")
-Tag.create(name: "museum")
-Tag.create(name: "art_gallery")
-Tag.create(name: "park")
-Tag.create(name: "movie_theater")
-Tag.create(name: "zoo")
+Tag.create(name: "point_of_interest", public_name: 'landmark')
+Tag.create(name: "museum", public_name: 'museum')
+Tag.create(name: "art_gallery", public_name: 'art gallery')
+Tag.create(name: "park", public_name: 'park')
+Tag.create(name: "movie_theater", public_name: 'movie theater')
+Tag.create(name: "zoo", public_name: 'zoo')
 
 seed_from_api

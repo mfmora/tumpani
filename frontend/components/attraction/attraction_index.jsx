@@ -1,4 +1,5 @@
 import React from 'react';
+import AttractionIndexItemContainer from './attraction_index_item_container';
 
 class AttractionIndex extends React.Component {
 
@@ -12,16 +13,17 @@ class AttractionIndex extends React.Component {
     let { attractions } = this.props;
     if(attractions) {
       attractionList = attractions.map(attraction => (
-        <li>{attraction.name}</li>
+        <AttractionIndexItemContainer key={ attraction.id }
+          params={ {attractionId: attraction.id} }/>
       ));
     }
 
     return(
-      <div className="attraction-sidebar">
+      <container className="attraction-sidebar">
         <ul className="attraction-list">
           { attractionList }
         </ul>
-      </div>
+      </container>
     )
   }
 }
