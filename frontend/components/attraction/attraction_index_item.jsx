@@ -17,19 +17,4 @@ const AttractionIndexItem = ({ attraction }) => {
   )
 }
 
-// class AttractionIndexItem extends React.component {
-//
-//   constructor(props) {
-//     super(props);
-//     this.props = props;
-//   }
-//
-//   render() {
-//     debugger;
-//     return (
-//       <div>Item</div>
-//     )
-//   }
-// }
-
 export default AttractionIndexItem;

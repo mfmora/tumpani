@@ -5,6 +5,8 @@ class Attraction < ApplicationRecord
   has_many :tags, through: :taggings
 
   def self.find_by_text(text)
-    Attraction.where('name LIKE ?', "%#{text}%")
+    Attraction.joins(:tags).where("lower(tags.public_name)
+      LIKE '#{text.downcase}' or
+      lower(attractions.name) LIKE '%#{text.downcase}%'")
   end
 end
