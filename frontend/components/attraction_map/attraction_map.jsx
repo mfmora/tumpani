@@ -46,7 +46,7 @@ class AttractionMap extends React.Component {
 
   render() {
     return (
-      <div ref={map => this.mapNode = map} id="map-container">Map</div>
+      <div ref={map => this.mapNode = map} id="google-map">Map</div>
     );
   }
 }

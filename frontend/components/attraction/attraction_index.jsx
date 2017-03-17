@@ -1,5 +1,6 @@
 import React from 'react';
 import AttractionIndexItemContainer from './attraction_index_item_container';
+import AttractionMap from '../attraction_map/attraction_map';
 
 class AttractionIndex extends React.Component {
 
@@ -19,11 +20,17 @@ class AttractionIndex extends React.Component {
     }
 
     return(
-      <container className="attraction-sidebar">
-        <ul className="attraction-list">
-          { attractionList }
-        </ul>
-      </container>
+      <div className="attraction-search">
+        <section className="map-container">
+          <AttractionMap zoom={13}
+            center={{lat: 37.7624195, lng: -122.4849695}}/>
+        </section>
+        <section className="attraction-sidebar">
+          <ul className="attraction-list">
+            { attractionList }
+          </ul>
+        </section>
+      </div>
     )
   }
 }
