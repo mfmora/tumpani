@@ -18,6 +18,8 @@ def seed_from_api
              place_id: attraction["place_id"],
              rating: attraction["rating"],
              image_url: attraction["photos"][0]["photo_reference"],
+             lat: attraction["geometry"]["location"]["lat"],
+             lng: attraction["geometry"]["location"]["lng"],
              street_address: full_address[0],
              city: full_address[1] }
 

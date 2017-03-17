@@ -9,7 +9,7 @@ const AttractionIndexItem = ({ attraction }) => {
   }
   let photo_url = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=" +
                   attraction.image_url +
-                  "&key=AIzaSyB4E8-wDtsXXRFf0gfmmmtrJQ-AM__0uXY";
+                  "&key=AIzaSyC4EIwDllWPuOeg6i591i_JgryKHzDDBuE";
   return (
     <li className="attraction-item">
       <container className="attraction-info">

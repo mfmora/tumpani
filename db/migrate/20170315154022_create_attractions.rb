@@ -4,6 +4,8 @@ class CreateAttractions < ActiveRecord::Migration[5.0]
       t.string :name, null: false
       t.string :place_id, null: false
       t.string :image_url, null: false
+      t.float :lat, null: false
+      t.float :lng, null: false
       t.float :rating
       t.string :street_address
       t.string :city
