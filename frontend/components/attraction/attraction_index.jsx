@@ -23,7 +23,8 @@ class AttractionIndex extends React.Component {
       <div className="attraction-search">
         <section className="map-container">
           <AttractionMap zoom={13}
-            center={{lat: 37.7624195, lng: -122.4849695}}/>
+            center={{lat: 37.7624195, lng: -122.4849695}}
+            attractions={ attractions }/>
         </section>
         <section className="attraction-sidebar">
           <ul className="attraction-list">
