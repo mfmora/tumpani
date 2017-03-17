@@ -47,7 +47,8 @@ class AttractionMap extends React.Component {
   componentWillReceiveProps(newProps) {
     const options = {
       center: newProps.center,
-      zoom: newProps.zoom
+      zoom: newProps.zoom,
+      mapTypeControl: false
     };
     this.map = new google.maps.Map(this.mapNode, options);
     newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
