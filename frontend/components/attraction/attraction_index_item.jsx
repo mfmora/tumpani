@@ -9,9 +9,9 @@ const AttractionIndexItem = ({ attraction }) => {
   }
   return (
     <li className="attraction-item">
-      <p className="attraction-item-title">{ attraction.name }</p>
-      <p className="attraction-item-rating">{ attraction.rating }</p>
-      <p className="attraction-item-address">{ attraction.street_address }</p>
+      <span className="attraction-item-title">{ attraction.name }</span>
+      <span className="attraction-item-rating">{ attraction.rating }</span>
+      <span className="attraction-item-address">{ attraction.street_address }</span>
       <ul className="attraction-item-tags">{ tags }</ul>
     </li>
   )
