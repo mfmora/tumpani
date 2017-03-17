@@ -25,15 +25,34 @@
       box-sizing: border-box;
       min-height: 112px;
       display: flex;
-      flex-direction: column;
       white-space: normal;
+      justify-content: space-between;
+
+      .attraction-info {
+        display: flex;
+        flex-direction: column;
+
+        .attraction-item-title {
+          font-size: 15px;
+          line-height: 16px;
+          font-family: $font-body;
+        }
+      }
+
+      .attraction-photo {
+        height: 92px;
+        width: 92px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          background-size: contain;
+        }
+      }
+
+
     }
 
-    .attraction-item-title {
-      font-size: 15px;
-      line-height: 16px;
-      font-family: $font-body;
-    }
   }
 
 }

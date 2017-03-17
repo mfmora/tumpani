@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router';
 import HeaderContainer from '../header/header_container';
+import AttractionMap from '../attraction_map/attraction_map';
 
 class Home extends React.Component {
 
@@ -25,6 +26,8 @@ class Home extends React.Component {
     return(
       <div>
         <HeaderContainer />
+        <AttractionMap zoom={13}
+            center={{lat: 37.780120, lng: -122.480507}}/>
         { this.props.children }
       </div>
     )

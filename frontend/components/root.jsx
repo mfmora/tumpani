@@ -4,6 +4,7 @@ import { Router, Route, hashHistory } from 'react-router';
 import App from './app';
 import HomeContainer from './home/home_container';
 import AttractionIndexContainer from './attraction/attraction_index_container';
+import AttractionMap from './attraction_map/attraction_map';
 
 const Root = ({ store }) => {
 
@@ -23,6 +24,7 @@ const Root = ({ store }) => {
     <Provider store={ store }>
       <Router history={ hashHistory }>
         <Route path="/" component={ App } onEnter={_redirectIfLoggedIn} />
+        <Route path="/map" component={ AttractionMap } />
         <Route path="/home" component={ HomeContainer } onEnter={_redirectIfNotLoggedIn}>
           <Route path="search" component={ AttractionIndexContainer } />
         </Route>

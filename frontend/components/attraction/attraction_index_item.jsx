@@ -7,12 +7,20 @@ const AttractionIndexItem = ({ attraction }) => {
       <li key={ tag.id }>{ tag.public_name }</li>
     ));
   }
+  let photo_url = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=" +
+                  attraction.image_url +
+                  "&key=AIzaSyB4E8-wDtsXXRFf0gfmmmtrJQ-AM__0uXY";
   return (
     <li className="attraction-item">
-      <span className="attraction-item-title">{ attraction.name }</span>
-      <span className="attraction-item-rating">{ attraction.rating }</span>
-      <span className="attraction-item-address">{ attraction.street_address }</span>
-      <ul className="attraction-item-tags">{ tags }</ul>
+      <container className="attraction-info">
+        <span className="attraction-item-title">{ attraction.name }</span>
+        <span className="attraction-item-rating">{ attraction.rating }</span>
+        <span className="attraction-item-address">{ attraction.street_address }</span>
+        <ul className="attraction-item-tags">{ tags }</ul>
+      </container>
+      <container className="attraction-photo">
+        <img src={photo_url} />
+      </container>
     </li>
   )
 }
