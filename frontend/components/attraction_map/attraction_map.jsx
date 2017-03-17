@@ -35,30 +35,18 @@ class AttractionMap extends React.Component {
   }
 
   componentDidMount() {
-    const map = ReactDOM.findDOMNode(this.refs.map);
     const options = {
       center: this.props.center,
-      zoom: 4
+      zoom: this.props.zoom,
+      mapTypeControl: false
     };
 
-    this.map = new google.maps.Map(map, options);
-  }
-
-  componentWillReceiveProps(nextProps) {
-    const map = ReactDOM.findDOMNode(this.refs.map);
-    const options = {
-      center: nextProps.center,
-      zoom: 4
-    };
-
-    this.map = new google.maps.Map(map, options);
+    this.map = new google.maps.Map(this.mapNode, options);
   }
 
   render() {
     return (
-      <div id="map-container">
-        <div ref="map" id="google-map" />
-      </div>
+      <div ref={map => this.mapNode = map} id="map-container">Map</div>
     );
   }
 }

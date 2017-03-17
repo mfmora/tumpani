@@ -27,7 +27,7 @@ class Home extends React.Component {
       <div>
         <HeaderContainer />
         <AttractionMap zoom={13}
-            center={{lat: 37.780120, lng: -122.480507}}/>
+            center={{lat: 37.7624195, lng: -122.4849695}}/>
         { this.props.children }
       </div>
     )
