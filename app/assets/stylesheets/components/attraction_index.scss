@@ -6,14 +6,30 @@
   left: 0px;
   margin-left: 30px;
   margin-top: 30px;
-  background-color: $light-gray;
+  background-color: white;
   overflow: visible;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
   flex-direction: column;
 
+  .attraction-index-header {
+    width: 100%;
+    height: 40px;
+    background-color: $dark-teal;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .attraction-index-footer {
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    position: absolute;
+    background-color: $dark-teal;
+    border-radius: 0px 0px 10px 10px;
+  }
+
   .attraction-list {
-    height: 100%;
+    height: calc(100% - 80px);
     width: 100%;
     overflow: scroll;
 

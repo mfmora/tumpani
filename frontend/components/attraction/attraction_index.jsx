@@ -14,8 +14,9 @@ class AttractionIndex extends React.Component {
     let { attractions } = this.props;
     if(attractions) {
       attractionList = attractions.map(attraction => (
-        <AttractionIndexItemContainer key={ attraction.id }
-          params={ {attractionId: attraction.id} }/>
+        <AttractionIndexItemContainer
+          key={ attraction.id }
+          params={{ attractionId: attraction.id }}/>
       ));
     }
 
@@ -27,9 +28,11 @@ class AttractionIndex extends React.Component {
             attractions={ attractions }/>
         </section>
         <section className="attraction-sidebar">
+          <section className="attraction-index-header"></section>
           <ul className="attraction-list">
             { attractionList }
           </ul>
+          <section className="attraction-index-footer"></section>
         </section>
       </div>
     )
