@@ -21,6 +21,8 @@ class PhotoGallery extends React.Component {
 
   _previousPhoto(e) {
     let prev = (this.state.currentPhoto - 1) % (this.state.photos.length);
+    //Fix js modulo bug
+    prev = (prev + this.state.photos.length) % (this.state.photos.length);
     this.setState({ currentPhoto: prev});
   }
 

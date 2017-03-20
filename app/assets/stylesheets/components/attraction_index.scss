@@ -82,9 +82,10 @@
           background-color: $light-gray;
           color: $teal;
           border-radius: 5px;
-          font-size: 14px;
+          font-size: 13px;
           transition: background .3s;
           cursor: default;
+          font-weight: bold;
         }
       }
     }
