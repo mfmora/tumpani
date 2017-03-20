@@ -28,7 +28,8 @@ class AttractionIndexItem extends React.Component {
 
     let attractionDetail;
     if(this.state.openDetail) {
-      attractionDetail = <AttractionDetail attraction={ attraction }/>
+      attractionDetail = <AttractionDetail
+                            attractionDetail={ attraction }/>
     }
 
     return (

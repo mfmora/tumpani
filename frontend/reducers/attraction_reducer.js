@@ -1,11 +1,6 @@
 import { RECEIVE_ATTRACTIONS, RECEIVE_ATTRACTION } from '../actions/attraction_actions';
 import merge from 'lodash/merge';
 
-const _defaultState = {
-  attractions: {},
-  attraction: null
-}
-
 const AttractionReducer = (state = {}, action) => {
   Object.freeze(state);
   switch (action.type) {

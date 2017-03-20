@@ -7,11 +7,6 @@ const receiveAttractions = attractions => ({
   attractions
 });
 
-const receiveAttraction = attraction => ({
-  type: RECEIVE_ATTRACTION,
-  attraction
-});
-
 export const search = text => dispatch => (
   APIUtil.search(text)
     .then( attractions => dispatch(receiveAttractions(attractions)))
