@@ -6,10 +6,69 @@
   flex-flow: row wrap;
   justify-content: center;
 
-  div {
+  section {
     box-sizing: border-box;
-    width: 200px;
-    height: 300px;
+    width: 320px;
+    height: 240px;
+    margin: 20px;
+    transition: background .3s;
+    display: flex;
+
+    div {
+      background-size:cover;
+      color: transparent;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+
+    span {
+      width: 320px;
+      text-align: center;
+      position: absolute;
+      color: transparent;
+      z-index: 2;
+      font-size: 24px;
+      line-height: 240px;
+      text-transform: uppercase;
+      font-family: $font-body;
+    }
+  }
+
+  #landmark {
+    background-image: image-url("tags/landmark.jpg");
+  }
+
+  #museum {
+    background-image: image-url("tags/museum.jpeg");
+  }
+
+  #art-gallery {
+    background-image: image-url("tags/art_gallery.jpeg");
+  }
+
+  #park {
+    background-image: image-url("tags/park.jpeg");
+  }
+
+  #movie-theater {
+    background-image: image-url("tags/movie_theater.jpeg");
+  }
+
+  #amusement-park {
+    background-image: image-url("tags/amusement_park.jpeg");
+  }
+
+  section:hover {
+    cursor: pointer;
+
+    div {
+      filter: brightness(50%);
+    }
+
+    span {
+      color: white;
+    }
   }
 }
 

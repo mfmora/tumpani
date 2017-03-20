@@ -45,6 +45,6 @@ Tag.create(name: "museum", public_name: 'museum')
 Tag.create(name: "art_gallery", public_name: 'art gallery')
 Tag.create(name: "park", public_name: 'park')
 Tag.create(name: "movie_theater", public_name: 'movie theater')
-Tag.create(name: "zoo", public_name: 'zoo')
+Tag.create(name: "amusement_park", public_name: 'amusement park')
 
 seed_from_api
