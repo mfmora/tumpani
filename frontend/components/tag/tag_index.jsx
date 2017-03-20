@@ -10,6 +10,15 @@ class TagIndex extends React.Component {
     this._redirect = this._redirect.bind(this);
   }
 
+  componentDidMount() {
+    const list = document.getElementById("tag-list");
+    if(list.offsetWidth > 900) {
+      list.classList.add('extra-wide');
+    } else {
+      list.classList.remove('extra-wide');
+    }
+  }
+
   _searchTag(e) {
     e.preventDefault();
     this.props.searchTag(e.target.id).then(() => this._redirect());
@@ -20,7 +29,6 @@ class TagIndex extends React.Component {
   }
 
   render() {
-
     const tags = ["landmark", "museum", "art gallery", "park", "movie theater", "zoo"];
     const tagContainer = tags.map((tag, idx) => (
       <div key={idx}
@@ -31,7 +39,7 @@ class TagIndex extends React.Component {
     ));
 
     return(
-      <section className="tag-list">
+      <section id="tag-list">
         { tagContainer }
       </section>
     )

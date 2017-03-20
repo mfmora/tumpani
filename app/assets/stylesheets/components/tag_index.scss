@@ -1,0 +1,20 @@
+#tag-list {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  div {
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+  }
+}
+
+.extra-wide {
+  div {
+    min-width: 30%;
+  }
+}
