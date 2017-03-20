@@ -9,6 +9,7 @@ class Header extends React.Component {
     this.props = props;
     this._logout = this._logout.bind(this);
     this._redirect = this._redirect.bind(this);
+    this._redirectHome = this._redirectHome.bind(this);
   }
 
   _logout() {
@@ -21,11 +22,15 @@ class Header extends React.Component {
     }
   }
 
+  _redirectHome() {
+    this.props.router.push('/home');
+  }
+
   render() {
     return(
       <section id="header">
         <section id="logo">
-          Tumpani
+          <a onClick={this._redirectHome}>Tumpani</a>
         </section>
         <SearchContainer />
         <a id="logout" onClick={this._logout}>Logout</a>
