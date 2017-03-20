@@ -9,4 +9,9 @@ class Attraction < ApplicationRecord
       LIKE '#{text.downcase}' or
       lower(attractions.name) LIKE '%#{text.downcase}%'")
   end
+
+  def self.find_by_tag(tag)
+    Attraction.joins(:tags).where("lower(tags.public_name)
+      LIKE '#{tag.downcase}'")
+  end
 end

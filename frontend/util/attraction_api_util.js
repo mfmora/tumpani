@@ -5,3 +5,11 @@ export const search = text => (
     data: { text }
   })
 );
+
+export const searchTag = tag => (
+  $.ajax({
+    method: 'GET',
+    url: 'api/attractions',
+    data: { tag }
+  })
+);

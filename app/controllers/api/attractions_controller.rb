@@ -1,7 +1,10 @@
 class Api::AttractionsController < ApplicationController
   def index
-    @attractions = Attraction.find_by_text(params[:text])
-    # @attractions = Attraction.where('name LIKE ?', "%#{params[:text]}%")
+    if params[:text]
+      @attractions = Attraction.find_by_text(params[:text])
+    elsif params[:tag]
+      @attractions = Attraction.find_by_tag(params[:tag])
+    end
     render :index
   end
 

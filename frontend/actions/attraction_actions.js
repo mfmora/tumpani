@@ -11,3 +11,8 @@ export const search = text => dispatch => (
   APIUtil.search(text)
     .then( attractions => dispatch(receiveAttractions(attractions)))
 );
+
+export const searchTag = tag => dispatch => (
+  APIUtil.searchTag(tag)
+    .then( attractions => dispatch(receiveAttractions(attractions)))
+);
