@@ -21,7 +21,6 @@ class TagIndex extends React.Component {
 
   _searchTag(e) {
     e.preventDefault();
-    debugger;
     this.props.searchTag(e.target.parentNode.getAttribute('name')).then(() => this._redirect());
   }
 
