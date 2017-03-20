@@ -11,6 +11,8 @@
   border-radius: 10px;
   box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
   flex-direction: column;
+  font-family: $font-subheader;
+  font-size: 15px;
 
   .attraction-index-header {
     width: 100%;
@@ -35,7 +37,7 @@
 
     .attraction-item {
       width: 100%;
-      border-bottom: 1px solid $teal;
+      border-bottom: 2px solid $teal;
       padding: 10px 18px 10px 24px;
       text-align: left;
       box-sizing: border-box;
@@ -43,15 +45,19 @@
       display: flex;
       white-space: normal;
       justify-content: space-between;
+      transition: background-color .3s;
 
       .attraction-info {
         display: flex;
         flex-direction: column;
 
         .attraction-item-title {
-          font-size: 15px;
           line-height: 16px;
-          font-family: $font-body;
+          font-weight: bold;
+        }
+
+        span {
+          padding: 2px;
         }
       }
 
@@ -66,7 +72,31 @@
         }
       }
 
+      .attraction-item-tags {
+        display: flex;
 
+        li {
+          padding: 4px 8px;
+          margin-top: 5px;
+          margin-right: 10px;
+          background-color: $light-gray;
+          color: $teal;
+          border-radius: 5px;
+          font-size: 14px;
+          transition: background .3s;
+          cursor: default;
+        }
+      }
+    }
+
+    .attraction-item:hover {
+      background-color: $light-gray;
+      cursor: pointer;
+
+      li {
+        color: $light-gray;
+        background-color: $teal;
+      }
     }
 
   }
