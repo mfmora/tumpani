@@ -29,9 +29,7 @@ class Header extends React.Component {
   render() {
     return(
       <section id="header">
-        <section id="logo">
-          <a onClick={this._redirectHome}>Tumpani</a>
-        </section>
+        <a id="logo" onClick={this._redirectHome}>Tumpani</a>
         <SearchContainer />
         <a id="logout" onClick={this._logout}>Logout</a>
         { this.props.children }
