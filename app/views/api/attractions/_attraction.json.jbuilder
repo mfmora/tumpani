@@ -1,4 +1,4 @@
-json.extract! attraction, :id, :name, :place_id, :image_url, :rating, :street_address
+json.extract! attraction, :id, :name, :place_id, :image_url, :rating, :street_address, :city
 
 json.position do
   json.extract! attraction, :lat, :lng

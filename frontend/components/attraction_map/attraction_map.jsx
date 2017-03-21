@@ -50,7 +50,7 @@ class AttractionMap extends React.Component {
 
     marker.addListener('click', () => {
       this.setState({ openDetail: true, attraction: attraction })
-      console.log(attraction);
+      // console.log(attraction);
       // this._openAttractionDetail(attraction);
     });
 
@@ -64,8 +64,6 @@ class AttractionMap extends React.Component {
   }
 
   _addInfo(attraction, marker) {
-
-    const that = this;
     const infoMessage = (
       "<section class='info-message'>" +
       `<h1>${attraction.name}</h1>` +

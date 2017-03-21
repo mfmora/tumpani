@@ -2,6 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import PhotoGallery from './photo_gallery';
 import ModalStyle from './modal_style';
+// import AttractionDetailMap from '../attraction_map/attraction_detail_map';
 
 class AttractionDetail extends React.Component {
   constructor(props) {
@@ -22,6 +23,10 @@ class AttractionDetail extends React.Component {
     });
   }
 
+  componentWillUnmount() {
+    this.setState({photos: []});
+  }
+
   componentWillReceiveProps(newProps) {
     let service = new google.maps.places.PlacesService(document.createElement('section'));
     service.getDetails({ placeId: newProps.attractionDetail.place_id }, (place, status) => {
@@ -35,7 +40,7 @@ class AttractionDetail extends React.Component {
   }
 
   closeModal() {
-    this.setState({ modalOpen: false });
+    this.setState({ modalOpen: false, photos: [] });
   }
 
   openModal() {
@@ -50,7 +55,22 @@ class AttractionDetail extends React.Component {
         style={ ModalStyle }
         contentLabel="Modal">
         <PhotoGallery photos={ this.state.photos } />
-        { this.props.attractionDetail.name }
+        <div className="attraction-detail-resume">
+          <div className="attraction-detail-info">
+            <span id="attraction-detail-header">
+              { this.props.attractionDetail.name }
+            </span>
+            <span>{ this.props.attractionDetail.street_address}</span>
+            <span>{ this.props.attractionDetail.city}</span>
+          </div>
+          <div className="add-review">
+            Add Review
+          </div>
+          <div className="show-reviews">
+            Reviews....
+          </div>
+        </div>
+
       </Modal>
     );
   }

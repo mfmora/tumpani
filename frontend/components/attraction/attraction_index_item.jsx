@@ -5,12 +5,25 @@ class AttractionIndexItem extends React.Component {
   constructor(props) {
     super(props);
     this.props = props;
-    this.state = { openDetail: false }
+    this.state = { openDetail: false, photo_url: '' };
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
   }
 
   _openAttractionDetail(e) {
     this.setState({ openDetail: true });
+  }
+
+  componentDidMount() {
+    let service = new google.maps.places.PlacesService(document.createElement('div'));
+    service.getDetails({ placeId: this.props.attraction.place_id }, (place, status) => {
+      if(place) {
+        this.setState({ photo_url: place.photos[0].getUrl({maxWidth: 400})});
+      }
+    });
+  }
+
+  componentWillReceiveProps(newProps) {
+    this.setState({ openDetail: false });
   }
 
   render() {
@@ -22,23 +35,13 @@ class AttractionIndexItem extends React.Component {
         <li key={ tag.id }>{ tag.public_name }</li>
       ));
     }
-    // let photo_url;
-    // let service = new google.maps.places.PlacesService(document.createElement('div'));
-    // console.log(service);
-    // service.getDetails({ placeId: attraction.place_id }, (place, status) => {
-    //   photo_url = place.photos[0].getUrl({maxWidth: 200});
-    // });
-
-    let photo_url = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=" +
-                    attraction.image_url +
-                    "&key=AIzaSyAu11AKZEEKdeEh9xNRL5oq5JKpYucnaR4";
 
     let attractionDetail;
     if(this.state.openDetail) {
       attractionDetail = <AttractionDetail
                             attractionDetail={ attraction }/>
     }
-
+    console.log(this.state.photo_url);
     return (
       <li className="attraction-item"
           id={ "attraction-item-" + attraction.id }
@@ -50,7 +53,7 @@ class AttractionIndexItem extends React.Component {
           <ul className="attraction-item-tags">{ tags }</ul>
         </container>
         <container className="attraction-photo">
-          <img src={photo_url} />
+          <img src={this.state.photo_url} />
         </container>
         { attractionDetail }
       </li>
