@@ -43,7 +43,8 @@ class TagIndex extends React.Component {
 
     return(
       <section id="tag-list">
-        { tagContainer }
+        <span id="browse-title">Browse Attractions by Category</span>
+        <div id="tags">{ tagContainer }</div>
       </section>
     )
   }
