@@ -10,7 +10,7 @@ class AttractionIndexItem extends React.Component {
   }
 
   _openAttractionDetail(e) {
-    this.setState({ openDetail: true })
+    this.setState({ openDetail: true });
   }
 
   render() {
@@ -34,6 +34,7 @@ class AttractionIndexItem extends React.Component {
 
     return (
       <li className="attraction-item"
+          id={ "attraction-item-" + attraction.id }
           onClick={ this._openAttractionDetail }>
         <container className="attraction-info">
           <span className="attraction-item-title">{ attraction.name }</span>
