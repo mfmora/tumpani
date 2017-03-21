@@ -32,11 +32,11 @@ class PhotoGallery extends React.Component {
   render() {
     return(
       <div className="photo-gallery">
-        <button onClick={ this._previousPhoto }>Prev</button>
+        <i onClick={ this._previousPhoto } className="material-icons prev-button">keyboard_arrow_left</i>
         <section className="image-container">
           <img src={this.state.photos[this.state.currentPhoto]} />
         </section>
-        <button onClick={ this._nextPhoto }>Next</button>
+        <i onClick={ this._nextPhoto } className="material-icons next-button">keyboard_arrow_right</i>
       </div>
     );
   }

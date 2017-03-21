@@ -1,6 +1,8 @@
 .photo-gallery {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 
   .image-container {
     background-color: black;
@@ -9,5 +11,26 @@
     display:flex;
     align-items: center;
     justify-content: center;
+  }
+
+  i {
+    position: absolute;
+    background-color: transparent;
+    font-size: 86px;
+    color: transparent;
+    transition: color .3s;
+  }
+
+  i:hover {
+    color: rgba(255,255,255,.75);
+    cursor: pointer;
+  }
+
+  .prev-button {
+    left: 0;
+  }
+
+  .next-button {
+    right: 0;
   }
 }
