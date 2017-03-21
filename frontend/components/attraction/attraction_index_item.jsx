@@ -22,9 +22,16 @@ class AttractionIndexItem extends React.Component {
         <li key={ tag.id }>{ tag.public_name }</li>
       ));
     }
+    // let photo_url;
+    // let service = new google.maps.places.PlacesService(document.createElement('div'));
+    // console.log(service);
+    // service.getDetails({ placeId: attraction.place_id }, (place, status) => {
+    //   photo_url = place.photos[0].getUrl({maxWidth: 200});
+    // });
+
     let photo_url = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=" +
                     attraction.image_url +
-                    "&key=AIzaSyC4EIwDllWPuOeg6i591i_JgryKHzDDBuE";
+                    "&key=AIzaSyAu11AKZEEKdeEh9xNRL5oq5JKpYucnaR4";
 
     let attractionDetail;
     if(this.state.openDetail) {
