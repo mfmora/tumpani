@@ -35,6 +35,24 @@
     width: 100%;
     overflow: scroll;
 
+    .no-attractions {
+      text-align: center;
+
+      .no-attractions-message {
+        padding: 10px 18px 10px 24px;
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: $font-body;
+        text-align: left;
+      }
+
+      .no-attractions-icon {
+        font-size: 200px;
+        line-height: 2;
+        color: $orange;
+      }
+    }
+
     .attraction-item {
       width: 100%;
       border-bottom: 2px solid $teal;

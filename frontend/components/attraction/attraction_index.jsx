@@ -12,12 +12,21 @@ class AttractionIndex extends React.Component {
   render() {
     let attractionList;
     let { attractions } = this.props;
-    if(attractions) {
+    if(attractions.length > 0) {
       attractionList = attractions.map(attraction => (
         <AttractionIndexItemContainer
           key={ attraction.id }
           params={{ attractionId: attraction.id }}/>
       ));
+    } else {
+      attractionList = (
+        <div className="no-attractions">
+          <li className="no-attractions-message">
+            There are not attractions that match your criteria, try something different
+          </li>
+          <i className="no-attractions-icon material-icons">warning</i>
+        </div>
+      );
     }
 
     return(
