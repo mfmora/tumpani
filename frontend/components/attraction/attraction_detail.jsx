@@ -1,6 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import PhotoGallery from './photo_gallery';
+import ModalStyle from './modal_style';
 
 class AttractionDetail extends React.Component {
   constructor(props) {
@@ -22,6 +23,14 @@ class AttractionDetail extends React.Component {
   }
 
   componentWillReceiveProps(newProps) {
+    let service = new google.maps.places.PlacesService(document.createElement('section'));
+    service.getDetails({ placeId: newProps.attractionDetail.place_id }, (place, status) => {
+      let photos = [];
+      place.photos.forEach( photo => {
+        photos.push(photo.getUrl({maxHeight: '400'}));
+      });
+      this.setState({photos: photos});
+    });
     this.setState({ modalOpen: true });
   }
 
@@ -37,7 +46,8 @@ class AttractionDetail extends React.Component {
     return(
       <Modal
         isOpen={ this.state.modalOpen }
-        onRequestClose={ this.closeModal }>
+        onRequestClose={ this.closeModal }
+        style={ ModalStyle }>
         <PhotoGallery photos={ this.state.photos } />
         { this.props.attractionDetail.name }
       </Modal>

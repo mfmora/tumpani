@@ -49,7 +49,9 @@ class AttractionMap extends React.Component {
     this.markers.push(marker);
 
     marker.addListener('click', () => {
-      this._openAttractionDetail(attraction);
+      this.setState({ openDetail: true, attraction: attraction })
+      console.log(attraction);
+      // this._openAttractionDetail(attraction);
     });
 
     this._addInfo(attraction, marker);
