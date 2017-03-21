@@ -86,7 +86,6 @@ class AttractionMap extends React.Component {
     const attractionItem = document.getElementById(`attraction-item-${attraction.id}`);
     if (attractionItem) {
       attractionItem.onmouseover = () => {
-        // this._setOpacityMarkers(0.5)
         this.markers.forEach(otherMarker => {
           otherMarker.setOpacity(0.3);
         });
