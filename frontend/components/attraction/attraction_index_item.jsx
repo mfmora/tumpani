@@ -41,7 +41,6 @@ class AttractionIndexItem extends React.Component {
       attractionDetail = <AttractionDetail
                             attractionDetail={ attraction }/>
     }
-    console.log(this.state.photo_url);
     return (
       <li className="attraction-item"
           id={ "attraction-item-" + attraction.id }
