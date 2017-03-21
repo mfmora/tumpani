@@ -5,17 +5,20 @@ const style = {
     left            : 0,
     right           : 0,
     bottom          : 0,
-    backgroundColor : 'rgba(255, 255, 255, 0.15)',
-    zIndex          : 10
+    backgroundColor : 'rgba(0, 0, 0, 0.75)',
+    zIndex          : 10,
+    display         : 'flex',
+    alignItems      : 'center',
+    justifyContent  : 'center'
   },
   content : {
     position        : 'fixed',
-    top             : '100px',
-    left            : '150px',
-    right           : '150px',
-    bottom          : '100px',
-    border          : '1px solid #ccc',
-    padding         : '20px',
+    top             : '50px',
+    left            : '100px',
+    right           : '100px',
+    bottom          : '50px',
+    padding         : 0,
+    border          : 0,
     zIndex          : 11
   }
 }

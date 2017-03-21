@@ -47,7 +47,8 @@ class AttractionDetail extends React.Component {
       <Modal
         isOpen={ this.state.modalOpen }
         onRequestClose={ this.closeModal }
-        style={ ModalStyle }>
+        style={ ModalStyle }
+        contentLabel="Modal">
         <PhotoGallery photos={ this.state.photos } />
         { this.props.attractionDetail.name }
       </Modal>

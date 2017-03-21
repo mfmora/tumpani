@@ -3,7 +3,6 @@ import React from 'react';
 class PhotoGallery extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = { photos: props.photos, currentPhoto: 0 };
     this._nextPhoto = this._nextPhoto.bind(this);
     this._previousPhoto = this._previousPhoto.bind(this);
