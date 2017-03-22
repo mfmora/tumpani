@@ -14,7 +14,7 @@ class AttractionDetail extends React.Component {
     this.openModal = this.openModal.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     let service = new google.maps.places.PlacesService(document.createElement('section'));
     service.getDetails({ placeId: this.props.attractionDetail.place_id }, (place, status) => {
       let photos = [];
@@ -23,7 +23,6 @@ class AttractionDetail extends React.Component {
       });
       this.setState({photos: photos});
     });
-    this.props.fetchReviews(this.props.attractionDetail.id);
   }
 
   componentWillUnmount() {
@@ -67,7 +66,7 @@ class AttractionDetail extends React.Component {
             <span>{ this.props.attractionDetail.street_address}</span>
             <span>{ this.props.attractionDetail.city}</span>
           </div>
-          <ReviewFormContainer attractionId={this.props.attractionDetail.id} createReview={this.props.createReview}/>
+          <ReviewFormContainer attractionId={this.props.attractionDetail.id}/>
           <div className="show-reviews">
             Reviews....
           </div>

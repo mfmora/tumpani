@@ -12,7 +12,7 @@ class AttractionIndex extends React.Component {
     this._prev10 = this._prev10.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     let { attractions } = this.props;
     if(attractions.length > 0) {
       let pages = [];

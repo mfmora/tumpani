@@ -12,8 +12,8 @@ const AttractionReducer = (state = {}, action) => {
       return merge({}, state, { attraction });
     case RECEIVE_REVIEW:
       const review = action.review;
-      let newState = merge({}, state)
-      newState[review.attraction_id].reviews.push(review)
+      let newState = merge({}, state);
+      newState[review.attraction_id].reviews.push(review);
       return newState;
     default:
       return state;
