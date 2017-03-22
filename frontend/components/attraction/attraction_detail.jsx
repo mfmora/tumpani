@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import PhotoGallery from './photo_gallery';
 import ModalStyle from './modal_style';
 import ReviewFormContainer from '../review/review_form_container';
+import {hashHistory, withRouter} from 'react-router';
 // import AttractionDetailMap from '../attraction_map/attraction_detail_map';
 
 class AttractionDetail extends React.Component {
@@ -22,6 +23,7 @@ class AttractionDetail extends React.Component {
       });
       this.setState({photos: photos});
     });
+    this.props.fetchReviews(this.props.attractionDetail.id);
   }
 
   componentWillUnmount() {
@@ -42,6 +44,7 @@ class AttractionDetail extends React.Component {
 
   closeModal() {
     this.setState({ modalOpen: false, photos: [] });
+    hashHistory.goBack();
   }
 
   openModal() {
@@ -64,7 +67,7 @@ class AttractionDetail extends React.Component {
             <span>{ this.props.attractionDetail.street_address}</span>
             <span>{ this.props.attractionDetail.city}</span>
           </div>
-          <ReviewFormContainer attractionId={this.props.attractionDetail.id}/>
+          <ReviewFormContainer attractionId={this.props.attractionDetail.id} createReview={this.props.createReview}/>
           <div className="show-reviews">
             Reviews....
           </div>
@@ -75,4 +78,4 @@ class AttractionDetail extends React.Component {
   }
 }
 
-export default AttractionDetail;
+export default withRouter(AttractionDetail);

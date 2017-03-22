@@ -9,6 +9,11 @@ class Api::ReviewsController < ApplicationController
     end
   end
 
+  def index
+    @reviews = Review.where({attraction_id: params[:attraction_id]})
+    render :index
+  end
+
   private
 
   def review_params

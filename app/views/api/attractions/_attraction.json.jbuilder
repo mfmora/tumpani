@@ -11,7 +11,3 @@ json.tags do
     end
   end
 end
-
-json.reviews do
-  json.partial! 'api/reviews/review', collection: attraction.reviews, as: :review
-end

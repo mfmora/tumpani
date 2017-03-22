@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactStars from 'react-stars';
-import AttractionDetail from './attraction_detail';
+import { withRouter } from 'react-router';
 
 class AttractionIndexItem extends React.Component {
   constructor(props) {
     super(props);
     this.props = props;
-    this.state = { openDetail: false, photo_url: '' };
+    this.state = { photo_url: '' };
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
   }
 
   _openAttractionDetail(e) {
-    this.setState({ openDetail: true });
+    this.props.router.push(`/home/attraction/${this.props.attraction.id}`);
   }
 
   componentDidMount() {
@@ -23,10 +23,6 @@ class AttractionIndexItem extends React.Component {
     });
   }
 
-  componentWillReceiveProps(newProps) {
-    this.setState({ openDetail: false });
-  }
-
   render() {
     let { attraction } = this.props;
 
@@ -35,12 +31,6 @@ class AttractionIndexItem extends React.Component {
       tags = attraction.tags.map(tag => (
         <li key={ tag.id }>{ tag.public_name }</li>
       ));
-    }
-
-    let attractionDetail;
-    if(this.state.openDetail) {
-      attractionDetail = <AttractionDetail
-                            attractionDetail={ attraction }/>
     }
 
     return (
@@ -61,10 +51,9 @@ class AttractionIndexItem extends React.Component {
         <container className="attraction-photo">
           <img src={this.state.photo_url} />
         </container>
-        { attractionDetail }
       </li>
     );
   }
 }
 
-export default AttractionIndexItem;
+export default withRouter(AttractionIndexItem);

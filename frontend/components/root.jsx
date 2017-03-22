@@ -5,6 +5,7 @@ import App from './app';
 import HomeContainer from './home/home_container';
 import TagIndexContainer from './tag/tag_index_container';
 import AttractionIndexContainer from './attraction/attraction_index_container';
+import AttractionDetailContainer from './attraction/attraction_detail_container';
 
 const Root = ({ store }) => {
 
@@ -26,7 +27,9 @@ const Root = ({ store }) => {
         <Route path="/" component={ App } onEnter={_redirectIfLoggedIn} />
         <Route path="/home" component={ HomeContainer } onEnter={_redirectIfNotLoggedIn}>
           <IndexRoute component={ TagIndexContainer } />
-          <Route path="search" component={ AttractionIndexContainer } />
+          <Route path="search" component={ AttractionIndexContainer }>
+          </Route>
+          <Route path="attraction/:id" component={ AttractionDetailContainer } />
         </Route>
       </Router>
     </Provider>

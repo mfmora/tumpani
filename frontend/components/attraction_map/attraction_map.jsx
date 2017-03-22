@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { withRouter } from 'react-router';
 import AttractionDetail from '../attraction/attraction_detail';
 
 class AttractionMap extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { openDetail: false, attraction: {}, attractions: [] };
+    this.state = { attractions: [] };
     this.markers = [];
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
     this._addInfo = this._addInfo.bind(this);
@@ -14,7 +15,7 @@ class AttractionMap extends React.Component {
   }
 
   _openAttractionDetail(attraction, e) {
-    this.setState({ openDetail: true, attraction })
+    this.props.router.push(`/home/attraction/${attraction.id}`);
   }
 
   componentDidMount() {
@@ -23,7 +24,6 @@ class AttractionMap extends React.Component {
       zoom: this.props.zoom,
       mapTypeControl: false
     };
-    this.setState({ openDetail: false });
     this.map = new google.maps.Map(this.mapNode, options);
     if(this.props.attractions) {
       this.props.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
@@ -31,7 +31,7 @@ class AttractionMap extends React.Component {
   }
 
   componentWillReceiveProps(newProps) {
-    this.setState({ openDetail: false, attractions: newProps.attractions });
+    this.setState({ attractions: newProps.attractions });
   }
 
   componentDidUpdate(newProps) {
@@ -56,9 +56,7 @@ class AttractionMap extends React.Component {
     this.markers.push(marker);
 
     marker.addListener('click', () => {
-      this.setState({ openDetail: true, attraction: attraction })
-      // console.log(attraction);
-      // this._openAttractionDetail(attraction);
+      this._openAttractionDetail(attraction);
     });
 
     this._addInfo(attraction, marker);
@@ -110,19 +108,12 @@ class AttractionMap extends React.Component {
   }
 
   render() {
-    let attractionDetail;
-    if(this.state.openDetail) {
-      attractionDetail = <AttractionDetail
-                            attractionDetail={ this.state.attraction }/>
-    }
-
     return (
       <div>
         <div ref={map => this.mapNode = map } id="google-map">Map</div>
-        { attractionDetail }
       </div>
     );
   }
 }
 
-export default AttractionMap;
+export default withRouter(AttractionMap);

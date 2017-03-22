@@ -12,21 +12,7 @@ class AttractionIndex extends React.Component {
     this._prev10 = this._prev10.bind(this);
   }
 
-  // componentWillMount() {
-  //   let { attractions } = this.props;
-  //   if(attractions.length > 0) {
-  //     let pages = [];
-  //     let index = 0;
-  //     while(attractions.length > index) {
-  //       pages.push(attractions.slice(index,index+10));
-  //       index += 10;
-  //     }
-  //
-  //     this.setState({ attractionsPages: pages});
-  //   }
-  // }
-
-  componentWillMount() {
+  componentDidMount() {
     let { attractions } = this.props;
     if(attractions.length > 0) {
       let pages = [];
