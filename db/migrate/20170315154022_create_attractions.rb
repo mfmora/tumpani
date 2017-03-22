@@ -12,5 +12,7 @@ class CreateAttractions < ActiveRecord::Migration[5.0]
       t.string :state
       t.timestamps
     end
+
+    add_index :attractions, :place_id, unique: true
   end
 end

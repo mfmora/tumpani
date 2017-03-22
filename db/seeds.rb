@@ -14,10 +14,11 @@ def seed_from_api
   parsed = JSON.parse(file)
   parsed["results"].each do |attraction|
     full_address = attraction["vicinity"].split(", ")
+    image_url = attraction["photos"] ? attraction["photos"][0]["photo_reference"] : ""
     info = { name: attraction["name"],
              place_id: attraction["place_id"],
              rating: attraction["rating"],
-             image_url: attraction["photos"][0]["photo_reference"],
+             image_url: image_url,
              lat: attraction["geometry"]["location"]["lat"],
              lng: attraction["geometry"]["location"]["lng"],
              street_address: full_address[0],

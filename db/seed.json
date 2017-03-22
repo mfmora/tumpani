@@ -794,12 +794,9 @@
          "scope" : "GOOGLE",
          "types" : [
             "university",
-            "amusement_park",
             "gym",
             "health",
-            "museum",
             "store",
-            "point_of_interest",
             "establishment"
          ],
          "vicinity" : "620 Sutter Street, San Francisco"
@@ -845,6 +842,2449 @@
          "scope" : "GOOGLE",
          "types" : [ "museum", "point_of_interest", "establishment" ],
          "vicinity" : "50 Hagiwara Tea Garden Dr, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7669661,
+               "lng" : -122.4667025
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.76831508029149,
+                  "lng" : -122.4653535197085
+               },
+               "southwest" : {
+                  "lat" : 37.76561711970849,
+                  "lng" : -122.4680514802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "830dfe0bf1a6054745f6229fc4348dc10c8323e2",
+         "name" : "San Francisco Botanical Garden",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1227,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107222691897909406867/photos\"\u003eSan Francisco Botanical Garden\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOEO5CKQPYG7AGE3PKTs4MjS_Zen-fWJneCsjF1HQFDmz_J5qEvgbBwhPDFv0o208VOYEu-wMFu0bnXiegeT6XEHiAKsHc0sL7WxZRzOwXLVec6pkaaMt1BawTLhgKD8ujFLCQNsnwkaO2b_7FFFnBLutiaQQT2T3PZQ5KBl7_e3EhBM8qlJMnzNKlV3iCkSHXOaGhRQNvpoaWTM9PPWUpBr-VspN3WhVQ",
+               "width" : 1228
+            }
+         ],
+         "place_id" : "ChIJW5w2V2iHhYARQoOl_ZsQlOg",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAcupJRmRKvXvfUkJ3pHQ_L2_ZzpQt5hFTczv6alnKWY2sPcfzeg8ra3bp4U7DM13WfPDM18RZ0JNc15eSgNPEJRY-0bQQshwIx3HXsyIv1haPtf6SCRW9vabtp4CcXpb2EhBqq39MBXClNnztebDGyisvGhQaQot1Pq9c3WBplaSwlMfClzvQ1A",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1199 9th Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7694208,
+               "lng" : -122.4862138
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7797158,
+                  "lng" : -122.42049265
+               },
+               "southwest" : {
+                  "lat" : 37.7578474,
+                  "lng" : -122.54138605
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "26542c7c02ab2795925b9cec81f7bac6047fd102",
+         "name" : "Golden Gate Park",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107189957612801137055/photos\"\u003eEsther Ng\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADvVx0i0aZtmoKejq4g3M0sRzjtrK2CalIa5xDdtUbSscGnVwQATA-IdqhpvEp_G2__Dmb8DWr3-y3d7kexFo7y2Zzu7OzU0pfxjR_N43r7K_0UzjT4cF_VEwLtOGXZ_hLPS_mrEU6fRfcBNYuky9HCvNL4Ec4qHqr8_RadOvtOXEhCe71PDpbEuL_Ki8Pcw2OqgGhTfcBc4ZlHNAfeToh6ol9soYssYKQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJY_dFYHKHhYARMKc772iLvnE",
+         "price_level" : 0,
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAxxOFt0HGqmdkMdkD6jyIdJjFX6PL0sIZDGlLZQFJM_eplbZbaOQEip_flc69jyfd11U-UfnWaAygrz4ofvvKtvj1untKE-bZewRF84rq_C2g1BZKL4pgc6utWg68eThYEhApjUvCFY377ymrsY_ETXNVGhTFn5wGbL0V5At-imp7lV-XRO9brg",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "political", "point_of_interest", "establishment" ],
+         "vicinity" : "San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7848836,
+               "lng" : -122.50751
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78732719999999,
+                  "lng" : -122.5004918
+               },
+               "southwest" : {
+                  "lat" : 37.77755280000001,
+                  "lng" : -122.5137486
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "d208434c09cb1196bc71f5459e33bd4bc08fafa0",
+         "name" : "Lands End",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1245,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110910628392264514988/photos\"\u003eThai Truong\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAvIK3iDxaWAJ7CBSHceNKt5b00etFoV50GXD6aeCI4mzV15cFrDKkGA53JanORY7GTuPwjmGDjBYWP6hX0QQlavzOKPpUolhRzXJB1ltvcY2-MTAcFwVrvVJUq73m1SpXe9OOPSEcrsuHCvfw3gJgQKDCV-OX5nEXxHdx3EjhOkEhA4YQieYEFarDNrBpZ1laqFGhQ6nv0RKjpilg5EgoAPl6rYfaDenA",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJud4Rs7KHhYARZX7u45tQsjA",
+         "rating" : 4.8,
+         "reference" : "CmRRAAAApBp2uAwicEn8BW5dDaOHcuigoI_kn5Bn-VUYrsR4uHUfGllzcoGaj00xuSE45LHuSfyF4EAahKQRbmwWzuobQ8Xy2Ud8051qHmhAYnaXfLnQNKS2yYjT4_pMnjZbTqnMEhBgUSv0yAV3_4sJIB9q3WskGhSkyRP9CfC_tkeCASXP3WXyQZBDdA",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "As, 680 Point Lobos Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.772608,
+               "lng" : -122.4602482
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.77340948029151,
+                  "lng" : -122.4590159197085
+               },
+               "southwest" : {
+                  "lat" : 37.77071151970851,
+                  "lng" : -122.4617138802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9edd062642388341e233632dc17d106d5c4051e7",
+         "name" : "Conservatory of Flowers",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1804,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105098174191190895062/photos\"\u003eConservatory of Flowers\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMnNC66aZ_hKjE3G9HOR108PKZumXKNhnOXqzOQoL8iLZamo6It7G1_LCf3i1WsNYoHJIgVH1Z08BtVGlgCUXcNaNKk7-Yc3cCAV0h4v69ZIFn7PqeJcnHT4Eeyfk6d4uqyF-Y44lKEwKRx4ycxmA9GRpU3L-VSrUu2J69G3D_4MEhDDSkZ7gvKB29ixCF1ilrosGhRmC84x5E46yShmpQ7QM-y2LMjnIw",
+               "width" : 1807
+            }
+         ],
+         "place_id" : "ChIJ5abCmkWHhYARH3zgiLVc_Ew",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAtdpSx3oz36U0gy0icnOQTAkU2ozOp7Fa5vF8PSIqx4pxxluSiEsRa8AyDsA85E8Tyu3Qk7b0NhDpD4Rp-pdwybvdBTyioJsBgD8S7JCdK-oECy4S4NYgsUTKO6FwY_xEEhC-g_e3tFJz5f5zA-RS8Vp_GhQNdtKKl7gBkfQbjdNtWBuKF0QroQ",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "100 John F Kennedy Drive, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7525098,
+               "lng" : -122.4475683
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7613498,
+                  "lng" : -122.4456015
+               },
+               "southwest" : {
+                  "lat" : 37.74175899999999,
+                  "lng" : -122.4507411
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "ba3189748cf73e152169d6e439f92a60a5dbbaa0",
+         "name" : "Twin Peaks",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2166,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105336685193092059775/photos\"\u003eHasit Shah\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOcQ2ep4wZm2fkSeTHkjc0esPFMqITkoNL9GKkQm8Wk66z8AOD9hSNaRfN7Ai2ivjwc_35e6UCKpkolxHw-MqFzYPXXHW0Tm5M8Xl6_onCnpmsXxtfK5l4CcFb5Fl_PoW_oNEEYBz0LRh3vd-tMbJTYZ61MrBT5TCtJzQDENmhOmEhD5J3IuARh5CGAdXMXIPo4tGhRAuvqbOtdK0u0bHwDr-cIwmxNiUw",
+               "width" : 4752
+            }
+         ],
+         "place_id" : "ChIJt3HwrOJ9j4ARbW6uAcmhz7I",
+         "rating" : 4.7,
+         "reference" : "CmRSAAAA3fxp5iVK2BVCNqV_9N0HCc_8gpoE_mKQvXYX9hPlqnK3rZH7Hp3bb_b4hAXkDO00hliESASPuUpmg6AemZo89g6L28mkDsaSj39sQkZBF-oxwXValZeEO6fX7PKDoFoeEhDUuY_a5jvuuGI2DKfhRWhGGhQvLytLj0K4THtD0e-GcRMEOSk5Nw",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "501 Twin Peaks Boulevard, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7684046,
+               "lng" : -122.4414145
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7697535802915,
+                  "lng" : -122.4400655197085
+               },
+               "southwest" : {
+                  "lat" : 37.7670556197085,
+                  "lng" : -122.4427634802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "1225b07cdead246afe0c4e9a5b7f2eec73c893ce",
+         "name" : "Buena Vista Park",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117880385222563720038/photos\"\u003eFranco Raffo\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAO8IZj-Rh1ODroOhr-svGgqQ1kqe9JX_GKq2hHu8taJr5yputv3WS0HUb96FcZySy1rOlKOjAi6n89hKbahP1ekD2ilzfnzcBKMCadHnySjKak1SESEGYiXFKf-0n3gqRzUfi6Tia1t7uFIx9RxvZkQ8imAIGihVE2UQILEawQziEhBsfnSq2dSpZ4KqRqQW7e1VGhTr3cCxRfxwK1zaY4ZAzFS_jhpxbw",
+               "width" : 1772
+            }
+         ],
+         "place_id" : "ChIJc-fv16uAhYARQNxL3WZRYHw",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAEjXEuNliUTVttqCWamCor0CyFajhOyUKpJ_hka7ZbTHy-TxYIs67rTJXwKkDTE4HmCz-m0IX_sr6KhHU_Krw5IMf0l4Bu5ssT9SYUC3ah4fWTnjM0fA_oPdvLH15dDfkEhD9p_4SGwGCFMyt3o4NFAo6GhRAcDQGgzZRuhoRxIEOCvaQKEKLDA",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "Buena Vista & Haight Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7872822,
+               "lng" : -122.4697225
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7886311802915,
+                  "lng" : -122.4683735197085
+               },
+               "southwest" : {
+                  "lat" : 37.7859332197085,
+                  "lng" : -122.4710714802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "45a132ca35bb1baa1cd154358fa4382d9d458ece",
+         "name" : "Mountain Lake Park",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109670747169179397842/photos\"\u003eRainer Diabl\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALIrQWQ6t651Lb4CDyrLooDIa-L8U_FLQB0Os1gso8oN2E8eZsYlrGyzFD5w38VtlZimhmrkwmz3hYHcqmkwodfcCKr7oyDrFkO_9P4AAhiQO2QME6oStnGEsWgsnPvs8-5Kj4q8L2Hmr-hkYFVSqo3YPs7RIIwocDBVfpQsVu6PEhCj2m6FexsjCvy9dI3F_AtVGhRFAvA40FyIAVlc-t0KGdYf9OTJZQ",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJqfCTeBiHhYARt_0t7D65SWU",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAX6qvnCsOWb_5KGA20yty4ML0MlAEWUBNtm9szeZvlWxFyxa5TuhWYLC84viGjXwoHZ88yIfWhANs7R1AlO3C5VWjZE17-p_leNdk3j7MB9DBij8-XEjVeIOVxR9TYHKBEhAemt6jECkeFvOx9pHEp6QLGhTHl_d3kCqRqK_wkvScjiC9Wawv-w",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "98 Funston Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7918134,
+               "lng" : -122.4670028
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.79316238029149,
+                  "lng" : -122.4656538197085
+               },
+               "southwest" : {
+                  "lat" : 37.79046441970849,
+                  "lng" : -122.4683517802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "0b836da44d9ee1db27ef57e54820fdd81e93451b",
+         "name" : "Presidio of San Francisco",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3265,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113392992148363884728/photos\"\u003eOndřej Švec\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADFdF6crRO30sADzpGELOFH6zxTlliVfSkxJzrK8sOzUr1yRyW6kZ5uoJHN8YWkiE-qynoZ-l4rSdspWNQ3gG1wLbNPbxsZrilFRCJ2ZUCqMhua5LlaMO-m-EaV7jIiE8lRr_DDWfxrh-xVcgMRD0SjNg4ApBmrfsbYZgEYw1fA_EhDn8FZqN9K9L0W6ApOc21KJGhTF1m_fcZKHLjJYA_GM6t4SkbZPtg",
+               "width" : 4898
+            }
+         ],
+         "place_id" : "ChIJI1Ii8N6GhYARUgHXfw1iJx4",
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAARBMP0ZB7EALhSfmoT5Rx3Mz5yD7peMQRK2-XRS2qKEbiqz6H8BjKxyYlcXmlzfvffHnwI7-ggRywXX5yF2mVUDj-60pSUHBHMO9AoTAGQzUuBOajU45E-6ElTex8YWFEhC7kgrcKb_5JifvRGUbd73fGhQD1GTbcSQuKkUSuiF82FNWp66Fxg",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.8039069,
+               "lng" : -122.4640618
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.8052558802915,
+                  "lng" : -122.4627128197085
+               },
+               "southwest" : {
+                  "lat" : 37.80255791970851,
+                  "lng" : -122.4654107802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "27effe65fdab4a2db1ac597e298f59b77285f703",
+         "name" : "Crissy Field",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117752039905917143638/photos\"\u003eGreg Sargsyan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAxbV8wlyLwSIkNB3UNAnCFmGaoK0cfAW_gJi22TUfstb9wOzV8hDUGdfeEnh47shGEFqnH-2EvRipvieARc-1gZ1gEUhbpXUOuDCqlPQb3HgB-kLzLYxVhB_zWyaIxgrp7cHsBKeLXyNTgV0f2e9zV9fvXMgMVIDrI7XN75B84MEhBFdS_J0n5VCeFDC7sifPkLGhSQdI4Yh8ott25PCDNU0BDKxVN3Qw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJVbMlhdyGhYARADaqASKRFVs",
+         "price_level" : 0,
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAIqyNwrvGaakT8bn-8lLi_bFIxAJdhXzaNhnPlJ9QSVc34tTsg1qcK4E-4NZqoIDcZhG4ypfxuHcxczV2a2Oa7K9ELNbiIYhSfnUNbsZWLrqgRAPq9PHTvWCgbNMxtsRZEhA8TIHc_N4Ul43-tWpKebjTGhSFU6V1OD13cS3ErBwiRwMNPrpRWw",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7653122,
+               "lng" : -122.4385846
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7671074802915,
+                  "lng" : -122.4370518697085
+               },
+               "southwest" : {
+                  "lat" : 37.7644095197085,
+                  "lng" : -122.4397498302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "3af852d3fb71ce0a460be7e5842bc9bc4e3b9efb",
+         "name" : "Corona Heights Park",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3199,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116676836449714411431/photos\"\u003eDebojyoti Ghosh\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKwVnAD1eTi0Hzw5MVYyyeQMrvyJ4YLnnyGcWxB88m8qb5XEhGh3d_NpHhuBFaQnwjIA3RDKvHrkLecpMdq_Okv2l14_n2HvR5hWSKmBCuhdveD6D4hq5nVbNrzRb5M33ZFpgGOTar1NiLXQbr_UlRfV4HTpca5l4L0rZGeNE2flEhAROWwq7csO3Fv_VXhWGrpoGhRABm9fCxGAF_HzvDALXU2Slb_JSw",
+               "width" : 5001
+            }
+         ],
+         "place_id" : "ChIJX3DWQgJ-j4ARxWqSTDOy_CU",
+         "rating" : 4.7,
+         "reference" : "CmRRAAAAXbt9U50pYGC72XIlUFgIWDdRfri0PkA7VPD6mLCqZLjR_yivyUvx2ZNSZVs6HWh8DUC480aGInPbfatgN6SfSXgSv5VU4Xw9erlDIDat8sa7GQ4dtCrxT221PzmoymSBEhBmZjgyfTsxpm9ivVW9iQZ5GhRG5YPMJgFlWEIrwjuHZFSOwic0xA",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "Roosevelt Way & Museum Way, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.76820009999999,
+               "lng" : -122.49269
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.76991598029149,
+                  "lng" : -122.4917181197085
+               },
+               "southwest" : {
+                  "lat" : 37.76721801970849,
+                  "lng" : -122.4944160802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "17b73a89b413eb3f08af36c9b0209f24a03b6e2e",
+         "name" : "Golden Gate Park Polo Field",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110965921055373177367/photos\"\u003eJohn Liao\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKmRJGDrSZkhhS40Zk7ir2pskk7-o62-j0wkJ-3hO3QjqWLB5gWio2FkTGDdQlUDJAaU494TahpKQ1u9nCic9xolv0aIVJu2rNl-kJR4xUh-8dnGTUROCVwzNY8NIU0WTWh2sW_xwrsESjmvWsQrFrWO1qHckL6P5LJqnFFqXIjCEhClobjF4tJ646o0kABJ6wOrGhS0gQxbrPt0BRHrUK92YjM_UCCa6w",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJd-UpaaCHhYARATTB9Q5e4xk",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAIKR7XZDsKTicHXWgS2iNrpQPf9M9ujTPFZRpVAUCG5NoMrlpG85SkG2853dCOnTMLh5dA9POdlPRcMLbEFyqGU9OHmWMcmPHZVtX7AspsdFdk7zHCc31eAnmrplLCWgyEhArD8qAsp1Y-YvcYWok45ebGhSdUg_R93LRC6XTZ1EDRH-I8Wirxg",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "1232 John F Kennedy Drive, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7966727,
+               "lng" : -122.4758376
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7983209802915,
+                  "lng" : -122.4743779197085
+               },
+               "southwest" : {
+                  "lat" : 37.7956230197085,
+                  "lng" : -122.4770758802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/camping-71.png",
+         "id" : "299ee348d776a977ecc98d47266f407946d4478e",
+         "name" : "Rob Hill Campground",
+         "photos" : [
+            {
+               "height" : 3265,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102857936397440681724/photos\"\u003eAlex Woo\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAEQxBQfZC4mA1IDtktkgcqZYsFUXeKRMnV8RM51WXYYNkdLksNDRFMjF7-HBDPPo3XSU0kDjygNq2Lnv17npVDBpcppRKyK8XJ9WUaAW7bvFBUnqyeL8HB2w7uD8ER2m56lFeZIiMcRBemiQLn36RMhYXkfzl_O_xrF8YTvK_f3WEhClJ57dRxZsvFehhkO3A0iOGhRI4l9bVd12dSJFXXAgO9W41hyWQw",
+               "width" : 4898
+            }
+         ],
+         "place_id" : "ChIJ5dL66OOGhYARsm62vWBAMAI",
+         "rating" : 3.1,
+         "reference" : "CmRRAAAAG-onvXjqvb02r-UavNNJU0HQJVSNO_27Yw7VoeV2XRlvfnV6W-qHzS-NReLAJpwzpBGUjT1DYfcz1GIw6pFj7avSleQ3VY462l-6ZYyW1bF52lG6FDRj3KImth5I15ZCEhBbFG2qJfXy81e6B-mAvLHVGhR4xHHWA8BcNkWtzO_B3x_jsIv1yQ",
+         "scope" : "GOOGLE",
+         "types" : [ "campground", "park", "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "1475 Central Magazine Road, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.782836,
+               "lng" : -122.5116181
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78981690000001,
+                  "lng" : -122.48486125
+               },
+               "southwest" : {
+                  "lat" : 37.7765485,
+                  "lng" : -122.52053705
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "f5fa4fde795c24b15164ac2b864a00655f198f8a",
+         "name" : "USS San Francisco Memorial",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106655823948698010001/photos\"\u003elu lu\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJbAYh6KvJAdj6yf2XXba9hLynWacxpju7JgCL9RNkmOazI2allWL9AMlHUEC3AHEVvupCYQcDogRCrSaU0LnyZDppaBeubPyvPHdXGlMXgYZUW79fki3JVGRIgQrcv-MVDkdwnoP6LghBCMQY1RmLlqb7v0XcivLZJH4TQ3qJjFEhAuk_9W2mPB6q27__sMhtLfGhS1A0V9TBPexewUgV5oWo-tg_b1Zg",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJR760Uk2GhYARqZOGfcMz31U",
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAJa_8bPfIjA7tX634oajFAutTR91aM-jw5iqkH4M6U4aXD36-BK4yPNTFyCbOIz6sR8f1sk4wYasCSFBECE22ROxO3muyzAXp-73cZu95J-N6NsY2XUzMIAwVLtWzfLh3EhApUBR1jxCA7gDDpxY__YGpGhTew1Q9yudHnweoYu1_UXQPTFwXbw",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7728127,
+               "lng" : -122.4558263
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7741744802915,
+                  "lng" : -122.4544403197085
+               },
+               "southwest" : {
+                  "lat" : 37.7714765197085,
+                  "lng" : -122.4571382802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "08fbdcd82be2f6b9f7d08c6c5e04a812c2b3542d",
+         "name" : "Fuschia Dell in Golden Gate Park",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117725076474533124403/photos\"\u003eWalkerfour SFO\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAGlCzSzIyWKcRRNjjfWV1peecyRvrDC0TTuXnB5myU77eBYymleZu7Ggl8nM06vlFWDe8B1yxip4pdJtu6rsyKpv7Cu0DJSGKAEgfPhhpO0zC21wS28LttIFDvtfXZxpCCvmQkbC756K88RalDF9rZmQaJ-d_11BEvHlBDPAselKEhDO9ayzCGtXTSRUIU0ka6HQGhQuBNrk7BG3c1-e0pKmTg4yKXRm6A",
+               "width" : 1152
+            }
+         ],
+         "place_id" : "ChIJaVnDJESHhYARfUkib9_zzNs",
+         "rating" : 4,
+         "reference" : "CmRSAAAAu6q-B9xZOI0dbpvbCe9j4CPzlDTmKAYkP_pPiBsMIowZ7GAJS2VD-M2ifquO6wf5OxHa9yC1frqbae9cc9m2S0HqY9LKDhPQ3rc3AHzJvEQNU2-Gn5vvAKsrHbRWvq5rEhAf-0-h9h5tLLyrimI9n1JcGhSj5oLicwxd7KrNAk4cFPDtcGEW8A",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "Conservatory Drive East, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.74155880000001,
+               "lng" : -122.4431851
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7429077802915,
+                  "lng" : -122.4418361197085
+               },
+               "southwest" : {
+                  "lat" : 37.7402098197085,
+                  "lng" : -122.4445340802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "e2848d45811610341dda8a99fb48a1a6317e09ae",
+         "name" : "Glen Canyon Park",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106554700103544041941/photos\"\u003eNick Kinling\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAPlamN0cjTSZEkEg51PcmhSG1Mh5PEDdMKHJwymcx1DKNjQCge9zPbEDSZuw7pm8gbIpEHJHr3ES2dN2LIzYmHYBgt8IuSXuLGWnIWXRk2yr6ieXHQCWP-JyV677HsBLf5b76IZU0g_7F0BIEjVpGMfZbaLsMxO5mgdEh9vl8WD6EhCWsgvqxaZnpA7KUZ3-V3NuGhTsfTS4YP8VEUuI02YEzvqlTCPgXA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJ9SlCdnZ-j4AR86EzE6c9NY8",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAhO5SLgxsiQrXRfFmXfkyMxBmEK5nLKRjxZ9eWcgow_dpPBc8wtvoRuxDTzGAes2aoclCYjH8KQhVSWUC2-7oyx1H4aN0udIDGq4NyY9rjXpieX42PFZbDbWBU7AAnKhoEhCxuQSJP3D2NoScbdWnzNwWGhQcc3I6goJppQynEmSRUh0mGfvyBg",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "Elk St and Chenery Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7717091,
+               "lng" : -122.4716847
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7727180302915,
+                  "lng" : -122.4700549197085
+               },
+               "southwest" : {
+                  "lat" : 37.7700200697085,
+                  "lng" : -122.4727528802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+         "id" : "3d84f877eb63817847cfb8e9dfb0fd1b8b1d491c",
+         "name" : "Rose Garden",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109346971746944825957/photos\"\u003ePaul Koster\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOKKTvZVWhPNy_rBA_NhRXpamqJA3sue5gkZmK5BwXSzAqbQcORkyuJguGXyNEYATx31tpDxTvKCC0hkorMZw9kqMak14ebVvT_4P01PFoz7gTe9-WIxR7kWZEwRrzGihhyCXoQVadyO3Lm7D1l29Ks0E1E0lhaw3QVfvUQjTkvzEhA9v3uDXKmV8ExTT-PzkuFiGhR9A39JgLXbL1zJtD-fyXVgyti5bQ",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJ38PBV2qHhYARQNvZBtima_M",
+         "rating" : 4.2,
+         "reference" : "CmRSAAAA5OMBnOavsZIwRgWEW-klnQSa_Uie5LCSyFvnIg2JOPJOo0GQNPbOV7LxX95ExC_zAfwNnwyEt86-kD1s5be6ixkpWeZfjhgkAOTZQxrWcpRKd9IU3kxksWycudBvuws_EhBXNymfpLlD_32zo46zsk2WGhQ9blYxjrtR2qtCTrbi0yTP0eaS-A",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "point_of_interest", "establishment" ],
+         "vicinity" : "Golden Gate Park, John F Kennedy Drive, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.784961,
+               "lng" : -122.432585
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7864452302915,
+                  "lng" : -122.4312349697085
+               },
+               "southwest" : {
+                  "lat" : 37.7837472697085,
+                  "lng" : -122.4339329302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "c00d52db6a9dbd2d456206cee727ef0c1a2b6a83",
+         "name" : "Sundance Kabuki",
+         "photos" : [
+            {
+               "height" : 972,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107552387286560569649/photos\"\u003eWalkerone SFO\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAL13knbfPr_bdPaztNFozYElwiHc8_ZJUiJCSyeJnKsFldfyu3ZxtntN7CeIaoeuwQGpCuHF14ZtTquzGWsaoEyiGe6Cq-0az_0DB57GALjqd_nxEU-d29pRZiWq4BgGZfXaA-Dv_NehVR5tK5e8dCRCySJfM_goYaoGuzcltMC-EhDp3fKzBJJOWb9mfDVtB9ZaGhR27QETRnMsHeipijoY_Gt8iHiCEg",
+               "width" : 1296
+            }
+         ],
+         "place_id" : "ChIJmf0AV7iAhYARylK9tmGaQvM",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAUR4F3LXrF7JtPL66YPseQer0-eued6ej7Odt-yh10io5PRq7Q6zo9W_SukFy7aOwTQt35y6U8xjkUk_oYlrvzXHPPJJVJkZSlZgeV_DGh18yq_mPYxq_C24cRg39xhP9EhBYnLEXlKKnyeLYtvz0rCb2GhTesdkxzbpikMrsth8AadYza_szHQ",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "1881 Post Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78518519999999,
+               "lng" : -122.4209485
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78653418029149,
+                  "lng" : -122.4195995197085
+               },
+               "southwest" : {
+                  "lat" : 37.78383621970849,
+                  "lng" : -122.4222974802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "c291a52ef2f7bb16053f834b233b8b6e0a3b9486",
+         "name" : "AMC Van Ness 14",
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104580858930289469818/photos\"\u003eElsa Cheung\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAF6PjUT1r3el3nGE84JiYTv2xEDKl0LN9Dy1O1bZLzZ2y9NlvwULTR5d4JSLa9IvUxYpMQAR3QFGpFAV9ryowu9ffT7ZO4Z7uOb3Jy4Pfn4EfSNhqEkjzy3FqSL0CLJ5wga_TplYi0-ldVzWIwu435WScAGokoWj2nmW1p7ljZcsEhDlRwb-G36vkSIH5NYebymFGhTqaChTJtVMJnN5VmG8ht0H7R9Wbw",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJmdJriJaAhYARkN7O25PaxAk",
+         "rating" : 4,
+         "reference" : "CmRRAAAAa04W55QLzJ-IdrVzHWrmZr73sYqg6hClWCXPJhrg71imL0ZZIbivMYPywqdG7beZ0EZKw2lq9indIEA0zFnzEJJmHQrZXBrhvBQg3KmjMOxgyycbALEH4p8_YmOAVA5-EhAQfucWC9oywEFPli6sIVjPGhSRcSwr3b65E52uJu3utJ192YXBQA",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "1000 Van Ness Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78442569999999,
+               "lng" : -122.4064539
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78572108029149,
+                  "lng" : -122.4056958197085
+               },
+               "southwest" : {
+                  "lat" : 37.7830231197085,
+                  "lng" : -122.4083937802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "25d4bf0577c1d6e6c1ad6372dca5c4efaa5d74da",
+         "name" : "Westfield San Francisco Centre",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110111965445072195682/photos\"\u003eRenan Nuestro\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAD9hp2SbZ1yu6g2BWbN63f9FKF7t-lCxD_2X6Z6ezdqme3-L9KJXC0ydafVsTCCnocPJOKFcBBulud3EL04lyniVjcDr-EtqIWZat-K3NFk9GeNs22MfvAdzdcL6VJS_gRvdFzo7MHC6nbzgrs0OgXqeAS83qqjwOTQnTFcVqb_OEhCk_CIeL4p8Fy9LCkeFwQnhGhTSSdodR00VLjP__FmwhoVa6UQZlw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ6zMe3oWAhYARaZ33Z1BAMRo",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAOr91reItUbiJXxCOXEbzdDxSU_DXm7jDVlUbl9mUjpiDGWcCidlvufzZqY2D4S2QWzQ2ResFthea6BrCaIzxmWxtJs2088JiQ7vpwawSEwjBiXa9wicgwmauJPxbDUA4EhBz8v-YDYu15ZQlg8fyGI-UGhTit77sCt0wO_V5X9Dk14NgziTxlw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "department_store",
+            "movie_theater",
+            "shoe_store",
+            "shopping_mall",
+            "restaurant",
+            "food",
+            "clothing_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "865 Market Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.79499729999999,
+               "lng" : -122.3994346
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.79642723029149,
+                  "lng" : -122.3981015697085
+               },
+               "southwest" : {
+                  "lat" : 37.79372926970849,
+                  "lng" : -122.4007995302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "f79a99c9977cbc02a82595c7c10616585fd8e7b2",
+         "name" : "Landmark Theaters Embarcadero Center Cinema",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115151122823108558030/photos\"\u003eSteven Yang\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAxfvCz3qEwKvFZPwPgkuvLNWXbpL2sFDECtFpAo-NfaEHzA07c48hPbKtPTMmPvt88UMcfFK0p86xbhz6fX1H-wHLoRDHckocca9VAX5j2BD_sdgIsx1eu4RAkanZrF6Ed43nrEQi0WPmZW8axeQGEzXi33z_6Kzd3p1lvBG9vjEhCZbDqJdaMawqulFYcLQzcMGhRiK0HkAxrtns9RyLwHse_NosjKoQ",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJZ76fAGGAhYARByu2fCHHgno",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAx3dlHWACfWzobJhPK8eDn-xzI4H9iIxae6-aFl3GRf6qGxIjlJrw0G8wqwjtSHjculpkSDiaFJkE5qjElX3jk0z6x3EkaP9mYnVKmnrH3MlA6SrdYf1VWg5IFbvxUWv7EhDbxxHqLbTi0UesBVVAaUVOGhQXQyERE9L1VFcztuG1zJbwwREpfw",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "1 Embarcadero Center, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78384310000001,
+               "lng" : -122.4058451
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7856658802915,
+                  "lng" : -122.4051524697085
+               },
+               "southwest" : {
+                  "lat" : 37.7829679197085,
+                  "lng" : -122.4078504302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "f7f04207cc0c564eb5ae11c92fbdae85f292daed",
+         "name" : "Century San Francisco Centre 9 and XD",
+         "photos" : [
+            {
+               "height" : 2531,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110171932238566208341/photos\"\u003eKeith Achorn\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAK0vUQ1fngkSyxbmh6etgEVJf-gf8bs1qjdKMQvEh19OmBfLb1X8nVBWcTXejLq3SbqAyqA0Gl0F69Z_01Ue3_wOZTK06BCsmdKVFE3lPywxtYvebx20TgVz-LEny-XsVrEeNDedoQUve4nP3Bx63-ZPXIeEHcjRU-BEBMoqND-sEhBGz3582akXqeGiSeS8alCQGhQB5TmQFHIUeRaGMhSXS-jRGINzFQ",
+               "width" : 3415
+            }
+         ],
+         "place_id" : "ChIJ6zMe3oWAhYARvOimeV5H7_w",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAAjmu1w3QRWpd1MxtpkETnESCfKlnFd4KODnLHfJEORZe7Xm1bCYMzzIwxyfSGF3ErcOx5daR0DMU0D9pKjGodWLb9qKkITYV5rwWMVOdSdIf_QgazxemYt0GHAZGKwZE5EhBtRt1pS6B9Q-Kg3_WfNy1fGhQhE6hOQosC8Hp_yPECPwypf9QiRg",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "845 Market Street #500, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7840953,
+               "lng" : -122.4030564
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7854442802915,
+                  "lng" : -122.4017074197085
+               },
+               "southwest" : {
+                  "lat" : 37.7827463197085,
+                  "lng" : -122.4044053802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "5b3cdc8f526fb771a2f9ba26cf4258b86db94e1f",
+         "name" : "AMC Metreon 16",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117361049742881781760/photos\"\u003eRobb Alonzo\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALWz2g7ZpEoLsn_Mq6uW7jLMyRXK7Bpvdbqw10D94wywmOtiPHN09K7IY4zLLM9Tvm92FIGFevNk03ICjymfz5RbZ60r57hi1frRa5Cucj9VhFEiDU0624CxJauf2XcukzoC82KF_YVxJmWaONRKEcew40z_RQ-12Vgk1dqw-U9rEhAr_wzU733xetdltBpE6RG2GhSflrF--ssfwZGGJfp7TnSW9rkHMw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ-zhtDYeAhYARu4ew7BWOoo4",
+         "rating" : 4.2,
+         "reference" : "CmRSAAAAu7GQV0fmRBrw_SAflGfJkI1sLuvQ2tK7I7etAtXoPZDZUsTxAZdytlgCKCbG2CJ91pJLaauYo_UNrV2LuxP4B5yTfY0fo99kFEvKPQxvupTiyvyz45-AhRz-4Kq4rZgAEhB6ayuPkTNwLDLR_bkz6a1kGhSSCFvsY4Xw5ZS15eRnAQ4sQzl3UA",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "135 4th Street #3000, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7620333,
+               "lng" : -122.4347591
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7633677302915,
+                  "lng" : -122.4336028697085
+               },
+               "southwest" : {
+                  "lat" : 37.7606697697085,
+                  "lng" : -122.4363008302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "1e9bb28524a30caad35655fa44545a172268de77",
+         "name" : "The Castro Theatre",
+         "photos" : [
+            {
+               "height" : 3154,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113385348519366118416/photos\"\u003eJuliana K\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJkGbj_EKVZ2glb2rBrdSqiiIaJXvWxgfC5ijVyLiBQy7W0YYczOC11A9VEkzqFCrvJ8Jrpmg0owatG7Yi9CtAvcJeyxIt9vgd3kTzZUqGvKQ1nDso9bCk5-F3lHJ1LOotTTRCAkj7xn8kQdDih1gpSQ7yD88YzytxRp_xy3vcNuEhC9YgC2KHpPKFJoaW7p3U9hGhS7BNH00mmT59FYDNr_Y5wYWpjNzg",
+               "width" : 5605
+            }
+         ],
+         "place_id" : "ChIJeWH4Txt-j4ARJZQ5pivU-hQ",
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAU1sAFK1ipWEyZ13PRWYoHDwhDMzZUGUP2UHUjU9wR53aBcPoJcCxGJz-AOZE6iLvFEntXKYAShLizyuUBehzUg-0nyC5t0a8k1pn8vutBfJ2-_hDZWzsvkzq4A6vhXVQEhCMB2Ejxz-dUwKLxmna8oPrGhTLEhGxnAlnO4iVC2bJTa2xUWs2XA",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "429 Castro Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78158200000001,
+               "lng" : -122.421958
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7830117802915,
+                  "lng" : -122.4199720697085
+               },
+               "southwest" : {
+                  "lat" : 37.7803138197085,
+                  "lng" : -122.4226700302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "a3c2f6685ab5b61d64061dc2d49ca0fb127c6569",
+         "name" : "Landmark Theaters",
+         "photos" : [
+            {
+               "height" : 2492,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112646242288993901994/photos\"\u003eLee Markosian\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAGDoMt9du2QWYVVFV-n915rC8PjnrFwrtBM18XEI1rBg0Vm78C5RwUhPpfYEEr5it6RY3kWZ2tkrymKqGraG2aVxzva4wsk_GU_E8yB38idCIQEzl63jKib3Ui3dxmnq57vax-DxV0LSSzSUkwxoPwKzBU-maBUul41aDpe1QzNtEhB6X9K6762WeyWEv9KZEgNCGhTItfAD1z6xK-TX4bd3RNONM-H6XA",
+               "width" : 3556
+            }
+         ],
+         "place_id" : "ChIJZ76fAGGAhYARK8Iv1jccbNM",
+         "rating" : 3.9,
+         "reference" : "CmRSAAAArxzkQd8o0mS3KJEeasTy00M-A0A3sz2PjvLV8b7qimgkwTyEb183nMnFkfBFVXNoCASoRPbnAV5y-fEBy06KgUOVCrPm5owIrRPuJFD5lRy05LvOF5H1jn7tuHpdzkGbEhAColsQzwWKecIiRVcMaWQJGhQ_KdEhD7rzBAQE3RMG4KMllGFBzw",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "601 Van Ness Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.785767,
+               "lng" : -122.43063
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7869733802915,
+                  "lng" : -122.4292511197085
+               },
+               "southwest" : {
+                  "lat" : 37.7842754197085,
+                  "lng" : -122.4319490802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "6c34db954947fe709b120321bde1f7061641c3fc",
+         "name" : "New People",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2911,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100386519351312175206/photos\"\u003eKris Engel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAK_61pHPI7cqDhCp1sRU7n70q6OFtCSXN5EretseAzEXzEMFQbBg9mCcPj8gN-lNoeSnI7GThVWFwdNMyfeGf6GZd0VSQDI58S8MCSFq78wHlWsfk4iHQSEO5DYNam9ILacEqRwIODw337TmRIaNGBTba4AcVB2etcLuKUq7yrqBEhDf4fV1TAxDvByjPPdBHdkbGhQD3vKQ8w5QQxoNtJFIp1vq3mTxNQ",
+               "width" : 1863
+            }
+         ],
+         "place_id" : "ChIJxYJR2riAhYARAG4Ru9aHLPo",
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAGhKMLYpBcuCEK-mTKa7thR0RH_uWgTrPanAZCIutvga-NigsI818W5elJrlmYdrZPy7mKjIMeYdqWvlxbAK1Q32wxhPfrEdQFXJcNJ7rdNTKORJjATGSSnAOl4h_GF2OEhDvP5ayP5ocNigr2mdXpMR6GhSeQq-Os4hy7WBJM3o4o1aXQfli0A",
+         "scope" : "GOOGLE",
+         "types" : [
+            "movie_theater",
+            "cafe",
+            "food",
+            "clothing_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1746 Post Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7020189,
+               "lng" : -122.4702845
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7033688802915,
+                  "lng" : -122.4691621197085
+               },
+               "southwest" : {
+                  "lat" : 37.7006709197085,
+                  "lng" : -122.4718600802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "20c886ab0da5faa6c6c20187ca18efe203be45d8",
+         "name" : "Century 20 Daly City",
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105307673303185085266/photos\"\u003eGerman Lising\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAANlyWjO4d4BtaUB2MS666fyFDUuyMOW2MBI2shB9iYE-3IvQAedfCwR12YwA_dbdp1wKHu8EnqaN2DRra_TxI5bCKOO89O5xBbKYBeUXHH67lIs3WkeyER-g0kRFm9hS4CY8GlJte7hnK3hiEevZSbNzS4tdust4PlKzse85tX8WEhDXXp_hOSZnzjqxGutuKBIdGhSD1-DqldvUUT-UL9Xpi35yC-W9oQ",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJbzxsjEB8j4ARMzaEAY4Sn8M",
+         "rating" : 4.2,
+         "reference" : "CmRSAAAAolOitkiD3oxCAcot_UQjXD778EzefXgdVFO8MG6VY-chxLNurnhMlkaYrTPmhugibtA_sxMPNmFq6fEf5IawYy1VjEGlVQ17V-cYctDwcGFLc6iT7kc40HGbToaknaRYEhDDK1ke6oterR5U6EmOIuBPGhQjZAKfmj5lY3C9v91QM7iEY1X9lA",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "1901 Junipero Serra Boulevard, Daly City"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7904982,
+               "lng" : -122.4343491
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.79185758029149,
+                  "lng" : -122.4329185197085
+               },
+               "southwest" : {
+                  "lat" : 37.7891596197085,
+                  "lng" : -122.4356164802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "45e5ad405cb687cb44bf9683f555fea2293074ce",
+         "name" : "Clay Theater",
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109400472359143849946/photos\"\u003eDaniël de Wit\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAIGcqt7l_I3QJ4_lhMr29cZZKHFbOIkjHAAS4zkNQ6KdKWSbxnM9fOdUMWJNA7f8yJGvbDbJbBL5f_arj1nqEmcQiYmrSbepSaZmSdUKQay9JINN3VEjwW6XwXZQCkE6PwW5K0jShz3jysIsWSDZeYrCz76Ckg7vhBvkCzjI8nhGEhDjG4k2qXo050SronZKvCWkGhSSiz2skYLW3hLYaHAfXxA0df6llQ",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ4S_uE8aAhYARlhwHO4Nbrwo",
+         "rating" : 4.3,
+         "reference" : "CmRRAAAAyPd4BpTGo39G_rmJW04eQZlnJdCuafqO3lVfcJjckUlk6o6FgHjKkulj6fjE_eSMuNtGwwBC2HczRtSFW_fl3Ug8y7aeHh6bfTSrEDF821Q8PdYuMW8Af2iWlo9ev1CfEhDJFd6IF5xjaHiypzTJLm9nGhSK-GT3KmPO0t5mlj4fyspS-6hJPQ",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "2261 Fillmore Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7398028,
+               "lng" : -122.4665508
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7412104302915,
+                  "lng" : -122.4652827197085
+               },
+               "southwest" : {
+                  "lat" : 37.7385124697085,
+                  "lng" : -122.4679806802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "b643b195def4c10fe076f986cd353f3e05da7054",
+         "name" : "CineArts at the Empire",
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117211711134427721008/photos\"\u003eMary Smith\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFCOmK1iSREJUWscJJl_u9VzzxUui0Zldh_avRerNqKpBOTIHythRRW046e56o6MEDSJ8tTXz8DkNknntu8vzy7urdjX_XIQo63B0Fknj6Tfbe9J4iW1md1MUWsAb5AHweVjMlKd4ZJGbBWySfS-rAqfufwjS_IOGVDyVZs9GDeVEhDxfpMXRURuaTNAf5jBkimDGhTMizzGxF0cOITHlQk6wydplPFJ2Q",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJSfl29ep9j4ARo-U7RQoejA4",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAA-jTMwb7XuO1mrxN9B199obQK0y4a1QpCOMDJgHwTm-AaE8sJgOBnXqGqaCYR36VJpyAp1O3FyGzg_Kf3opkuooqU4egI3z6zdCuxvrSUq8KI_kjTU-Brye54aqE9hiFEEhD1qYC7sGykL6f5DwqzGDGsGhQ8rZgs1aaUAc5Pk-xyZF8f_qVwCw",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "85 West Portal Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7758592,
+               "lng" : -122.4979727
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7772081802915,
+                  "lng" : -122.4966237197085
+               },
+               "southwest" : {
+                  "lat" : 37.7745102197085,
+                  "lng" : -122.4993216802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "14d4d8769941bfe0416d3ad6ffc6848f40b31c08",
+         "name" : "Balboa Theatre",
+         "photos" : [
+            {
+               "height" : 780,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101548106408718163291/photos\"\u003eweber Crow\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAFREHYlGw-O68f13a0sGzNzhiwrMcCmNdAJKf2qPetb_yDjtcJB11eJoVLE7bbU9nkTsbivM49qkLiH89wjVEz2PDvAPQu7Ie-ytVpHauwnflPc5QccS9NXF7kGsydp2USVO77zKeWhclssG5lc2gSZB0Foy1LkudFZ4wifCVgvIEhAX5wqr2kRG5sel8j7DAtz6GhToD3WyrX8QKHdtm3G84EfJ8sXltA",
+               "width" : 1052
+            }
+         ],
+         "place_id" : "ChIJD9qE-6WHhYARYDtpvads6FQ",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAtX8MiSZv6FEFFAMZ_bKK-i_t1flTPghF-CKefPri3ycSyIScoBIzYUrE6HnpAo4uuX2SNPa8ArH35th6jI7iDBx-bQAaISD7Ft1JBC3hSFQ4V02dELu0ZpmaGTTScEEREhD1mIfxXfmKj4zRj3NKiRejGhQrAe-N37QZaC8aJXCVQB5o5DFk9w",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "3630 Balboa St, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.800377,
+               "lng" : -122.441968
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.8015912802915,
+                  "lng" : -122.4405912697085
+               },
+               "southwest" : {
+                  "lat" : 37.7988933197085,
+                  "lng" : -122.4432892302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "8fd2ab10b4af2cbd55646609567493ad01f1ca0a",
+         "name" : "Presidio Theatre",
+         "photos" : [
+            {
+               "height" : 1362,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102205536282361549875/photos\"\u003eIan Foster\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAtj6glyTNLJQP8qGfouy4YyzhZiaxSzWIiLyq-SHFnXjfISacKnoLKfiM041NqNOIY2yG4puosNmMQrx5kbtthdcKGaQzq_MKUwKIX0TuJQcjYMIcSH9qmTrj9hsdkRz0u9H9wtIRDZbgLbO5THUapLbYlEW34N2C9YDSDqdyjkEhCqnKR6BApE5nBFzbRK4_9lGhRlKLJg07VpTnTl1nwhfprztI9RDg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJe15ZOtSAhYARiatsgofrEEQ",
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAMwgVcOoyQhYu9GTafwLRD9LdHkS42rjyfGg5g23jfMqT9MHlvFPml_OapZO2LzlEHjg6kllXMhZu8MMoIx_uObFzZGiIDxQJQG4Anf6M6WuzkwrPxXfdkQb3ymaUdua3EhA8v9wlDsdX6sxc45-WCv42GhRB7uy7at3-44REy1Zay3ndZIsrCA",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "2340 Chestnut Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7883349,
+               "lng" : -122.4467064
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7896333302915,
+                  "lng" : -122.4453468697085
+               },
+               "southwest" : {
+                  "lat" : 37.7869353697085,
+                  "lng" : -122.4480448302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "e0903360eb0ec0d463b227d0828f729347cfa789",
+         "name" : "Vogue Theatre",
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109383364523945736298/photos\"\u003eKathleen S\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAM6zoBMUxn_-4C_er5BJfJtggglhNYFgXWv9v-1ly5VGEOzPIYfvJNBRQbc7gIJnKOPtf6mC6XdzoRMT7NNRAXcfgYV8qc6WptjgI5SRfXr64G8s6TT4PpxM_mclNMsFLOhL4DW9RWomhmS8lSH_tV862m_lmluUb_zVIMejRNd2EhDMnkolF0OXNB0W3zvVrDcJGhSKX9mTFPOtsfzPQ_7uxHbWyI8Maw",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJUYTcTDOHhYAR43PddjOzrCI",
+         "rating" : 4,
+         "reference" : "CmRRAAAAIRS5B7iw6etMn6aEwH0FIUV7869d5I-D5tHiaTwH3Az9q2vWzGDqe_dPdWyCOy2AA8evCidppobpWne7tk1y6d40AoZH4TuaxMXWMeWM6c7lwNO_1p4NvgzMD04eMJhMEhDmSdF-TS5UscnF6MyHqOfyGhQNqqApX-WBxdqdW4pGZ1KtHW8Y_g",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "3290 Sacramento Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7887008,
+               "lng" : -122.4194521
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.79010583029149,
+                  "lng" : -122.4181145197085
+               },
+               "southwest" : {
+                  "lat" : 37.7874078697085,
+                  "lng" : -122.4208124802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "4a42cd5edfe11569544c548f8f66682d95cc4fd7",
+         "name" : "Alliance Française de San Francisco",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 301,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107751850460274330997/photos\"\u003eAlliance Française de San Francisco\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKwGgwjFwX-M2U-MeDbsa_kccVoT83H66G_GGe-PGloxEy8aQ1VXxyMJrXdX-fPXJhVNY5v05ZbsYTqMQH8BC5p6HMbDeTwRe2Hcb8cK0Z6Yknj10-3jsT8zT8Ishqir539eNDXBDefzUYxOz7oa-3Z7m-q4lxcjEaauh5ZCcUwxEhCIRAzOHjFl8yDir77nX0mqGhTfBfJCZLM0vdRd_DHtwjCzyi-f2g",
+               "width" : 751
+            }
+         ],
+         "place_id" : "ChIJScDCX5SAhYARTWfddThg4p0",
+         "rating" : 4,
+         "reference" : "CmRSAAAAAvksIrykVrBMooP_ISvC7GQVbFxcVniLeOht0saEKiKWNqxN_m2Heb-AL8MO7g2OZmKzlomlsoUlZYoanHa6NHMAB04Z8D8KS399he7xaKNH-wKptrxxZpsPFdtKNYjkEhCGibng5QznEZ_MrBrIUFvnGhRt_sMAKAVwUsMMQSrLg4tiy6GYWQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "movie_theater",
+            "library",
+            "school",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1345 Bush Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.80040899999999,
+               "lng" : -122.4386512
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.8018145802915,
+                  "lng" : -122.4373130697085
+               },
+               "southwest" : {
+                  "lat" : 37.79911661970851,
+                  "lng" : -122.4400110302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "04265cfbf8f8bef208f7c6aa86a45a188ecc5f51",
+         "name" : "Marina Theatre",
+         "photos" : [
+            {
+               "height" : 972,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115877612390906203055/photos\"\u003eWalkertwo SFO\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAPzb__-sn7w1bZDNeWJ-jW_qmkq4xUzKtAZh5buFuTcklTyjv_K2bBAQE-JT6k5UrL2YRLvmsZAS1FMwAjc0XB1qsOdD0ViqAjh7mva3W5HBw1J3c3xHMZW5QlrLWliEnmgAYm5YUAFBXzkSrLlfEZ_ByAKBDuNNPhvKN0ifP647EhBrxgsVW4ruROXXrEexuOssGhTnzRXniS0cR0dvU9wsRI4FB0S7Sw",
+               "width" : 1296
+            }
+         ],
+         "place_id" : "ChIJsRQL3NaAhYARCEfpBS90A70",
+         "rating" : 3.7,
+         "reference" : "CmRSAAAAkqBgfH6_1qRBnZXUZTIPV3D8nFZvPE518xffDnPLcPShZ92UtTk9pGM7zADJ7nI4dF3qu9ezofcsolHMKhIuHvKFw6gbro8R5Ls5_SGsmBCsLSFKD-bIsmHxzCR5BmGrEhDZdc3nQoCPhxTODVS5XdaiGhTFsPgfJwB_GYEtkLln_wmVX5roKg",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "2149 Chestnut Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7894639,
+               "lng" : -122.401621
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7907278802915,
+                  "lng" : -122.4001599697085
+               },
+               "southwest" : {
+                  "lat" : 37.7880299197085,
+                  "lng" : -122.4028579302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "494e2875ada709d07b060003de43f9036cb7823c",
+         "name" : "Variety Childrens Charity",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 446,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110735359302441926406/photos\"\u003eVariety Childrens Charity\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAALhw8Lih_WjmvNg7CE_4uBpLk_s7sINqNen_KxqFGyWUq6BGozKlfxF8Owo8r1ojmNZbKOb7SAqklgw2R55AWobmjGTAZ464sgbSh-9HhLXTbhAqUCazQJJjuFEmyO17T_exv5jXllvPcK1B_F6phH5PZrWMxjChixh1JY54Gz25EhB1ml71s2VS5Jb_8VVZwzjzGhQ69jMstg3WkJ2-Q1V5N5F42emPAg",
+               "width" : 447
+            }
+         ],
+         "place_id" : "ChIJ2Z7yKoiAhYARpJHTCTXvdww",
+         "rating" : 5,
+         "reference" : "CmRRAAAA7gMDGRjhrvuX-3nmrbbxqsx0kHinpoBFRHvT79_a7nSuwANalSDwCa7yBAqEPhhr_n5qeEusgZ2j1b2am7qUdVeu8nWw5GgKD-iDVMzgdTNCRaOXvnC0rHrKgm1zU722EhDoCShPBcFpVHwPdURuQFOtGhStq0TjVKGRijdlcgI9vYppN2fgZw",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "582 Market Street Suite 101, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7822418,
+               "lng" : -122.4829307
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7835283302915,
+                  "lng" : -122.4815772697085
+               },
+               "southwest" : {
+                  "lat" : 37.7808303697085,
+                  "lng" : -122.4842752302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "65df7a8e444e72ea7ad73ee78e4870df51843962",
+         "name" : "Four Star Theatre",
+         "photos" : [
+            {
+               "height" : 2340,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109930353641000809048/photos\"\u003eLito Dequina\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAANAyhIZhQMOKNil-vkgLNE59nqJuYcnWyismMQUIUQGMOwborIleucwcqg4wpwC39OOxo9bVKfxasXb_poq2Aau-1CZQdW4TXfp1doSW6wN043Q-8txkfG4jFQULzm6scgAFvDJG_ySt0Xx-2DXWS6TR06GiaZ64voF01d2qrnaHEhBk0ngHzN-tZV1mJyn82hHmGhTPbAE5hL-0skYSPyZgAcXAEZZCTA",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJETvrcgWHhYARprNARB3Chko",
+         "rating" : 3.8,
+         "reference" : "CmRRAAAAmHlHO0J-fa9khkYzkd8aowU88p2NdQhBJbZr8jpC6sefNyYwOffXmWcTAwzSeE4xmIbkqkebn3Dmiz6DtYA0OqLD98-iP6zkSD6IP6D9gTxyuWjaHJqEt1atj2zzNouHEhCI-ZOOZAqUxVxnlNkkJ5GDGhSXQnGqFBS0qp2keuqWSZdr1-0MZQ",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "2200 Clement Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7703436,
+               "lng" : -122.4046536
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7717625302915,
+                  "lng" : -122.4032145697085
+               },
+               "southwest" : {
+                  "lat" : 37.7690645697085,
+                  "lng" : -122.4059125302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "87864ca1d1c5370682cdb8c20b8d20a0b32b8d59",
+         "name" : "VIA - San Francisco",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1366,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113644496856298903812/photos\"\u003eVIA - San Francisco\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAACesPA4S8B9Q28FjI8fowuJfdjqDVMZJ5L8b6o2wRlBN4GjIcWFFC6P550ueFnbqifF0mUHU9AXqqwVAu7kCs9_ZEUsJIa641GnH-NrQ0nfg5R78Xn715mWo02Mq7885ANYsPqfx3d-fxB_gEGO18xCeohu5I49F_pcdCaQvMDMZEhBdJmYpJ6S7vQTRiHbzaXhCGhSmP9uJ9LKf12RXjn7CqtaZsIKUTg",
+               "width" : 2000
+            }
+         ],
+         "place_id" : "ChIJ4ZwV-Cx-j4ARs1xfjXVT-BQ",
+         "reference" : "CmRRAAAA4WD7NEXZjzd_iStMRc9Iul_2VJ4ySniKWhmXdrNJHHEVqa5YUKZUUgnmGKmzsyLgQTU2Kj8aNGKlgu_-LKEFv4nnMPY5voTPW07HMeSkrH1tvlKDj98qvyJGi-XUr2EREhCEaDfCg-B4nR_mkzE7cdApGhTo0meuFc3dhz7-k_sBsivqbCn4lg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "movie_theater",
+            "electronics_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "680 8th Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7876887,
+               "lng" : -122.449521
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7890376802915,
+                  "lng" : -122.4481720197085
+               },
+               "southwest" : {
+                  "lat" : 37.7863397197085,
+                  "lng" : -122.4508699802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "bf978954058697709d6d1e199d7226939a0cb6c0",
+         "name" : "Jennmaur",
+         "place_id" : "ChIJ94FMdTOHhYARIOXcMTHaQmE",
+         "reference" : "CmRRAAAAvW-ZRfTfi4wflTlUy62RF-uqqo1zLjMBYc4wgM4PAVIr2aEJ_uS6blTGpHIw7gtJE0KGqhxvUoPxh9f749o0MCSzhcSaAxokoTwM75QF-eU0h9Aph0H44LGYLNyoWRh3EhCLiRm-IDq_w6wmX2iA9INoGhQTHcg2tcHGTIjKtO4zaOOtsOz2lg",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "3457 Sacramento St, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.76956399999999,
+               "lng" : -122.450251
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.77091298029149,
+                  "lng" : -122.4489020197085
+               },
+               "southwest" : {
+                  "lat" : 37.76821501970849,
+                  "lng" : -122.4515999802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "ca332e546f43deaddba1aab1fa85fdd10a373621",
+         "name" : "Loved To Death & LTD",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2688,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116324907433896530792/photos\"\u003ekyle minx\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAANKa9naLrJNlTNJWkyyLkQnrwJRHm6mI0Ww-sB2uD3QlekKvgOUbt5nwdq0XtvC2tzsMfriZAj2HGfpL-l_tmVuE2lVtKbj9fYnRwV7ng6hkdDBFmK2N9juAQTVv9Hbq2JU4NBJrXBdfJrK6Bslhrp0Ma0XeKLIYX0PgpZf5jfQKEhAbkagG-Jn2Camx9URStcSGGhRSoaaZQk-bUAwzELu7H5a8tkeZvw",
+               "width" : 1520
+            }
+         ],
+         "place_id" : "ChIJ01L6rVOHhYAR67WXLydbY4k",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAsEj_LCwUlmU1r9JHPBX0BqjzzLGr0L8uABlRFkO829I4sq3N4VmTQGsAwmrUKoqMojDOjhSBUVqWmMD-NAD8y5NSX-3A2TVacHAcRkwgN0wV8jrmwg_96WHo1bB90RtCEhCXPcPSEMZmA0jKSLBphdxhGhT0G9zmtdrrsWHqJXJYdmICP5qYyg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "jewelry_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1681 & 1685 Haight St, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.782123,
+               "lng" : -122.4801343
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78353523029151,
+                  "lng" : -122.4787890697085
+               },
+               "southwest" : {
+                  "lat" : 37.78083726970851,
+                  "lng" : -122.4814870302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a874123b0783af1a9d345dc141c46df1fc345b72",
+         "name" : "Clement Nursery",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116242068176044298136/photos\"\u003eClement Nursery\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMXdjEggw8yudH77CE1Mq0R7cdycgRguyWEx7f1lTgCzegyt9PKmBxu9UhGx3G9aaGhIX7n2CadjHw4rS8e5noGP4A_1Dn01VncF0rKIAp9iORPCZZabITbBjW9fMLv2twIjKtFAkYEbQKOxq8R0qTWz3zfsmYRDFA5nLjAPjsFJEhBiaEBAZKDAxFquntuZ8_B1GhTNrzK6j-h13Ty7dIUFY9d_hEhpmw",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJr91GqBqHhYARjoBL1qf6cDw",
+         "rating" : 4.6,
+         "reference" : "CmRRAAAA41BXY3EcbA__SfD8M655dAo9b4TU-qxvVRP6q1VbyZNUSSX2B7JarQO_hTmRalzlVZr_axhRcFWNob1jVawqkVbxt8heEOU76X7TOi97HzEEgRCmeRxoP9w_7SmaYpyMEhAyUPAo0a5CHbcVRf-w1QwXGhQQhMZKBHA1siTfRxCiQ0FvwThw9A",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "jewelry_store",
+            "food",
+            "furniture_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1921 Clement Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.762387,
+               "lng" : -122.506261
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7636813802915,
+                  "lng" : -122.5049083197085
+               },
+               "southwest" : {
+                  "lat" : 37.7609834197085,
+                  "lng" : -122.5076062802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "9b025f25af3b4a3ceb84c7531367ef51bc55cd64",
+         "name" : "Mollusk Surf Shop",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101944075622179538211/photos\"\u003eJillian Dittrich\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAIzymG3LhhKL-h5ySclg6hhxblsy8HrFrFFt1wFPwHUQ6VL8bT3Xjo3UCxrGITcVvLhd2iwEwMXdduPh2eFs3kSq6uLUI9HOH5LxKKAm6kTriOU8G1zaxAxItIVpijtf3liIuWSIyJRLzI8pR_HXV1_4I1MAhr5wdjYoshZvlRG8EhCl5UQ15XYNi5SWtyg4_LHLGhTgE0sv63edHMNy-HkIWzVIZUwyYw",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJUc0_q5eHhYAR8FypeN8XsC0",
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAW3kRhPSZLfQ8hiPYCn7GNpy3PGsRDoYDLeGFrSS4yo_mMog_1g_TiZDb-9SQs8pZsucCN3laWEM6aiKPeK2V2hiPkCJRkhYoslVR16xg-FFtZbY5kJsIc37Zn1M_-Lw_EhAzMppSNuhOOmrVhxIIFyHZGhRawyi8xv2bc608nHWr8KzNM_ypRA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "clothing_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "4500 Irving Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7717866,
+               "lng" : -122.4322117
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7731864802915,
+                  "lng" : -122.4308731197085
+               },
+               "southwest" : {
+                  "lat" : 37.7704885197085,
+                  "lng" : -122.4335710802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "0af0047337d8749ab85c5f35c2180c62ce3bf588",
+         "name" : "Edo Salon",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2425,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112646242288993901994/photos\"\u003eLee Markosian\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAkSqlPoAQ3bWIO3OM8qvSGVjhlcM3EOyGi_RkTqZNFoqdkSo2tnAkI9XovgUu_Y1YLx35fWcGyH9nKhcRmnxRU62TxOrPqC0-bmo7pg8uN0WcA3tPqAt0EniKFRjTYeYp3JtK2xxsaByaH2LdNBDaI0lqC8pb3HAVzi1OpqYw2hEhBUbdwnp2Kope7W__7P65arGhQ31vxWamGCUIiGH0sLkLITaznRAw",
+               "width" : 2425
+            }
+         ],
+         "place_id" : "ChIJ0YWnjKaAhYAR3hzdGS6vnMY",
+         "rating" : 4.1,
+         "reference" : "CmRSAAAAohOpQkfVqFBereDQZTok53ECNX7KNPDO0zexABxTSsO0cY41Z7MvbNb_f_VD06aXULehsY1MUby9rEpQszUO1d0r4IOAIVF6PUtfjmzRfvW2yEf1TD8xV6vtYlA6MKX4EhB_7nduJCnVO33-LS4A3JAbGhRKcYRUOFEJ1qE9BDNwnP2nlM61eg",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "601 Haight Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.783202,
+               "lng" : -122.4616898
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7844879802915,
+                  "lng" : -122.4603358697085
+               },
+               "southwest" : {
+                  "lat" : 37.7817900197085,
+                  "lng" : -122.4630338302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "62e1ffc2aa0714771d0776618653796ad77c3763",
+         "name" : "Park Life",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109486404807375486585/photos\"\u003eKelly Poole\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAMZqTEnKEtbYLOi6hFR5cEJdO0YJ7T81rqaqTRMpKSHEi1mB38E0ZGWh10vzsSWLT6T9HuwXGVLHfioD7JxoUDI4zRX6fQgubCaPH5x3qT_KnaAtVOSqthw_qL6gd3OBFYZVwQMLRKI2BmVSFSuzWPHrfGUjw91G3rf3SpSJ9eunEhA6B1iA2ncN5r2f5BMaJek_GhSThglubrqZUXl9W0fVeaVkwlK_GA",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJyeWK2TuHhYARkNhBZqfJGp4",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAITXpYiKKDyZgK7Vrw6rr9GlmDrd8lewrGwHfr9ppQqnB-y95W6Yw5lO-KXsgBaAyBbOlFNMQIk2DNCvVtpabVfvWAzFQH0Lj4bynqUZUG6y3vuDySmhfzTkK9KPRCB6XEhAYfAOLmdExRFIFi1VkUYbhGhSnrigHFfk6dVocPc0n7UGuk2q9NQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "220 Clement Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7451061,
+               "lng" : -122.4533144
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7463391802915,
+                  "lng" : -122.4518553197085
+               },
+               "southwest" : {
+                  "lat" : 37.7436412197085,
+                  "lng" : -122.4545532802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4b9d54c71080e6fc3d9c03a1ce255fe7e0e75e11",
+         "name" : "A Woman's Eye AWE Gallery",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJgXUHKOd9j4ARqwkGl9N0PCE",
+         "reference" : "CmRRAAAAylNXCsQ95A4MGIBsX3yshUZYKQQ_zg8PUnXiDSqrjRmnjBYpVMfy80ep6fcnRtzUpi1N-6qifSWU68o5-FfNp4ebue4pygSUHHvno2x3JmKgCzYaXWCCF2shZcix2HR0EhAzPNf29WGnj44SUw2nbZXOGhRaLv3i69Ot1qEzC68u4N6EJuab1A",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "678 Portola Drive, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7292269,
+               "lng" : -122.4767096
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.73056363029149,
+                  "lng" : -122.4750212197085
+               },
+               "southwest" : {
+                  "lat" : 37.7278656697085,
+                  "lng" : -122.4777191802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e5297701f77d95b8317bdb3a8f612758fc27c1c8",
+         "name" : "Limited Too Stonestown Galleria",
+         "place_id" : "ChIJP5NLubt9j4AR_yt7Rfi0Sfk",
+         "reference" : "CmRSAAAAwZ_n_jp2YP3hQyfyjB8Y_KAqfFprPjiHl0QYzWOcjKpN9f5Y7zKR2v5QW0Bw4fYioAHKAWABFobnqLCktj3qfx0QlSfhXRePRslsrDc_TTkT_sEgfNkS5ySKQQh9NoJrEhDGRsXNLc5cZNVL2UelbRj8GhRM4ANMpa3Jj9Uq_jJzIXpAi-JRYw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "3251 20th Avenue Ste 108, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.77517700000001,
+               "lng" : -122.437517
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.77650738029151,
+                  "lng" : -122.4363108697085
+               },
+               "southwest" : {
+                  "lat" : 37.77380941970851,
+                  "lng" : -122.4390088302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "550151e74b519bcac6f036b894d8ef0d80eb0805",
+         "name" : "Rare Device",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100014332484104825649/photos\"\u003eTom Hilfer\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAIEDsY_XYm_DvZDFJmMuMnYJH4GNbd5G4A4EZHoBl8KqrS7CsMS_yMheOBig1TU93jNdU_l7S4L0raxmrI3c4oLPtyT-ZnzQ9JHC5O4Jkbx4zJ1J6rLnGDmqDTSKLa_HiLzoIgI9RlhoVDbFqwky-7YU8eE5Nvaw6MzHNiCs2ZOSEhCcT98JDvJ5juLCXJDrE2BdGhTHI-Pg9NDx8__r1wnw4T3Ezu6LeA",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJ3RnGA6CAhYARV2p1qDRTMtA",
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAXqbahGZ1h1XKxY_fc8iYDXtVxWgcF6JM9JHmz2MckdktqUyXZ8WGRvseyXa_CZSnxLIjjN2iVz8nhLBZXnGy5iDNnYqvfVS8OHO1vq6zrv_9tu1DE9eyaqeX7I9Nj2q3EhBC8lvWGOol0aBx-wmTiZqKGhRtbDmW91yvA4Z8klzKvXgEXLWEvw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "jewelry_store",
+            "clothing_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "600 Divisadero Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.776367,
+               "lng" : -122.4379304
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7777086802915,
+                  "lng" : -122.4366373697085
+               },
+               "southwest" : {
+                  "lat" : 37.7750107197085,
+                  "lng" : -122.4393353302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "5b8479c5d6ca4a7ebbff1224b5c9c174d78c5182",
+         "name" : "The Perish Trust",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110211973256588916868/photos\"\u003eMariah Horan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAADdfbcRjcDcuQDrQMptf0VxANvfgo9wdQHXBF1-DSlPL1Ge-L8GZsxBlO4YThbLz5nW_DrpBYzG0dy3XUFdBkhJAk8B8FryfTt5NyFZoLZxci33bLaFmBG7G9T1Vczw3hQpi-xWJlyT6UGRF5kPAyT7xv9UHLgG2fYXxCPxtWw2GEhBL0g0gqGIXvX15td76jFycGhQGYCtr8vtYw2_QN2czsvzL5tiEoA",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJSzEyLLCAhYAR1CO4N2JlyrU",
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAQrBeUC7pIuxJbI9i9Kse5mELsW3WUN_V8S1A8Amr0Em20mAS1nYc6EEEWXWZJlSQKixu4Vwt7d-LA4XbcgnzeIup6_XbwSNM8RodplUSW_aKQRLPIwkUSw1j47wEc3_uEhAfJRB4rfzylIvMQAO_-ptMGhS8M929UNmLEBDMlkWflkKsHRlzNA",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "728 Divisadero Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7757169,
+               "lng" : -122.4658971
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7770620302915,
+                  "lng" : -122.4646328197085
+               },
+               "southwest" : {
+                  "lat" : 37.7743640697085,
+                  "lng" : -122.4673307802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7ee487a00b81c3126bdd6cd69faef52b9c49b6c6",
+         "name" : "John Mc Evoy & Associates",
+         "place_id" : "ChIJJ3b7jECHhYARAPH528Y0FDk",
+         "reference" : "CmRRAAAA8i6KnpwWktCu39hZjIl_sL_R1IX4kVmSQOox1nfBzbNos238BBhZnmrbaFFsengtIpyxMIQ06YHTNd8IuaBuOMSPNO-1OD7Gv2lVzJ8960aUEEDmJNgxwkEDqLj_0pTKEhDjn032LthBMW0yOF1ngmYlGhS_A0VeZGez8Afvq_LJcaA7XkPr1A",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "680 8th Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78654239999999,
+               "lng" : -122.4404963
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7879098802915,
+                  "lng" : -122.4390023197085
+               },
+               "southwest" : {
+                  "lat" : 37.7852119197085,
+                  "lng" : -122.4417002802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "9b97d1dc711464cb3284b1f38d3dbf433be238fc",
+         "name" : "Michael W Perry & Co",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 562,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109314078103236099527/photos\"\u003eMichael W Perry &amp; Co\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAGkvsS9IDZm6GWk3znxUOGji5xJ286r6DUVhGEf0Vl7XUb4WsTMGO_WsoyUZJ_8TKgR-4j0rOlSNgyNhnycfuqat6FYOGCKAhYidW2_6heqthzFfTmcfrE-Rcn4koRUrk3ziGAZwfR3Qz3ZoUF-o5JkqS2qgUfLgkkTXQEMd1HBBEhD4ZZuSQTmFuRJvh4mhSRrNGhQP5rHjunu9olWux4Vro-xgOrkjXg",
+               "width" : 749
+            }
+         ],
+         "place_id" : "ChIJc1fhmsmAhYARlG1bD59s4Es",
+         "reference" : "CmRRAAAA0nf8Sq_F_wRK-atiJ5eu0XEz_tBzUHMU8FxAbF7AsIJmlILHPt1ErU-_GgJ4gqPOhvMVyi0IjTJHdspYHcPhJ1Fye-Wq7ASfD6y9K5yqqOw_Rjw4dMzphsHEniJq6fQpEhDIlLImTEVmX9x91_xWthJDGhRP9S1REvFuQDbp3cTCrdvaASIbwA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "book_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1837 Divisadero Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7620673,
+               "lng" : -122.5067638
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7635103802915,
+                  "lng" : -122.5054212197085
+               },
+               "southwest" : {
+                  "lat" : 37.7608124197085,
+                  "lng" : -122.5081191802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "63fd0b83deb1065ba9b9a43882fbc4c032ba32c8",
+         "name" : "3 Fish Studios",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2400,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102558916290153962421/photos\"\u003e3 Fish Studios\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKk08OIbiCNn6VcQZ09kXWwwWX9XXBeboapyijoYHGPM476W0X5lIhnNaAdOG4yQ_UkAP0Us_xhm4TyhADthHC1-2XUOPGMXr4XYV_jQgRJ5ijziN9Plr1Rt1q4SLcJ99On6uQloLKbBLIH0iaaanxZzMnde6sEq37y9Sp0NLqJgEhChnwr1_SR2H0YuE69aWtF4GhSzR6cWI_xQ_unyS6EmbPqzf3uw3A",
+               "width" : 3598
+            }
+         ],
+         "place_id" : "ChIJzaFLV5aHhYAR2V1JZ0GnOAM",
+         "rating" : 5,
+         "reference" : "CmRRAAAAdK84iKeRdPh4H-AJs68i4OkLXfE6NoFblPZ0OamGWIyEEeQkIdQT4ex6arhzzLEVy13Nl6qHpdR2_ryzUJkiYELXH8peixFp3sPiY0JIVwSQxLFYfX121-WlNRzAN8eUEhA4jZNGDchWwPsUlaN8Fb4DGhQjEX_dyBZioOoQ-MjDSS7BHIuiqA",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "4541 Irving Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7861956,
+               "lng" : -122.4713227
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7876395802915,
+                  "lng" : -122.4699804197085
+               },
+               "southwest" : {
+                  "lat" : 37.7849416197085,
+                  "lng" : -122.4726783802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "e4d22991abbe7c0f306aaa93a133c9a073b51061",
+         "name" : "Table Asia Gallery",
+         "place_id" : "ChIJW8xDRBiHhYARfBBtIsmKsBg",
+         "rating" : 5,
+         "reference" : "CmRRAAAAo7MT-m6jUcj-aVlScNOedRkomKpZ09-G2LnxkkaG7AP5nu0ghDR4cC4QFOirQeJ9ZPGiOaOr3lLmVQlLJ2LKY7zDHLjcqM2HOOUVeJiGbCKC5Xlib-FOH-KE2U_-rtmbEhDnjUep48AHoNa5-cU_PX-VGhRf0-ACR2ulpJI4P_db6zkR21SE1Q",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "furniture_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1101 Lake Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7474145,
+               "lng" : -122.4821321
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7487560802915,
+                  "lng" : -122.4809506697085
+               },
+               "southwest" : {
+                  "lat" : 37.7460581197085,
+                  "lng" : -122.4836486302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e5d1582fce22b2fddc50773dd1b350430e893cb3",
+         "name" : "My Ketubah Art Studios San Francisco",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102289776151030552529/photos\"\u003eMy Ketubah Art Studios San Francisco\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAEUoS2k7HVQKrOHG2zEdnHEWMlUg6r-Q5DLbhkbNR0oBNaR-ScppRXfGFBKSDq6hsgXseEQdw5l8kkXvZvRNjockCnaeW--4qZ3ckDdttfrkm0I9RLSlcd0tQQRqkeYWHV9DJ3Vl9sxXvXdNSpL20MPbXDovM5KU5BTAF-yKVELEEhAlc5HWQ_JfrL8Kg5lbuoGUGhTqT1_mgLxfdWElWgRttYd4pXwCbg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJVZaswoV9j4ARU1Vjma5IjbM",
+         "rating" : 5,
+         "reference" : "CmRSAAAAUe-cbjx39sCwtQLpCEowZxrxpq1rBGtqe6g2RWQBTjA-xhAlaelrNt8QNZdbOCTHBQak0O7dIDFLyyyEvPVcfHeduCMk_JbQshiJrcDaKaZWn9uE8wem-ywqxHe4zeRDEhBE-MMGcCpylFeSyf3yS04kGhQh8wVCCisMlUIkCHEMxnXfBNenrA",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "2150 25th Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.772296,
+               "lng" : -122.452742
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7735824802915,
+                  "lng" : -122.4513788197085
+               },
+               "southwest" : {
+                  "lat" : 37.7708845197085,
+                  "lng" : -122.4540767802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "165c342757cd0505b59dfd04e4073265474f30d0",
+         "name" : "Gendell Gallery",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 277,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111458380346270939474/photos\"\u003eGendell Gallery\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAH_W8U6izrT2Bn3kv28duaGVSZDYAK1pBXA__aTMESSSgrAriCQCAXD4UMZV-OV879XJjFnIG2S51X4Lit9wxBQOjnZP8PUFygsG6FXXAh1knbtgkYKpc35Cc-Lala4z348J01kWFkF0S9-5CGnVlIS_woyUNVyrljB_8lDYK1Y8EhC_zxNPMj7Swo-IFqYx3RiDGhSmO6UNGYJsaUl--HOIRg5Nv9cW5w",
+               "width" : 277
+            }
+         ],
+         "place_id" : "ChIJJ9YCw-uAhYAR7nLCtcE933A",
+         "reference" : "CmRRAAAARiegdfrr8MhvSsEEVPJ0JUvk1emVYjeBB6pBu41Nxi-SgGe8EQq7KO8i6jcTRGnpsYe7qsEeLo5aisd9_5mZfgCqs-9ed4dzhFEifZTeSTN1sdqK7QRgFHuHy1kO74LvEhDxzGlo2Yiu_JcgFMlP0CZiGhTM1MZzmGZDqBYbSCRykWd0zuIVfg",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "2100 Fell Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.77038419999999,
+               "lng" : -122.4455954
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7716384302915,
+                  "lng" : -122.4442263197085
+               },
+               "southwest" : {
+                  "lat" : 37.7689404697085,
+                  "lng" : -122.4469242802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "6dc1f54ef285407d7514b01fd4eddbb3c08feb88",
+         "name" : "Love on Haight",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113400233753564666590/photos\"\u003eLeonard Zhao\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJ4BZVFahg3TZDklAryQX4w6OkGSyx52wDZb15IqfSfVJC3mVHgoDxhOHD-aXSPuNKbRPfGmjBiQwzte1gpbBeTqsnfJMzmLJfqpsR9u2av6kMGeyQwkJ_uzbTvgXx6K5QYfMT5ufokt_kexGLTUv-MJ0Yh6lMY5WC-ppJ6nHS2zEhAXjxBHp5Db2m4gqVd3uLfbGhTn_EvxxxsaER9p_BW--HyYCME4rQ",
+               "width" : 1152
+            }
+         ],
+         "place_id" : "ChIJR8stwKyAhYARiYUn531moy4",
+         "rating" : 4.9,
+         "reference" : "CmRRAAAA3Sewq6BAVV30KklclE0bkj1DqbL_4YIsOLozhsTYvcIS7j5tDSF-kN47yUw90yB_eFXgD13Rul4qB4qSJzhGJjCn6F12DLv-5JkVxtryrshGoDpbehNma2dXR4DKy8TgEhABLk5X05KOFVR29ZH4grTWGhS245k8BVoOkYBV3WzpoUH3ck-nqg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "clothing_store",
+            "art_gallery",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1400 Haight Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7386546,
+               "lng" : -122.4687054
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7399390302915,
+                  "lng" : -122.4672731197085
+               },
+               "southwest" : {
+                  "lat" : 37.7372410697085,
+                  "lng" : -122.4699710802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "27ba3d3631ecc44812b733e1d8b31b50deae9769",
+         "name" : "BJ Martin Photography",
+         "photos" : [
+            {
+               "height" : 571,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117576764480006974771/photos\"\u003eBJ Martin Photography\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOJg6qxPHW1YzxO6PU-Y7r9vnmSjhdeDJ5UPejioVMtH2r1wDDoYxWfCE-DEaoXaxCsBw26HrgK-YxE30rxhoM_B-FS7gBQkiZduHUZ6JOwLuT46dXO5uXi9tm0YmqSt8L_AWHXyJd0Jh__elk53mKLd2qyfzU1_3SpqXqgpBSTLEhCsPeIVi5Y-ySbIXr03W7MMGhT15zT4QF-rnor-LDV0Eawq6QcM1g",
+               "width" : 929
+            }
+         ],
+         "place_id" : "ChIJPceTuup9j4AR880AUiqDGkA",
+         "reference" : "CmRRAAAA-MQZ-UCkuqDBOnW1-ht5y7VyZialeANW2pWyM7ytzcGFPXxtzZNc2G_zzjgHv7y2SZV3G6PvGuUZwzJDOnw3KJO5CSHUHwkJQAr-inGkzEnCsVV8IEoGsB2xL5ShRO58EhD8oFBmZG-keTy5xPEedSAIGhQL7zyYEzJ1yTXY4-BA1805R7D2Qw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "236 West Portal Avenue, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78160949999999,
+               "lng" : -122.4871736
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7831148302915,
+                  "lng" : -122.4858366197085
+               },
+               "southwest" : {
+                  "lat" : 37.7804168697085,
+                  "lng" : -122.4885345802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4e0f546f696aa700892c771f36d2f5d4906f103c",
+         "name" : "Mach Print Go Go Go",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 360,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103157124543671966136/photos\"\u003eMach Print Go Go Go\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAM7nU_au1JPWHBwr543Ezf3VR5zQgxnLAHOHCMrNhMEu0E0_cog1cY_tTp1Ip2XT5BBJEMvHTuDmiRk7i9ryoXPMUV3kk5rgWV-EP9ka9RLmBSEtcGa59y0gzEXC_p9HOOWr_7xB2xwymZ-bYCCbraUByHa72RUFLRkjVFbTUTn5EhBxPSm05dUTVsnQjc2rvn3TGhTypE0D2cuW9pePdIHs_gKNgJUxqg",
+               "width" : 480
+            }
+         ],
+         "place_id" : "ChIJjygDZQaHhYAR-vxyv8Sd_-Q",
+         "rating" : 5,
+         "reference" : "CmRSAAAAAI-4GUP45v2yzvx9dNBNbE0fpV1EWboGB5Ge7yzfI51XrgZ7zXpQeo79C9Tv0HB9t6LbzVPIHMRyu9Ps0cy4M18omxHsi3VwFHMqJfR1-mhFt0zvXMYQst3ZbmP3pX7rEhCRrVQ5wOv-Fy09h8KYk_8JGhTHqciFW3pxTB8Qy0z9GFzBa0us2A",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "2605 Clement Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.760405,
+               "lng" : -122.440061
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.76184398029149,
+                  "lng" : -122.4387210197085
+               },
+               "southwest" : {
+                  "lat" : 37.7591460197085,
+                  "lng" : -122.4414189802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "259dc1c629848fea55764459261376bc696d7c4e",
+         "name" : "New Deal",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJn6NeDgR-j4AR2QSzGG6fIaU",
+         "rating" : 5,
+         "reference" : "CmRSAAAA9rrccjrahdqdZ1_ciOqStxrhlnAEQeLYjpb-pnjvkHh65d-san0GMKWEVjzhsUNz0h_5TbfpoTcfl_6C1TsE6jUySyZ0Yuc6X05H0DPpW7hKqOBc2zXk6yCYUHey3ALYEhCXry7YSML8XaofBtCvfAhnGhRnTcBmb_oZh0oTROverutlTXUIKg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "furniture_store",
+            "art_gallery",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "4529 18th Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7890963,
+               "lng" : -122.4107247
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7903802302915,
+                  "lng" : -122.4093615697085
+               },
+               "southwest" : {
+                  "lat" : 37.7876822697085,
+                  "lng" : -122.4120595302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "9ad1dba371f2e94e514f41763a2827b37dde6a1e",
+         "name" : "Academy of Art University",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108918724202930496912/photos\"\u003eRika Aman\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAGF2_2KM7ZBlMPGt_eeJ5dYyGbZ-p5Xzij4sA79KCkzXI_TZrOrvvGUwKcPz-CMXXhCMXlecY9agAvtmKNrxcMCpW9_0oiyWNzloZfYCu7rLDZ4ZpLcyfdJXDmu9Qseqnl1eiEj34DtMiqpwzzBNX5T0T6iS0IyF6UbGEvLW4lPPEhDbnJGuCjhlvuKhgOTTCpGPGhT_tJwi2bYLvyKSxSeAqZ_KjSUIBA",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJmV4JeI6AhYARTV7ZqxuOdKY",
+         "reference" : "CmRSAAAAgPKbU9JjqxKjQUIDa2oTsF_KlMtl0anMyIV4NpD4wZ5cMMuk0GT0joWi34nJ35ulotGcqc8JNYd3uRjBON7NGF4xffawflEGuQ7YfQP7QFw2PO95aEhMeG2Uo5gUQATwEhB5S5u6T9EpMXwWRIZJ4aYjGhQAGL_ClQSWFsPyvKIYQYoXKxU4hQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "university",
+            "amusement_park",
+            "gym",
+            "health",
+            "museum",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "620 Sutter Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7833758,
+               "lng" : -122.4022928
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.7846096302915,
+                  "lng" : -122.4010852197085
+               },
+               "southwest" : {
+                  "lat" : 37.7819116697085,
+                  "lng" : -122.4037831802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "170790186606c3e5cdb5feaeaf1084c75c5a6900",
+         "name" : "Children's Creativity Carousel",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2304,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103594026264127040754/photos\"\u003eDaniel Tyson\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAM-G9m0eVu4PiSR9VUKl-7I3pq6Xu71SKp2FJZDAtp-xKV8_hUNxkK_If0QjSZBeDICGBleEuBcZHM1yMWDxWFws9anKbl8nb5HGOEHTm4kXvzlXn5o-K7PpS2Svae2WKpcMQjPWU5rNveUNkaAhVoUprFBPz6BO569S7-mWJEHuEhCj7iJ5A4aR30fQiu9dpHJUGhRuZ1WSjcYG3hbQN3B-xkklTnnBDQ",
+               "width" : 4096
+            }
+         ],
+         "place_id" : "ChIJt1SMQ4eAhYARsgwtv6TIX90",
+         "rating" : 4.3,
+         "reference" : "CmRSAAAAs_10yW_o2paPZXTAAnuoQg7tou0l6lEzdL0IS8uMkuK9GaqXmdf79UBrV4s4OVgg5MZMTj8ndPyyCGwtoUuqNGgDjmGhrvNgLyFvzrEWOXRdT7Cn90_rrVjaw-2Hd-phEhAx2YtJBgtEsPsWi68QMIEjGhRBloGBxmqQHcFI4JQ_z2yC73nhRw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "amusement_park",
+            "park",
+            "museum",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "221 4th Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7880002,
+               "lng" : -122.4166688
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78933993029149,
+                  "lng" : -122.4153920197085
+               },
+               "southwest" : {
+                  "lat" : 37.78664196970849,
+                  "lng" : -122.4180899802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4e01e6b286212830617672df6a4b99a1360b716b",
+         "name" : "PanIQ Escape Room San Francisco",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 417,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112210224026891336007/photos\"\u003ePanIQ Escape Room San Francisco\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJ4r3LNoGHv1kbT1UL4HmJcEEjOwyDmZ5x7ooMZWuwxZD6BmrRgshjWSlEfsa6AEWlpVGBGEKT08cpXG8I0tTcxFF261ugoNzpJaLzPO4mzvoecIVHt9FCL_0rINhJs12jTFMlsgLPzBzOthIaVFZ07j18n1ue4WEBz3XsAO_qv0EhDCYmPQnlTgD7yhHPadKv3GGhRpg2dryl0snQ3vGME92NBEWZIggw",
+               "width" : 944
+            }
+         ],
+         "place_id" : "ChIJM2U9w5OAhYARGB7LvNTEMkE",
+         "rating" : 4,
+         "reference" : "CmRRAAAAp57rcrNVVbhGz5lIe9dh4a0dVeCn9a5liDZaxn3TCMK6z3CZ62GGMS3bQCn2XoMiYnz-Qpkn6klb6RuOczXGF6Teww7G_ccSnkQFUF5cCCVXvlrSaOiNWkC1ub_gXc-tEhDZVfz9YeQkoGpQcjeX_4leGhQBXuwitG0Q18A42lfKw9789_sOUA",
+         "scope" : "GOOGLE",
+         "types" : [ "amusement_park", "point_of_interest", "establishment" ],
+         "vicinity" : "750 Hyde Street, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.78051469999999,
+               "lng" : -122.480004
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.78179353029149,
+                  "lng" : -122.4786494197085
+               },
+               "southwest" : {
+                  "lat" : 37.7790955697085,
+                  "lng" : -122.4813473802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9fc30a6b223d662a6d746840431a0b6b7d0979a9",
+         "name" : "Imagination Playhouse",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1284,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107550160782278534545/photos\"\u003eImagination Playhouse\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAI7GveY78bfyim4EcktaDXrQq_blIVx9PYCz1oCOV1pDIeIQ75_AFNWTqWYBlDbIe_jJavICo-VwcETpOZRsOZenI_986fhH9h2v0EpaY_jcu7HIjKwzVj-2pzXdcsij4H__JyNWdVoU-EgqFwr5Ihtz5lRS2c97OPnCsSGxDDlXEhCaYACKuJlMPIQ82K37CiaRGhRkKak8GSlaCtbj8Lvb8tAByojeJw",
+               "width" : 1288
+            }
+         ],
+         "place_id" : "ChIJdyqsJBCHhYARH1xOTSzYZuc",
+         "rating" : 4.8,
+         "reference" : "CmRSAAAAu7OBL9ngebRBacObiW5a_pMND6ZgPfbTqZsec0wt8DbqWbIqcUbddUETthzRkWbD1kJ-Xa3UANz7INpyvFwtF5mEbz1IdJIJD7kQJLeyFcsxaWA3KRkQvGThlNyDtZiPEhCR9qOWtwys4yqGMwv0kxYmGhSKF-KfQoLfQguI1COH7uq_P1fzwA",
+         "scope" : "GOOGLE",
+         "types" : [ "amusement_park", "point_of_interest", "establishment" ],
+         "vicinity" : "5628 Geary Boulevard, San Francisco"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 37.8090126,
+               "lng" : -122.4100113
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.81035938029149,
+                  "lng" : -122.4086460697085
+               },
+               "southwest" : {
+                  "lat" : 37.8076614197085,
+                  "lng" : -122.4113440302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1217d5a044e4a3285cc423c3f110077d4f41d4c9",
+         "name" : "Indoor Entertainment of Ca",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJHSGzi_yAhYAR7QkERRA7wOg",
+         "reference" : "CmRSAAAAEWz1-29xc29rPaOOkP_edPmF9BOcUxjJF32TJYZK8uLk2yjAOPH9ThsasRTrBqKdFnq_7BBccJ90Uy9nPI0wNeM4sVnRD2iHGAj6PHVWZh-h6JkFqXPDKimCn5-zT2GTEhA_mj6eO77zKWzHMAXqAzJpGhTl_zfcgwNOzmZF0Z7Ysm1mWZqveQ",
+         "scope" : "GOOGLE",
+         "types" : [ "amusement_park", "point_of_interest", "establishment" ],
+         "vicinity" : "39 Pier, Pier 39 Concourse, San Francisco"
       }
    ],
    "status" : "OK"

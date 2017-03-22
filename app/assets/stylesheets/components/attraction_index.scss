@@ -23,15 +23,28 @@
 
   .attraction-index-footer {
     width: 100%;
-    height: 40px;
+    height: 55px;
     bottom: 0;
     position: absolute;
     background-color: $dark-teal;
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    i {
+      margin-right: 10px;
+      font-size: 36px;
+      color: white;
+    }
+
+    i:hover {
+      cursor: pointer;
+    }
   }
 
   .attraction-list {
-    height: calc(100% - 80px);
+    height: calc(100% - 95px);
     width: 100%;
     overflow: scroll;
 
@@ -92,6 +105,9 @@
 
       .attraction-item-tags {
         display: flex;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
 
         li {
           padding: 4px 8px;

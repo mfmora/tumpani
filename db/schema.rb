@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20170315165332) do
     t.string   "state"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
+    t.index ["place_id"], name: "index_attractions_on_place_id", unique: true, using: :btree
   end
 
   create_table "taggings", force: :cascade do |t|

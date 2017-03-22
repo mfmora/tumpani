@@ -5,7 +5,7 @@ import AttractionDetail from '../attraction/attraction_detail';
 class AttractionMap extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { openDetail: false, attraction: {} }
+    this.state = { openDetail: false, attraction: {}, attractions: [] };
     this.markers = [];
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
     this._addInfo = this._addInfo.bind(this);
@@ -25,18 +25,25 @@ class AttractionMap extends React.Component {
     };
     this.setState({ openDetail: false });
     this.map = new google.maps.Map(this.mapNode, options);
-    this.props.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+    if(this.props.attractions) {
+      this.props.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+    }
   }
 
   componentWillReceiveProps(newProps) {
+    this.setState({ openDetail: false, attractions: newProps.attractions });
+  }
+
+  componentDidUpdate(newProps) {
     const options = {
       center: newProps.center,
       zoom: newProps.zoom,
       mapTypeControl: false
     };
-    this.setState({ openDetail: false });
     this.map = new google.maps.Map(this.mapNode, options);
-    newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+    if(this.state.attractions) {
+      this.state.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+    }
   }
 
   _placeMarker(attraction, map) {
