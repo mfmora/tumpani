@@ -2,6 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import PhotoGallery from './photo_gallery';
 import ModalStyle from './modal_style';
+import ReviewFormContainer from '../review/review_form_container';
 // import AttractionDetailMap from '../attraction_map/attraction_detail_map';
 
 class AttractionDetail extends React.Component {
@@ -63,9 +64,7 @@ class AttractionDetail extends React.Component {
             <span>{ this.props.attractionDetail.street_address}</span>
             <span>{ this.props.attractionDetail.city}</span>
           </div>
-          <div className="add-review">
-            Add Review
-          </div>
+          <ReviewFormContainer />
           <div className="show-reviews">
             Reviews....
           </div>
