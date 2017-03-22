@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactStars from 'react-stars';
 import AttractionDetail from './attraction_detail';
 
 class AttractionIndexItem extends React.Component {
@@ -41,13 +42,19 @@ class AttractionIndexItem extends React.Component {
       attractionDetail = <AttractionDetail
                             attractionDetail={ attraction }/>
     }
+
     return (
       <li className="attraction-item"
           id={ "attraction-item-" + attraction.id }
           onClick={ this._openAttractionDetail }>
         <container className="attraction-info">
           <span className="attraction-item-title">{ attraction.name }</span>
-          <span className="attraction-item-rating">{ attraction.rating }</span>
+          <span className="attraction-item-rating">
+            <span>{attraction.rating}</span>
+            <ReactStars edit={false}
+                        color2={'#F44504'}
+                        value={ Math.round(attraction.rating) }/>
+          </span>
           <span className="attraction-item-address">{ attraction.street_address }</span>
           <ul className="attraction-item-tags">{ tags }</ul>
         </container>

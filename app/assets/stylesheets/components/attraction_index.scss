@@ -87,6 +87,16 @@
           font-weight: bold;
         }
 
+        .attraction-item-rating {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          > span {
+            margin-right: 2px;
+          }
+        }
+
         span {
           padding: 2px;
         }

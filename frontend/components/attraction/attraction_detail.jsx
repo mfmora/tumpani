@@ -64,7 +64,7 @@ class AttractionDetail extends React.Component {
             <span>{ this.props.attractionDetail.street_address}</span>
             <span>{ this.props.attractionDetail.city}</span>
           </div>
-          <ReviewFormContainer />
+          <ReviewFormContainer attractionId={this.props.attractionDetail.id}/>
           <div className="show-reviews">
             Reviews....
           </div>
