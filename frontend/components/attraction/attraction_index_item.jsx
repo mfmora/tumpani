@@ -11,7 +11,7 @@ class AttractionIndexItem extends React.Component {
   }
 
   _openAttractionDetail(e) {
-    this.props.router.push(`/home/attraction/${this.props.attraction.id}`);
+    this.props.router.push(`/home/search/attraction/${this.props.attraction.id}`);
   }
 
   componentDidMount() {

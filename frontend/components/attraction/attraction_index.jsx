@@ -27,6 +27,7 @@ class AttractionIndex extends React.Component {
   }
 
   componentWillReceiveProps(newProps) {
+
     let { attractions } = newProps;
     if(attractions.length > 0) {
       let pages = [];
@@ -101,6 +102,7 @@ class AttractionIndex extends React.Component {
             </i>
           </section>
         </section>
+        { this.props.children }
       </div>
     )
   }

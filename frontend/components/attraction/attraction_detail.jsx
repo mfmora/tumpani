@@ -44,7 +44,7 @@ class AttractionDetail extends React.Component {
 
   closeModal() {
     this.setState({ modalOpen: false, photos: [] });
-    hashHistory.goBack();
+    // hashHistory.goBack();
   }
 
   openModal() {

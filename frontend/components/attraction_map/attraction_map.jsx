@@ -15,7 +15,7 @@ class AttractionMap extends React.Component {
   }
 
   _openAttractionDetail(attraction, e) {
-    this.props.router.push(`/home/attraction/${attraction.id}`);
+    this.props.router.push(`/home/search/attraction/${attraction.id}`);
   }
 
   componentDidMount() {

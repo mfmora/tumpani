@@ -28,8 +28,8 @@ const Root = ({ store }) => {
         <Route path="/home" component={ HomeContainer } onEnter={_redirectIfNotLoggedIn}>
           <IndexRoute component={ TagIndexContainer } />
           <Route path="search" component={ AttractionIndexContainer }>
+            <Route path="attraction/:id" component={ AttractionDetailContainer } />
           </Route>
-          <Route path="attraction/:id" component={ AttractionDetailContainer } />
         </Route>
       </Router>
     </Provider>

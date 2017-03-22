@@ -14,8 +14,8 @@ const style = {
   content : {
     position        : 'fixed',
     top             : '50px',
-    left            : '100px',
-    right           : '100px',
+    left            : '50px',
+    right           : '50px',
     bottom          : '50px',
     padding         : 0,
     border          : 0,
