@@ -4,8 +4,10 @@
   justify-content: center;
   align-items: center;
 
+
   .image-container {
     background-color: black;
+    box-sizing: border-box;
     width: 100%;
     height: 400px;
     display:flex;
@@ -19,6 +21,12 @@
     font-size: 86px;
     color: transparent;
     transition: color .3s;
+    
+    // Avoid selection
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
   }
 
   i:hover {

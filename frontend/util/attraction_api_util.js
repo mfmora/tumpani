@@ -13,3 +13,11 @@ export const searchTag = tag => (
     data: { tag }
   })
 );
+
+export const createReview = review => (
+  $.ajax({
+    method: 'POST',
+    url: 'api/reviews',
+    data: { review }
+  })
+);

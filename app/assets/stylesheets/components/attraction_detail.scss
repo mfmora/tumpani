@@ -1,14 +1,17 @@
 .attraction-detail-resume {
   display: flex;
-  padding: 20px;
   flex-direction: row;
   box-sizing: border-box;
+  height: calc(100% - 400px);
+  flex-wrap: wrap;
+  justify-content: space-around;
 
   .attraction-detail-info {
-    width: 33.3333%;
-    height: 100%;
     box-sizing: border-box;
-    padding: 0px 10px;
+    padding: 20px;
+    width: 33.3333%;
+    min-width: 270px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     line-height: 1.5;
@@ -23,12 +26,18 @@
   }
 
   .add-review {
+    box-sizing: border-box;
+    padding: 20px;
     width: 33.3333%;
+    min-width: 270px;
     height: 100%;
   }
 
   .show-reviews {
+    box-sizing: border-box;
     width: 33.3333%;
+    min-width: 270px;
     height: 100%;
+    padding: 20px;
   }
 }

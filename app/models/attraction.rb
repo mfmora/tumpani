@@ -3,6 +3,7 @@ class Attraction < ApplicationRecord
   validates :place_id, uniqueness: true
   has_many :taggings
   has_many :tags, through: :taggings
+  has_many :reviews
 
   def self.find_by_text(text)
     Attraction.joins(:tags).where("lower(tags.public_name)
@@ -13,5 +14,11 @@ class Attraction < ApplicationRecord
   def self.find_by_tag(tag)
     Attraction.joins(:tags).where("lower(tags.public_name)
       LIKE '#{tag.downcase}'")
+  end
+
+  def average_review
+    rates = self.reviews.includes(:rate).pluck(:stars)
+    rates.inject(:+).to_f / rates.length
+    # Get AVG from all his reviews
   end
 end

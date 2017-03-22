@@ -40,6 +40,7 @@ def seed_from_api
 end
 
 User.create(username: "demo", password: "secret")
+User.create(username: "fernanda", password: "secret")
 
 Tag.create(name: "point_of_interest", public_name: 'landmark')
 Tag.create(name: "museum", public_name: 'museum')
@@ -49,3 +50,12 @@ Tag.create(name: "movie_theater", public_name: 'movie theater')
 Tag.create(name: "amusement_park", public_name: 'amusement park')
 
 seed_from_api
+
+Rate.create(stars: 1, message: 'Eek! Methinks not!')
+Rate.create(stars: 2, message: "Meh. I've experienced better.")
+Rate.create(stars: 3, message: 'A-OK.')
+Rate.create(stars: 4, message: "Yay! I'm a fan.")
+Rate.create(stars: 5, message: 'Woohoo! As good as it gets!')
+
+Review.create(user_id: 1, attraction_id: 1, rate_id: 4, message: 'This is the best landmark in all city.')
+Review.create(user_id: 2, attraction_id: 1, rate_id: 1, message: 'Terrible park.')

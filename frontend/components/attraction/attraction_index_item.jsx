@@ -13,7 +13,7 @@ class AttractionIndexItem extends React.Component {
     this.setState({ openDetail: true });
   }
 
-  componentWillMount() {
+  componentDidMount() {
     let service = new google.maps.places.PlacesService(document.createElement('div'));
     service.getDetails({ placeId: this.props.attraction.place_id }, (place, status) => {
       if(place) {
