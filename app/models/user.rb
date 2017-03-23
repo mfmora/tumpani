@@ -4,6 +4,8 @@ class User < ApplicationRecord
   validates :password, length: { minimum: 6, allow_nil: true }
 
   has_many :reviews
+  has_many :bookmarks
+  has_many :attractions, through: :bookmarks
 
   attr_reader :password
 

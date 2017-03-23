@@ -85,6 +85,16 @@
         .attraction-item-title {
           line-height: 16px;
           font-weight: bold;
+          display: flex;
+          align-items: center;
+
+          i:hover {
+            color: darkturquoise;
+          }
+
+          .bookmarked {
+            color: darkturquoise;
+          }
         }
 
         .attraction-item-rating {

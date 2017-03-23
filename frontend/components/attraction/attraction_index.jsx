@@ -26,6 +26,20 @@ class AttractionIndex extends React.Component {
     }
   }
 
+  // shouldComponentUpdate(nextProps, nextState) {
+  //   console.log(nextState);
+  //   console.log(nextProps);
+  //   debugger;
+  //   if(this.state.currentPage !== nextState.currentPage) {
+  //     return true;
+  //   }
+  //   if(this.props.attractions !== nextProps.attractions) {
+  //     return true;
+  //   }
+  //
+  //   return false;
+  // }
+
   componentWillReceiveProps(newProps) {
 
     let { attractions } = newProps;

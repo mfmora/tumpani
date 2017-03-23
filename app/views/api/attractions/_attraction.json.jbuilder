@@ -1,6 +1,7 @@
 json.extract! attraction, :id, :name, :place_id, :image_url, :street_address, :city
 
 json.rating attraction.get_rating
+json.bookmark attraction.bookmarked?(current_user.id)
 
 json.position do
   json.extract! attraction, :lat, :lng

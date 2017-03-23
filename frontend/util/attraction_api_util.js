@@ -21,3 +21,11 @@ export const createReview = review => (
     data: { review }
   })
 );
+
+export const addBookmark = bookmark => (
+  $.ajax({
+    method: 'POST',
+    url: 'api/bookmarks',
+    data: { bookmark }
+  })
+);

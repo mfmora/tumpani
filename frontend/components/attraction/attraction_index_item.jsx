@@ -9,6 +9,7 @@ class AttractionIndexItem extends React.Component {
     this.state = { photo_url: '' };
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
     this._loadReviews = this._loadReviews.bind(this);
+    this._addBookmark = this._addBookmark.bind(this);
   }
 
   _openAttractionDetail(e) {
@@ -38,6 +39,12 @@ class AttractionIndexItem extends React.Component {
     });
   }
 
+  _addBookmark(e) {
+    e.preventDefault();
+    this.props.addBookmark({attraction_id: this.props.attraction.id});
+    e.stopPropagation();
+  }
+
   render() {
     let { attraction } = this.props;
 
@@ -48,12 +55,30 @@ class AttractionIndexItem extends React.Component {
       ));
     }
 
+    let bookmark;
+    if(attraction.bookmark) {
+      bookmark =
+      <i className="material-icons bookmarked">
+        bookmark
+      </i>;
+    } else {
+      bookmark =
+      <i className="material-icons no-bookmarked"
+         onClick={ this._addBookmark }>
+        bookmark_border
+      </i>;
+    }
+
     return (
       <li className="attraction-item"
           id={ "attraction-item-" + attraction.id }
           onClick={ this._openAttractionDetail }>
         <container className="attraction-info">
-          <span className="attraction-item-title">{ attraction.name }</span>
+
+          <span className="attraction-item-title">
+            { bookmark }
+            { attraction.name }
+          </span>
           <span className="attraction-item-rating">
             <span>{attraction.rating}</span>
             <ReactStars edit={false}

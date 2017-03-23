@@ -4,6 +4,8 @@ class Attraction < ApplicationRecord
   has_many :taggings
   has_many :tags, through: :taggings
   has_many :reviews
+  has_many :bookmarks
+  has_many :users, through: :bookmarks
 
   def self.find_by_text(text)
     Attraction.joins(:tags).where("lower(tags.public_name)
@@ -24,5 +26,9 @@ class Attraction < ApplicationRecord
 
   def get_rating
     self.reviews.empty? ? self.rating : average_review
+  end
+
+  def bookmarked?(user_id)
+    self.users.pluck(:id).include?(user_id)
   end
 end

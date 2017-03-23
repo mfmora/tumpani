@@ -18,6 +18,16 @@ class AttractionMap extends React.Component {
     this.props.router.push(`/home/search/attraction/${attraction.id}`);
   }
 
+  // shouldComponentUpdate(nextProps, nextState) {
+  //   if(this.props.attractions !== nextProps.attractions) {
+  //     return true;
+  //   }
+  //   if(this.state.attractions !== nextState.attractions) {
+  //     return true;
+  //   }
+  //   return false;
+  // }
+
   componentDidMount() {
     const options = {
       center: this.props.center,
@@ -47,11 +57,24 @@ class AttractionMap extends React.Component {
   }
 
   _placeMarker(attraction, map) {
-    let marker = new google.maps.Marker({
-      map: map,
-      position: attraction.position,
-      animation: google.maps.Animation.DROP
-    });
+    let marker;
+    if(attraction.bookmark) {
+      let blueIcon = 'http://maps.google.com/mapfiles/ms/micons/ltblu-pushpin.png';
+
+      marker = new google.maps.Marker({
+        map: map,
+        position: attraction.position,
+        animation: google.maps.Animation.DROP,
+        icon: blueIcon
+      });
+    } else {
+      marker = new google.maps.Marker({
+        map: map,
+        position: attraction.position,
+        animation: google.maps.Animation.DROP
+      });
+    }
+
 
     this.markers.push(marker);
 
@@ -64,6 +87,7 @@ class AttractionMap extends React.Component {
 
   _setOpacityMarkers(opacity) {
     this.markers.forEach(marker => {
+      marker.getIcon().fillColor('#F1C6B1');
       marker.setOpacity(opacity);
     });
   }
