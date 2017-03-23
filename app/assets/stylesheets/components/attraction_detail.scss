@@ -25,6 +25,20 @@
     }
   }
 
+  .review-exist {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 33.3333%;
+    min-width: 270px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
   .add-review {
     box-sizing: border-box;
     padding: 20px;

@@ -12,6 +12,7 @@ class AttractionDetail extends React.Component {
     this.state = { modalOpen: true, photos: '' };
     this.closeModal = this.closeModal.bind(this);
     this.openModal = this.openModal.bind(this);
+    this._userWroteReview = this._userWroteReview.bind(this);
   }
 
   componentWillMount() {
@@ -22,6 +23,13 @@ class AttractionDetail extends React.Component {
         photos.push(photo.getUrl({maxHeight: '400'}));
       });
       this.setState({photos: photos});
+    });
+  }
+
+  _userWroteReview() {
+    let reviews = this.props.attractionDetail.reviews;
+    return reviews.some( review => {
+      return review.user_id == this.props.userId;
     });
   }
 
@@ -51,6 +59,13 @@ class AttractionDetail extends React.Component {
   }
 
   render() {
+    let reviewForm;
+    if(this._userWroteReview()) {
+      reviewForm = <div className="review-exist">You already wrote a review</div>
+    } else {
+      reviewForm = <ReviewFormContainer attractionId={this.props.attractionDetail.id}/>
+    }
+
     return(
       <Modal
         isOpen={ this.state.modalOpen }
@@ -66,7 +81,7 @@ class AttractionDetail extends React.Component {
             <span>{ this.props.attractionDetail.street_address}</span>
             <span>{ this.props.attractionDetail.city}</span>
           </div>
-          <ReviewFormContainer attractionId={this.props.attractionDetail.id}/>
+          { reviewForm }
           <div className="show-reviews">
             Reviews....
           </div>
