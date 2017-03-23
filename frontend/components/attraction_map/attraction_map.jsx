@@ -6,7 +6,6 @@ import AttractionDetail from '../attraction/attraction_detail';
 class AttractionMap extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { attractions: [] };
     this.markers = [];
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
     this._addInfo = this._addInfo.bind(this);
@@ -40,20 +39,33 @@ class AttractionMap extends React.Component {
     }
   }
 
-  componentWillReceiveProps(newProps) {
-    this.setState({ attractions: newProps.attractions });
-  }
+  // componentWillReceiveProps(newProps) {
+  //   if(this.state.attractions !== newProps.attractions) {
+  //
+  //     const different = newProps.attractions.filter(attraction => {
+  //       return
+  //     })
+  //     this.setState({ attractions: newProps.attractions });
+  //   }
+  // }
 
-  componentDidUpdate(newProps) {
-    const options = {
-      center: newProps.center,
-      zoom: newProps.zoom,
-      mapTypeControl: false
-    };
-    this.map = new google.maps.Map(this.mapNode, options);
-    if(this.state.attractions) {
-      this.state.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+  componentWillUpdate(newProps) {
+    if(!this.map) {
+      const options = {
+        center: this.props.center,
+        zoom: this.props.zoom,
+        mapTypeControl: false
+      };
+      this.map = new google.maps.Map(this.mapNode, options);
     }
+
+    // if((JSON.stringify(newProps.attractions) !== JSON.stringify(this.props.attractions))) {
+      this.markers.forEach(marker => {
+        marker.value.setMap(null);
+      });
+      this.markers = [];
+      newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+    // }
   }
 
   _placeMarker(attraction, map) {
@@ -65,7 +77,14 @@ class AttractionMap extends React.Component {
         map: map,
         position: attraction.position,
         animation: google.maps.Animation.DROP,
-        icon: blueIcon
+        icon: {
+          path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+          fillColor: "#00A3A7",
+          strokeColor: "rgba(0,163,167,.35)",
+          strokeWeight: 1,
+          fillOpacity: 1,
+          scale: 6
+        }
       });
     } else {
       marker = new google.maps.Marker({
@@ -76,7 +95,7 @@ class AttractionMap extends React.Component {
     }
 
 
-    this.markers.push(marker);
+    this.markers.push({ value: marker, attraction: attraction.id });
 
     marker.addListener('click', () => {
       this._openAttractionDetail(attraction);
@@ -87,8 +106,7 @@ class AttractionMap extends React.Component {
 
   _setOpacityMarkers(opacity) {
     this.markers.forEach(marker => {
-      marker.getIcon().fillColor('#F1C6B1');
-      marker.setOpacity(opacity);
+      marker.value.setOpacity(opacity);
     });
   }
 
@@ -96,6 +114,8 @@ class AttractionMap extends React.Component {
     const infoMessage = (
       "<section class='info-message'>" +
       `<h1>${attraction.name}</h1>` +
+      `<h2>${attraction.street_address}</h2>` +
+      `<h2>${attraction.city}</h2>` +
       "</section>"
     );
 
@@ -116,7 +136,7 @@ class AttractionMap extends React.Component {
     if (attractionItem) {
       attractionItem.onmouseover = () => {
         this.markers.forEach(otherMarker => {
-          otherMarker.setOpacity(0.3);
+          otherMarker.value.setOpacity(0.3);
         });
         marker.setOpacity(1);
         info.open(this.map, marker);
@@ -124,7 +144,7 @@ class AttractionMap extends React.Component {
 
       attractionItem.onmouseout = () => {
         this.markers.forEach(otherMarker => {
-          otherMarker.setOpacity(1);
+          otherMarker.value.setOpacity(1);
         });
         info.close(this.map, marker);
       };
