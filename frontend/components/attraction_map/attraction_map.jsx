@@ -58,14 +58,14 @@ class AttractionMap extends React.Component {
       };
       this.map = new google.maps.Map(this.mapNode, options);
     }
-
-    // if((JSON.stringify(newProps.attractions) !== JSON.stringify(this.props.attractions))) {
+    if((JSON.stringify(newProps.attractions) !== JSON.stringify(this.props.attractions))) {
+      debugger;
       this.markers.forEach(marker => {
         marker.value.setMap(null);
       });
       this.markers = [];
       newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
-    // }
+    }
   }
 
   _placeMarker(attraction, map) {
@@ -111,6 +111,7 @@ class AttractionMap extends React.Component {
   }
 
   _addInfo(attraction, marker) {
+    // debugger;
     const infoMessage = (
       "<section class='info-message'>" +
       `<h1>${attraction.name}</h1>` +
