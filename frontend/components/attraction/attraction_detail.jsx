@@ -3,7 +3,8 @@ import Modal from 'react-modal';
 import PhotoGallery from './photo_gallery';
 import ModalStyle from './modal_style';
 import ReviewFormContainer from '../review/review_form_container';
-import {hashHistory, withRouter} from 'react-router';
+import { hashHistory, withRouter } from 'react-router';
+import ReviewIndex from '../review/review_index';
 // import AttractionDetailMap from '../attraction_map/attraction_detail_map';
 
 class AttractionDetail extends React.Component {
@@ -15,7 +16,7 @@ class AttractionDetail extends React.Component {
     this._userWroteReview = this._userWroteReview.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     let service = new google.maps.places.PlacesService(document.createElement('section'));
     service.getDetails({ placeId: this.props.attractionDetail.place_id }, (place, status) => {
       let photos = [];
@@ -31,10 +32,6 @@ class AttractionDetail extends React.Component {
     return reviews.some( review => {
       return review.user_id == this.props.userId;
     });
-  }
-
-  componentWillUnmount() {
-    this.setState({photos: []});
   }
 
   componentWillReceiveProps(newProps) {
@@ -82,9 +79,7 @@ class AttractionDetail extends React.Component {
             <span>{ this.props.attractionDetail.city}</span>
           </div>
           { reviewForm }
-          <div className="show-reviews">
-            Reviews....
-          </div>
+          <ReviewIndex reviews={ this.props.attractionDetail.reviews }/>
         </div>
 
       </Modal>

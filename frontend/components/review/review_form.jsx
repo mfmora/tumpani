@@ -20,6 +20,7 @@ class ReviewForm extends React.Component {
   }
 
   _ratingChanged(newRating) {
+    document.getElementById("review-message").focus();
     this.setState({ rate_id: newRating});
   }
 
@@ -37,7 +38,7 @@ class ReviewForm extends React.Component {
                       onChange={this._ratingChanged}
                       size={24}
                       half={false}
-                      color2={'#ffd700'}
+                      color2={'#F44504'}
                       value={this.state.rate_id} />
           <textarea id="review-message"
                     value={ this.state.message }

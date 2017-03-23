@@ -69,7 +69,7 @@
         width: 80%;
         height: 136px;
         line-height: 1.5;
-        font-size: 13px;
+        font-size: 14px;
       }
 
       button {
@@ -99,11 +99,80 @@
     }
   }
 
-  .show-reviews {
+  .review-index {
     box-sizing: border-box;
     width: 33.3333%;
     min-width: 270px;
     height: 100%;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .review-show-info {
+      align-self: flex-start;
+      margin-left: 30px;
+      margin-right: 20px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      font-style: $font-body;
+
+      .review-title {
+        font-size: 18px;
+        text-overflow: ellipsis;
+        font-weight: bold;
+        line-height: 17px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+      }
+
+      .review-subtitle {
+        color: rgba(0, 0, 0, 0.54);
+        text-overflow: ellipsis;
+        line-height: 17px;
+        margin-bottom: 10px;
+      }
+
+      .review-text {
+
+        line-height: 1.5;
+        text-overflow: ellipsis;
+
+        div {
+          display: inline-flex;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    i {
+      position: absolute;
+      background-color: transparent;
+      font-size: 86px;
+      color: transparent;
+      transition: color .3s;
+
+      // Avoid selection
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -ms-user-select: none;
+    }
+
+    i:hover {
+      color: rgba(0,0,0,.75);
+      cursor: pointer;
+    }
+
+    .prev-button {
+      left: 0;
+    }
+
+    .next-button {
+      right: 0;
+    }
   }
 }

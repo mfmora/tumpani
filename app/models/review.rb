@@ -5,4 +5,8 @@ class Review < ApplicationRecord
   belongs_to :user
   belongs_to :attraction
   belongs_to :rate
+
+  def time_diff
+    Time.now - self.created_at
+  end
 end

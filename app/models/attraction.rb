@@ -21,4 +21,8 @@ class Attraction < ApplicationRecord
     rates.inject(:+).to_f / rates.length
     # Get AVG from all his reviews
   end
+
+  def get_rating
+    self.reviews.empty? ? self.rating : average_review
+  end
 end

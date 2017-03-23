@@ -26,9 +26,9 @@ const Root = ({ store }) => {
       <Router history={ hashHistory }>
         <Route path="/" component={ App } onEnter={_redirectIfLoggedIn} />
         <Route path="/home" component={ HomeContainer } onEnter={_redirectIfNotLoggedIn}>
-          <IndexRoute component={ TagIndexContainer } />
-          <Route path="search" component={ AttractionIndexContainer }>
-            <Route path="attraction/:id" component={ AttractionDetailContainer } />
+          <IndexRoute component={ TagIndexContainer } onEnter={_redirectIfNotLoggedIn}/>
+          <Route path="search" component={ AttractionIndexContainer } onEnter={_redirectIfNotLoggedIn}>
+            <Route path="attraction/:id" component={ AttractionDetailContainer } onEnter={_redirectIfNotLoggedIn}/>
           </Route>
         </Route>
       </Router>
