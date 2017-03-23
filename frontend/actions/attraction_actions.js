@@ -28,6 +28,11 @@ export const createReview = review => dispatch => (
     .then( review => dispatch(receiveReview(review)))
 );
 
+export const editReview = review => dispatch => (
+  APIUtil.editReview(review)
+    .then( review => dispatch(receiveReview(review)))
+);
+
 export const search = text => dispatch => (
   APIUtil.search(text)
     .then( attractions => dispatch(receiveAttractions(attractions)))

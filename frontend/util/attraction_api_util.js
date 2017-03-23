@@ -22,6 +22,14 @@ export const createReview = review => (
   })
 );
 
+export const editReview = review => (
+  $.ajax({
+    method: 'PATCH',
+    url: `api/reviews/${review.id}`,
+    data: { review }
+  })
+);
+
 export const addBookmark = bookmark => (
   $.ajax({
     method: 'POST',

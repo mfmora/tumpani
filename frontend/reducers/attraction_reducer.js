@@ -13,8 +13,15 @@ const AttractionReducer = (state = {}, action) => {
     case RECEIVE_REVIEW:
       const review = action.review;
       let newState = merge({}, state);
-      newState[review.attraction_id].reviews.push(review);
-      newState[review.attraction_id].userReview.push(review);
+      const indexReview = newState[review.attraction_id].reviews.findIndex(oldReview => {
+        return oldReview.id === review.id;
+      });
+      if(indexReview === -1) {
+        newState[review.attraction_id].reviews.push(review);
+      } else {
+        newState[review.attraction_id].reviews[indexReview] = review;
+      }
+      newState[review.attraction_id].userReview = [review];
       return newState;
     case RECEIVE_BOOKMARK:
       newState = merge({}, state);
