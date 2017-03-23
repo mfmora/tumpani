@@ -152,7 +152,7 @@
     i {
       position: absolute;
       background-color: transparent;
-      font-size: 86px;
+      font-size: 50px;
       color: transparent;
       transition: color .3s;
 
@@ -175,5 +175,9 @@
     .next-button {
       right: 0;
     }
+  }
+
+  .review-index:hover i {
+    color: rgba(0,0,0,.75);
   }
 }

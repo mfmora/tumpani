@@ -59,7 +59,6 @@ class AttractionMap extends React.Component {
       this.map = new google.maps.Map(this.mapNode, options);
     }
     if((JSON.stringify(newProps.attractions) !== JSON.stringify(this.props.attractions))) {
-      debugger;
       this.markers.forEach(marker => {
         marker.value.setMap(null);
       });
