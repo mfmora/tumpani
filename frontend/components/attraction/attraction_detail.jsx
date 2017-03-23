@@ -10,10 +10,11 @@ import ReviewIndex from '../review/review_index';
 class AttractionDetail extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { modalOpen: true, photos: '' };
+    this.state = { modalOpen: true, photos: '', notEdit: true };
     this.closeModal = this.closeModal.bind(this);
     this.openModal = this.openModal.bind(this);
     this._userWroteReview = this._userWroteReview.bind(this);
+    this._editReview = this._editReview.bind(this);
   }
 
   componentDidMount() {
@@ -32,6 +33,10 @@ class AttractionDetail extends React.Component {
     return reviews.some( review => {
       return review.user_id == this.props.userId;
     });
+  }
+
+  _editReview() {
+    this.setState({ notEdit: false});
   }
 
   componentWillReceiveProps(newProps) {
@@ -57,10 +62,15 @@ class AttractionDetail extends React.Component {
 
   render() {
     let reviewForm;
-    if(this._userWroteReview()) {
-      reviewForm = <div className="review-exist">You already wrote a review</div>
+
+    if(this._userWroteReview() && this.state.notEdit) {
+      reviewForm =
+      <div className="review-exist">
+        <span>You already wrote a review</span>
+        <button onClick={ this._editReview }>Edit Review</button>
+      </div>
     } else {
-      reviewForm = <ReviewFormContainer attractionId={this.props.attractionDetail.id}/>
+      reviewForm = <ReviewFormContainer attraction={this.props.attractionDetail}/>
     }
 
     return(

@@ -5,13 +5,22 @@ class ReviewForm extends React.Component {
   constructor(props) {
     super(props);
     this.props = props;
-    this.state = { rate_id: 5,
-                   message: '',
-                   attraction_id: this.props.attractionId };
+    if(this.props.attraction.userReview.length > 0) {
+      let review = this.props.attraction.userReview[0];
+      this.state = { rate_id: review.rate_id,
+        message: review.message,
+        attraction_id: review.attraction_id };
+    } else {
+      this.state = { rate_id: 5,
+        message: '',
+        attraction_id: this.props.attraction.id };
+    }
+
 
     this._handleChange = this._handleChange.bind(this);
     this._ratingChanged = this._ratingChanged.bind(this);
     this._handleSubmit = this._handleSubmit.bind(this);
+    this._formInfo = this._formInfo.bind(this);
   }
 
   _handleChange(e) {
@@ -29,10 +38,25 @@ class ReviewForm extends React.Component {
     this.props.createReview(this.state);
   }
 
+  _formInfo() {
+    let info = {};
+    if(this.props.attraction.userReview.length > 0) {
+      info = {
+        header: "Edit Review"
+      }
+    } else {
+      info = {
+        header: "Add Review"
+      }
+    }
+    return info;
+  }
+
   render() {
+    let info = this._formInfo();
     return(
       <div className="add-review">
-        <span className="add-review-header">Add Review</span>
+        <span className="add-review-header">{ info.header }</span>
         <form className="add-review-form">
           <ReactStars count={5}
                       onChange={this._ratingChanged}
@@ -43,7 +67,7 @@ class ReviewForm extends React.Component {
           <textarea id="review-message"
                     value={ this.state.message }
                     onChange={ this._handleChange } />
-          <button onClick={ this._handleSubmit }>Add Review</button>
+          <button onClick={ this._handleSubmit }>{ info.header }</button>
         </form>
       </div>
     );
