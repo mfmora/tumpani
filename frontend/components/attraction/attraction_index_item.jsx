@@ -20,7 +20,7 @@ class AttractionIndexItem extends React.Component {
       let service = new google.maps.places.PlacesService(document.createElement('div'));
       service.getDetails({ placeId: this.props.attraction.place_id }, (place, status) => {
         if(place) {
-          this._loadReviews(place);
+          // this._loadReviews(place);
           this.setState({ photo_url: place.photos[0].getUrl({maxWidth: 400})});
         }
       });
