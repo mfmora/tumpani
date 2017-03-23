@@ -2,7 +2,6 @@ import React from 'react';
 import ReactStars from 'react-stars';
 
 const ReviewShow = ({ review }) => {
-  debugger;
   return(
     <div className="review-show-info">
       <span className="review-title">{ review.username }</span>

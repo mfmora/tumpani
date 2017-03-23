@@ -18,7 +18,7 @@ class Attraction < ApplicationRecord
 
   def average_review
     rates = self.reviews.includes(:rate).pluck(:stars)
-    rates.inject(:+).to_f / rates.length
+    (rates.inject(:+).to_f / rates.length).round(1)
     # Get AVG from all his reviews
   end
 

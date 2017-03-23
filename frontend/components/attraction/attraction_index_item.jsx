@@ -8,6 +8,7 @@ class AttractionIndexItem extends React.Component {
     this.props = props;
     this.state = { photo_url: '' };
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
+    this._loadReviews = this._loadReviews.bind(this);
   }
 
   _openAttractionDetail(e) {
@@ -15,11 +16,25 @@ class AttractionIndexItem extends React.Component {
   }
 
   componentDidMount() {
-    let service = new google.maps.places.PlacesService(document.createElement('div'));
-    service.getDetails({ placeId: this.props.attraction.place_id }, (place, status) => {
-      if(place) {
-        this.setState({ photo_url: place.photos[0].getUrl({maxWidth: 400})});
-      }
+    if(!this.state.photo_url) {
+      let service = new google.maps.places.PlacesService(document.createElement('div'));
+      service.getDetails({ placeId: this.props.attraction.place_id }, (place, status) => {
+        if(place) {
+          this._loadReviews(place);
+          this.setState({ photo_url: place.photos[0].getUrl({maxWidth: 400})});
+        }
+      });
+    }
+  }
+
+  _loadReviews(place) {
+    place.reviews.forEach(review => {
+      let username = review.author_name;
+      let rate_id = review.rating;
+      let message = review.text;
+      let attraction_id = this.props.attraction.id
+      let finishedReview = { username, rate_id, message, attraction_id};
+      this.props.createReview(finishedReview);
     });
   }
 
