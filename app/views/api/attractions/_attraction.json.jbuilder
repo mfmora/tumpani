@@ -17,5 +17,5 @@ json.tags do
 end
 
 json.reviews do
-  json.partial! 'api/reviews/review', collection: attraction.reviews, as: :review
+  json.partial! 'api/reviews/review', collection: attraction.reviews_ordered, as: :review
 end

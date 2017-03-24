@@ -39,4 +39,8 @@ class Attraction < ApplicationRecord
   def user_review(user_id)
     self.reviews.where("user_id = #{user_id}")
   end
+
+  def reviews_ordered
+    self.reviews.order(updated_at: :desc)
+  end
 end
