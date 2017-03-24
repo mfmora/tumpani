@@ -1,11 +1,7 @@
 import { connect } from 'react-redux';
 import AttractionDetail from './attraction_detail';
 import { selectAttraction } from '../../reducers/selectors';
-
-// const mapStateToProps = (state, ownParams) => ({
-//   attractionDetail: selectAttraction(state, ownParams.params.id),
-//   userId: state.session.currentUser.id
-// });
+import { addBookmark, deleteBookmark } from '../../actions/attraction_actions';
 
 const mapStateToProps = (state, ownParams) => {
   return ({
@@ -14,4 +10,9 @@ const mapStateToProps = (state, ownParams) => {
   })
 };
 
-export default connect(mapStateToProps, null)(AttractionDetail);
+const mapDispatchToProps = dispatch => ({
+  addBookmark: bookmark => dispatch(addBookmark(bookmark)),
+  deleteBookmark: bookmark => dispatch(deleteBookmark(bookmark))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(AttractionDetail);

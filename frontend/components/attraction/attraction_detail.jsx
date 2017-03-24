@@ -15,6 +15,8 @@ class AttractionDetail extends React.Component {
     this.closeModal = this.closeModal.bind(this);
     this.openModal = this.openModal.bind(this);
     this._userWroteReview = this._userWroteReview.bind(this);
+    this._addBookmark = this._addBookmark.bind(this);
+    this._removeBookmark = this._removeBookmark.bind(this);
   }
 
   componentDidMount() {
@@ -56,7 +58,35 @@ class AttractionDetail extends React.Component {
     this.setState({ modalOpen: true });
   }
 
+  _addBookmark(e) {
+    e.preventDefault();
+    this.props.addBookmark({attraction_id: this.props.attractionDetail.id});
+    e.stopPropagation();
+  }
+
+  _removeBookmark(e) {
+    e.preventDefault();
+    this.props.deleteBookmark(this.props.attractionDetail.id);
+    e.stopPropagation();
+  }
+
   render() {
+    let attraction = this.props.attractionDetail;
+    let bookmark;
+    if(attraction.bookmark) {
+      bookmark =
+      <i className="material-icons bookmarked"
+         onClick={ this._removeBookmark }>
+        bookmark
+      </i>;
+    } else {
+      bookmark =
+      <i className="material-icons no-bookmarked"
+         onClick={ this._addBookmark }>
+        bookmark_border
+      </i>;
+    }
+
     return(
       <Modal
         isOpen={ this.state.modalOpen }
@@ -67,22 +97,23 @@ class AttractionDetail extends React.Component {
         <div className="attraction-detail-resume">
           <div className="attraction-detail-info">
             <span id="attraction-detail-header">
-              { this.props.attractionDetail.name }
+              { bookmark }
+              <span>{ attraction.name }</span>
             </span>
-            <span>{ this.props.attractionDetail.street_address}</span>
-            <span>{ this.props.attractionDetail.city}</span>
+            <span>{ attraction.street_address}</span>
+            <span>{ attraction.city}</span>
             <span className="attraction-detail-rating">
               <span className="attraction-detail-rating-number">
-                { (Math.round(this.props.attractionDetail.rating * 10) / 10).toFixed(1) }
+                { (Math.round(attraction.rating * 10) / 10).toFixed(1) }
               </span>
               <ReactStars
                 edit={false}
                 color2={'#F44504'}
-                value={ Math.round(this.props.attractionDetail.rating) }/>
+                value={ Math.round(attraction.rating) }/>
             </span>
           </div>
-          <ReviewFormContainer attraction={this.props.attractionDetail}/>
-          <ReviewIndex reviews={ this.props.attractionDetail.reviews }/>
+          <ReviewFormContainer attraction={attraction}/>
+          <ReviewIndex reviews={ attraction.reviews }/>
         </div>
 
       </Modal>

@@ -18,10 +18,27 @@
     line-height: 1.5;
 
     #attraction-detail-header {
+      display: inline-block;
       font-size: 24px;
       font-weight: bold;
       line-height: 1;
       margin-bottom: 10px;
+      padding-left: 2px;
+      text-indent: -2px;
+
+      i {
+        color: teal;
+        vertical-align: text-top;
+      }
+
+      i:hover {
+        cursor: pointer;
+      }
+
+      span {
+        vertical-align: text-top;
+        margin-left: 2px;
+      }
     }
 
     .attraction-detail-rating {
