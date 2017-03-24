@@ -1,4 +1,4 @@
-import { RECEIVE_ATTRACTIONS, RECEIVE_ATTRACTION, RECEIVE_REVIEW, RECEIVE_BOOKMARK } from '../actions/attraction_actions';
+import { RECEIVE_ATTRACTIONS, RECEIVE_ATTRACTION, RECEIVE_REVIEW, RECEIVE_BOOKMARK, REMOVE_BOOKMARK } from '../actions/attraction_actions';
 import merge from 'lodash/merge';
 
 const AttractionReducer = (state = {}, action) => {
@@ -26,6 +26,10 @@ const AttractionReducer = (state = {}, action) => {
     case RECEIVE_BOOKMARK:
       newState = merge({}, state);
       newState[action.bookmark.attraction_id].bookmark = true;
+      return newState;
+    case REMOVE_BOOKMARK:
+      newState = merge({}, state);
+      newState[action.bookmark.attraction_id].bookmark = false;
       return newState;
     default:
       return state;

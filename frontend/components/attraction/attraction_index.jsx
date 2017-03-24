@@ -27,7 +27,6 @@ class AttractionIndex extends React.Component {
   }
 
   componentWillReceiveProps(newProps) {
-
     let { attractions } = newProps;
     if(attractions.length > 0) {
       let pages = [];

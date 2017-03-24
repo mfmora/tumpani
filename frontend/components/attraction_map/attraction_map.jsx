@@ -18,16 +18,6 @@ class AttractionMap extends React.Component {
     this.props.router.push(`/home/search/attraction/${attraction.id}`);
   }
 
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   if(this.props.attractions !== nextProps.attractions) {
-  //     return true;
-  //   }
-  //   if(this.state.attractions !== nextState.attractions) {
-  //     return true;
-  //   }
-  //   return false;
-  // }
-
   componentDidMount() {
     const options = {
       center: this.props.center,
@@ -35,6 +25,7 @@ class AttractionMap extends React.Component {
       mapTypeControl: false
     };
     this.map = new google.maps.Map(this.mapNode, options);
+    
     if(this.props.attractions) {
       this.props.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
     }
@@ -45,6 +36,31 @@ class AttractionMap extends React.Component {
       generateRoute.onclick = () => {
         this._calcRoute(this.map);
       };
+    }
+  }
+
+  componentWillUpdate(newProps) {
+    if(!this.map) {
+      const options = {
+        center: this.props.center,
+        zoom: this.props.zoom,
+        mapTypeControl: false
+      };
+      this.map = new google.maps.Map(this.mapNode, options);
+    }
+    if((JSON.stringify(newProps.attractions) !== JSON.stringify(this.props.attractions))) {
+      this.markers.forEach(marker => {
+        marker.value.setMap(null);
+      });
+      this.markers = [];
+      newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+
+      const generateRoute = document.getElementById("generate-route");
+      if (generateRoute) {
+        generateRoute.onclick = () => {
+          this._calcRoute(this.map);
+        };
+      }
     }
   }
 
@@ -81,36 +97,6 @@ class AttractionMap extends React.Component {
     });
 
     directionsPanel.classList.add("show");
-  }
-
-  componentWillUpdate(newProps) {
-    if(!this.map) {
-      const options = {
-        center: this.props.center,
-        zoom: this.props.zoom,
-        mapTypeControl: false
-      };
-      this.map = new google.maps.Map(this.mapNode, options);
-    }
-    if((JSON.stringify(newProps.attractions) !== JSON.stringify(this.props.attractions))) {
-      this.markers.forEach(marker => {
-        marker.value.setMap(null);
-      });
-      this.markers = [];
-      newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
-
-      const generateRoute = document.getElementById("generate-route");
-      if (generateRoute) {
-        generateRoute.onclick = () => {
-          this._calcRoute(this.map);
-        };
-      }
-    }
-  }
-
-  componentWillUnmount() {
-    let directionsPanel = document.getElementById('directionsPanel');
-    directionsPanel.classList.add("hide");
   }
 
   _placeMarker(attraction, map) {

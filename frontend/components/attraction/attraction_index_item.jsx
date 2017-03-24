@@ -10,6 +10,7 @@ class AttractionIndexItem extends React.Component {
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
     this._loadReviews = this._loadReviews.bind(this);
     this._addBookmark = this._addBookmark.bind(this);
+    this._removeBookmark = this._removeBookmark.bind(this);
   }
 
   _openAttractionDetail(e) {
@@ -45,6 +46,12 @@ class AttractionIndexItem extends React.Component {
     e.stopPropagation();
   }
 
+  _removeBookmark(e) {
+    e.preventDefault();
+    this.props.deleteBookmark(this.props.attraction.id);
+    e.stopPropagation();
+  }
+
   render() {
     let { attraction } = this.props;
 
@@ -58,7 +65,8 @@ class AttractionIndexItem extends React.Component {
     let bookmark;
     if(attraction.bookmark) {
       bookmark =
-      <i className="material-icons bookmarked">
+      <i className="material-icons bookmarked"
+         onClick={ this._removeBookmark }>
         bookmark
       </i>;
     } else {

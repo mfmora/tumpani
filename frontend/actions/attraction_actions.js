@@ -2,6 +2,7 @@ import * as APIUtil from '../util/attraction_api_util';
 export const RECEIVE_ATTRACTIONS = 'RECEIVE_ATTRACTIONS';
 export const RECEIVE_REVIEW = 'RECEIVE_REVIEW';
 export const RECEIVE_BOOKMARK = 'RECEIVE_BOOKMARK';
+export const REMOVE_BOOKMARK = 'REMOVE_BOOKMARK';
 
 const receiveAttractions = attractions => ({
   type: RECEIVE_ATTRACTIONS,
@@ -18,6 +19,11 @@ const receiveBookmark = bookmark => ({
   bookmark
 });
 
+const removeBookmark = bookmark => ({
+  type: REMOVE_BOOKMARK,
+  bookmark
+});
+
 export const fetchBookmarks = () => dispatch => (
   APIUtil.fetchBookmarks()
     .then( attractions => dispatch(receiveAttractions(attractions)))
@@ -26,6 +32,11 @@ export const fetchBookmarks = () => dispatch => (
 export const addBookmark = bookmark => dispatch => (
   APIUtil.addBookmark(bookmark)
     .then( bookmark => dispatch(receiveBookmark(bookmark)))
+);
+
+export const deleteBookmark = bookmark => dispatch => (
+  APIUtil.deleteBookmark(bookmark)
+    .then( bookmark => dispatch(removeBookmark(bookmark)))
 );
 
 export const createReview = review => dispatch => (

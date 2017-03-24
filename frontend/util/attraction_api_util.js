@@ -44,3 +44,10 @@ export const addBookmark = bookmark => (
     data: { bookmark }
   })
 );
+
+export const deleteBookmark = id => (
+  $.ajax({
+    method: 'DELETE',
+    url: `api/bookmarks/${id}`
+  })
+);
