@@ -160,7 +160,7 @@ _calcRoute(map) {
 ```
 
 <p align="center">
-  <img src="readme_photos/map.png" alt="map">
+  <img src="readme_photos/map-route.png" alt="map-route">
 </p>
 
 ## Future Directions
