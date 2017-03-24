@@ -19,6 +19,10 @@ class Attraction < ApplicationRecord
       LIKE '#{tag.downcase}'")
   end
 
+  def self.find_by_bookmarked(user_id)
+    Attraction.joins(:bookmarks).where("bookmarks.user_id = #{user_id}")
+  end
+
   def average_review
     rates = self.reviews.includes(:rate).pluck(:stars)
     (rates.inject(:+).to_f / rates.length).round(1)

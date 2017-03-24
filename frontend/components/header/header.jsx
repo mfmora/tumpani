@@ -11,6 +11,7 @@ class Header extends React.Component {
     this._logout = this._logout.bind(this);
     this._redirect = this._redirect.bind(this);
     this._redirectHome = this._redirectHome.bind(this);
+    this._searchBookmarks = this._searchBookmarks.bind(this);
   }
 
   _logout() {
@@ -27,13 +28,21 @@ class Header extends React.Component {
     this.props.router.push('/home');
   }
 
+  _redirectBookmark() {
+    this.props.router.push('/home/bookmarks');
+  }
+
+  _searchBookmarks(e) {
+    this.props.fetchBookmarks().then(() => this._redirectBookmark());
+  }
+
   render() {
     return(
       <section id="header">
         <a id="logo" onClick={this._redirectHome}>Tumpani</a>
         <SearchContainer />
         <span id="right-header">
-          <Link to="/home/bookmarks">Bookmarks</Link>
+          <a id="bookmarks" onClick={this._searchBookmarks}>Bookmarks</a>
           <a id="logout" onClick={this._logout}>Logout</a>
         </span>
         { this.props.children }

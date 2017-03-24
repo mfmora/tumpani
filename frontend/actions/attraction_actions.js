@@ -18,6 +18,11 @@ const receiveBookmark = bookmark => ({
   bookmark
 });
 
+export const fetchBookmarks = () => dispatch => (
+  APIUtil.fetchBookmarks()
+    .then( attractions => dispatch(receiveAttractions(attractions)))
+);
+
 export const addBookmark = bookmark => dispatch => (
   APIUtil.addBookmark(bookmark)
     .then( bookmark => dispatch(receiveBookmark(bookmark)))

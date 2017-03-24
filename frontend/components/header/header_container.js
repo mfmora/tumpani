@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
 import Header from './header';
 import { logout } from '../../actions/session_actions';
+import { fetchBookmarks } from '../../actions/attraction_actions';
+
 
 const mapStateToProps = state => ({
   currentUser: state.session.currentUser,
@@ -8,7 +10,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  logout: () => dispatch(logout())
+  logout: () => dispatch(logout()),
+  fetchBookmarks: () => dispatch(fetchBookmarks())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header);

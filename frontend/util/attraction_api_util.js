@@ -6,6 +6,13 @@ export const search = text => (
   })
 );
 
+export const fetchBookmarks = () => (
+  $.ajax({
+    method: 'GET',
+    url: 'api/attractions'
+  })
+);
+
 export const searchTag = tag => (
   $.ajax({
     method: 'GET',

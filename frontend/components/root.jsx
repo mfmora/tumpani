@@ -28,7 +28,7 @@ const Root = ({ store }) => {
         <Route path="/" component={ App } onEnter={_redirectIfLoggedIn} />
         <Route path="/home" component={ HomeContainer } onEnter={_redirectIfNotLoggedIn}>
           <IndexRoute component={ TagIndexContainer } onEnter={_redirectIfNotLoggedIn}/>
-          <Route path="bookmarks" component={ BookmarkContainer } onEnter={_redirectIfNotLoggedIn}/>
+          <Route path="bookmarks" component={ AttractionIndexContainer } onEnter={_redirectIfNotLoggedIn} bookmark={true}/>
           <Route path="search" component={ AttractionIndexContainer } onEnter={_redirectIfNotLoggedIn}>
             <Route path="attraction/:id" component={ AttractionDetailContainer } onEnter={_redirectIfNotLoggedIn}/>
           </Route>

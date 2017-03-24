@@ -11,6 +11,7 @@ class AttractionMap extends React.Component {
     this._addInfo = this._addInfo.bind(this);
     this._placeMarker = this._placeMarker.bind(this);
     this._setOpacityMarkers = this._setOpacityMarkers.bind(this);
+    this._calcRoute = this._calcRoute.bind(this);
   }
 
   _openAttractionDetail(attraction, e) {
@@ -37,17 +38,49 @@ class AttractionMap extends React.Component {
     if(this.props.attractions) {
       this.props.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
     }
+
+
+    const generateRoute = document.getElementById("generate-route");
+    if (generateRoute) {
+      generateRoute.onclick = () => {
+        this._calcRoute(this.map);
+      };
+    }
   }
 
-  // componentWillReceiveProps(newProps) {
-  //   if(this.state.attractions !== newProps.attractions) {
-  //
-  //     const different = newProps.attractions.filter(attraction => {
-  //       return
-  //     })
-  //     this.setState({ attractions: newProps.attractions });
-  //   }
-  // }
+  _calcRoute(map) {
+
+    let directionsDisplay = new google.maps.DirectionsRenderer();
+    directionsDisplay.setMap(map);
+    let directionsPanel = document.getElementById('directionsPanel');
+    directionsDisplay.setPanel(directionsPanel);
+
+    let waypoints = [];
+    this.markers.forEach(marker => {
+      waypoints.push({
+        location: marker.value.getPosition(),
+        stopover: true
+      });
+    });
+
+    let start = waypoints.shift().location;
+    let end = waypoints.pop().location;
+    let request = {
+      origin: start,
+      destination: end,
+      waypoints: waypoints,
+      optimizeWaypoints: true,
+      travelMode: 'DRIVING'
+    };
+    let directionsService = new google.maps.DirectionsService();
+    directionsService.route(request, function(result, status) {
+      if (status == 'OK') {
+        directionsDisplay.setDirections(result);
+      }
+    });
+
+    directionsPanel.classList.add("show");
+  }
 
   componentWillUpdate(newProps) {
     if(!this.map) {
@@ -64,6 +97,13 @@ class AttractionMap extends React.Component {
       });
       this.markers = [];
       newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
+
+      const generateRoute = document.getElementById("generate-route");
+      if (generateRoute) {
+        generateRoute.onclick = () => {
+          this._calcRoute(this.map);
+        };
+      }
     }
   }
 
@@ -110,7 +150,6 @@ class AttractionMap extends React.Component {
   }
 
   _addInfo(attraction, marker) {
-    // debugger;
     const infoMessage = (
       "<section class='info-message'>" +
       `<h1>${attraction.name}</h1>` +
@@ -155,6 +194,11 @@ class AttractionMap extends React.Component {
     return (
       <div>
         <div ref={map => this.mapNode = map } id="google-map">Map</div>
+        <div id="directionsPanel" className="hide">
+          <section className="direction-header">
+            <span>Directions</span>
+          </section>
+        </div>
       </div>
     );
   }

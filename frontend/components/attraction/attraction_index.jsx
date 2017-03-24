@@ -26,20 +26,6 @@ class AttractionIndex extends React.Component {
     }
   }
 
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   console.log(nextState);
-  //   console.log(nextProps);
-  //   debugger;
-  //   if(this.state.currentPage !== nextState.currentPage) {
-  //     return true;
-  //   }
-  //   if(this.props.attractions !== nextProps.attractions) {
-  //     return true;
-  //   }
-  //
-  //   return false;
-  // }
-
   componentWillReceiveProps(newProps) {
 
     let { attractions } = newProps;
@@ -90,7 +76,10 @@ class AttractionIndex extends React.Component {
         </div>
       );
     }
-
+    let createRoute;
+    if(this.props.route.bookmark) {
+      createRoute = <button id="generate-route">Generate Route</button>
+    }
     return(
       <div className="attraction-search">
         <section className="map-container">
@@ -99,21 +88,25 @@ class AttractionIndex extends React.Component {
             attractions={ page }/>
         </section>
         <section className="attraction-sidebar">
-          <section className="attraction-index-header"></section>
+          <section className="attraction-index-header">
+          </section>
           <ul className="attraction-list">
             { attractionList }
           </ul>
           <section className="attraction-index-footer">
-            <i id="prev-page"
-               onClick={ this._prev10 }
-               className="material-icons">
-               keyboard_arrow_left
-            </i>
-            <i id="next-page"
-               onClick={ this._next10 }
-               className="material-icons">
-              keyboard_arrow_right
-            </i>
+            { createRoute }
+            <span>
+              <i id="prev-page"
+                onClick={ this._prev10 }
+                className="material-icons">
+                keyboard_arrow_left
+              </i>
+              <i id="next-page"
+                onClick={ this._next10 }
+                className="material-icons">
+                keyboard_arrow_right
+              </i>
+            </span>
           </section>
         </section>
         { this.props.children }
