@@ -25,7 +25,7 @@ class AttractionMap extends React.Component {
       mapTypeControl: false
     };
     this.map = new google.maps.Map(this.mapNode, options);
-    
+
     if(this.props.attractions) {
       this.props.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
     }
@@ -102,8 +102,6 @@ class AttractionMap extends React.Component {
   _placeMarker(attraction, map) {
     let marker;
     if(attraction.bookmark) {
-      let blueIcon = 'http://maps.google.com/mapfiles/ms/micons/ltblu-pushpin.png';
-
       marker = new google.maps.Marker({
         map: map,
         position: attraction.position,
