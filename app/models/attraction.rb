@@ -29,7 +29,7 @@ class Attraction < ApplicationRecord
   end
 
   def get_rating
-    self.reviews.empty? ? self.rating : average_review
+    self.reviews.empty? ? self.rating.to_f : average_review.to_f
   end
 
   def bookmarked?(user_id)

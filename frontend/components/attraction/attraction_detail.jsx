@@ -5,6 +5,7 @@ import ModalStyle from './modal_style';
 import ReviewFormContainer from '../review/review_form_container';
 import { hashHistory, withRouter } from 'react-router';
 import ReviewIndex from '../review/review_index';
+import ReactStars from 'react-stars';
 // import AttractionDetailMap from '../attraction_map/attraction_detail_map';
 
 class AttractionDetail extends React.Component {
@@ -70,6 +71,13 @@ class AttractionDetail extends React.Component {
             </span>
             <span>{ this.props.attractionDetail.street_address}</span>
             <span>{ this.props.attractionDetail.city}</span>
+            <span className="attraction-detail-rating">
+              <span>{ (Math.round(this.props.attractionDetail.rating * 10) / 10).toFixed(1) }</span>
+              <ReactStars
+                edit={false}
+                color2={'#F44504'}
+                value={ Math.round(this.props.attractionDetail.rating) }/>
+            </span>
           </div>
           <ReviewFormContainer attraction={this.props.attractionDetail}/>
           <ReviewIndex reviews={ this.props.attractionDetail.reviews }/>

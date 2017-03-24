@@ -23,6 +23,16 @@
       line-height: 1;
       margin-bottom: 10px;
     }
+
+    .attraction-detail-rating {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      span {
+        font-size: 48px;
+        color: $orange;
+      }
+    }
   }
 
   .review-exist {

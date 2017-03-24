@@ -88,7 +88,7 @@ class AttractionIndexItem extends React.Component {
             { attraction.name }
           </span>
           <span className="attraction-item-rating">
-            <span>{attraction.rating}</span>
+            <span>{ (Math.round(attraction.rating * 10) / 10).toFixed(1) }</span>
             <ReactStars edit={false}
                         color2={'#F44504'}
                         value={ Math.round(attraction.rating) }/>
