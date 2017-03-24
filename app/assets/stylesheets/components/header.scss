@@ -11,11 +11,16 @@
   box-shadow: 0 4px 8px rgba(0,0,0,.28);
   font-size: 18px;
 
-  #logout {
-    font-family: $font-subheader;
+  #right-header {
     margin-right: 30px;
-    color: $light-gray;
-    font-size: 81.25%;
+
+    * {
+      margin-left: 30px;
+      font-family: $font-subheader;
+      text-decoration: none;
+      font-size: 81.25%;
+      color: $light-gray;
+    }
   }
 
   #logout:hover {

@@ -6,6 +6,7 @@ import HomeContainer from './home/home_container';
 import TagIndexContainer from './tag/tag_index_container';
 import AttractionIndexContainer from './attraction/attraction_index_container';
 import AttractionDetailContainer from './attraction/attraction_detail_container';
+import BookmarkContainer from './bookmark/bookmark_container';
 
 const Root = ({ store }) => {
 
@@ -27,6 +28,7 @@ const Root = ({ store }) => {
         <Route path="/" component={ App } onEnter={_redirectIfLoggedIn} />
         <Route path="/home" component={ HomeContainer } onEnter={_redirectIfNotLoggedIn}>
           <IndexRoute component={ TagIndexContainer } onEnter={_redirectIfNotLoggedIn}/>
+          <Route path="bookmarks" component={ BookmarkContainer } onEnter={_redirectIfNotLoggedIn}/>
           <Route path="search" component={ AttractionIndexContainer } onEnter={_redirectIfNotLoggedIn}>
             <Route path="attraction/:id" component={ AttractionDetailContainer } onEnter={_redirectIfNotLoggedIn}/>
           </Route>

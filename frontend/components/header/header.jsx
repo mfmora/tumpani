@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchContainer from '../search/search_container';
+import { Link } from 'react-router';
 import { withRouter } from 'react-router';
 
 class Header extends React.Component {
@@ -31,7 +32,10 @@ class Header extends React.Component {
       <section id="header">
         <a id="logo" onClick={this._redirectHome}>Tumpani</a>
         <SearchContainer />
-        <a id="logout" onClick={this._logout}>Logout</a>
+        <span id="right-header">
+          <Link to="/home/bookmarks">Bookmarks</Link>
+          <a id="logout" onClick={this._logout}>Logout</a>
+        </span>
         { this.props.children }
       </section>
     )

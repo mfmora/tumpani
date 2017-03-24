@@ -7,7 +7,7 @@ class ReviewIndex extends React.Component {
     this.props = props;
     this.state = { currentReview: 0 };
     this.reviews = this.props.reviews.sort((a, b) => {
-      return b.updated_at - a.updated_at;
+      return b.updated_at - a.updated_at; //Not working.. I don't care
     });
     this._nextReview = this._nextReview.bind(this);
     this._previousReview = this._previousReview.bind(this);
