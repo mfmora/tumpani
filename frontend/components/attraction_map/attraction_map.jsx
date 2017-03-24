@@ -57,8 +57,9 @@ class AttractionMap extends React.Component {
 
     let waypoints = [];
     this.markers.forEach(marker => {
+      marker.value.setOpacity(0);
       waypoints.push({
-        location: marker.value.getPosition(),
+        location: marker.value.getTitle(),
         stopover: true
       });
     });
@@ -107,6 +108,11 @@ class AttractionMap extends React.Component {
     }
   }
 
+  componentWillUnmount() {
+    let directionsPanel = document.getElementById('directionsPanel');
+    directionsPanel.classList.add("hide");
+  }
+
   _placeMarker(attraction, map) {
     let marker;
     if(attraction.bookmark) {
@@ -116,6 +122,7 @@ class AttractionMap extends React.Component {
         map: map,
         position: attraction.position,
         animation: google.maps.Animation.DROP,
+        title: attraction.name,
         icon: {
           path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
           fillColor: "#00A3A7",
@@ -129,6 +136,7 @@ class AttractionMap extends React.Component {
       marker = new google.maps.Marker({
         map: map,
         position: attraction.position,
+        title: attraction.name,
         animation: google.maps.Animation.DROP
       });
     }
