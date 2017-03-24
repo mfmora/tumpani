@@ -6,7 +6,6 @@ import HomeContainer from './home/home_container';
 import TagIndexContainer from './tag/tag_index_container';
 import AttractionIndexContainer from './attraction/attraction_index_container';
 import AttractionDetailContainer from './attraction/attraction_detail_container';
-import BookmarkContainer from './bookmark/bookmark_container';
 
 const Root = ({ store }) => {
 
