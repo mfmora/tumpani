@@ -28,7 +28,9 @@
       display: flex;
       flex-direction: column;
       margin-top: 20px;
-      span {
+
+      .attraction-detail-rating-number {
+        margin-left: 3px;
         font-size: 48px;
         color: $orange;
       }

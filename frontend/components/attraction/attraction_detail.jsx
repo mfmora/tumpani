@@ -72,7 +72,9 @@ class AttractionDetail extends React.Component {
             <span>{ this.props.attractionDetail.street_address}</span>
             <span>{ this.props.attractionDetail.city}</span>
             <span className="attraction-detail-rating">
-              <span>{ (Math.round(this.props.attractionDetail.rating * 10) / 10).toFixed(1) }</span>
+              <span className="attraction-detail-rating-number">
+                { (Math.round(this.props.attractionDetail.rating * 10) / 10).toFixed(1) }
+              </span>
               <ReactStars
                 edit={false}
                 color2={'#F44504'}
