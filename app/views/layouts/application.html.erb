@@ -3,6 +3,19 @@
   <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDHdFIn5YJjRDni7mCkovzt8vCw9heTyxU",
+        authDomain: "tumpani-162219.firebaseapp.com",
+        databaseURL: "https://tumpani-162219.firebaseio.com",
+        projectId: "tumpani-162219",
+        storageBucket: "tumpani-162219.appspot.com",
+        messagingSenderId: "305138451566"
+      };
+      firebase.initializeApp(config);
+    </script>
     <title>Tumpani</title>
     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{ENV["PUSHER_KEY"]}&libraries=places"%>
     <%= csrf_meta_tags %>
