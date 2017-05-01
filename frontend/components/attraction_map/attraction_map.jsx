@@ -6,7 +6,7 @@ import AttractionDetail from '../attraction/attraction_detail';
 class AttractionMap extends React.Component {
   constructor(props) {
     super(props);
-    this.markers = [];
+    this.markers = {};
     this._openAttractionDetail = this._openAttractionDetail.bind(this);
     this._addInfo = this._addInfo.bind(this);
     this._placeMarker = this._placeMarker.bind(this);
@@ -49,10 +49,11 @@ class AttractionMap extends React.Component {
       this.map = new google.maps.Map(this.mapNode, options);
     }
     if((JSON.stringify(newProps.attractions) !== JSON.stringify(this.props.attractions))) {
-      this.markers.forEach(marker => {
-        marker.value.setMap(null);
+      Object.values(this.markers).forEach(marker => {
+        marker.setMap(null);
+        delete this.markers[marker.attractionId];
       });
-      this.markers = [];
+      this.markers = {};
       newProps.attractions.forEach((attraction) => this._placeMarker(attraction, this.map));
 
       const generateRoute = document.getElementById("generate-route");
@@ -72,8 +73,8 @@ class AttractionMap extends React.Component {
     directionsDisplay.setPanel(directionsPanel);
 
     let waypoints = [];
-    this.markers.forEach(marker => {
-      marker.value.setOpacity(0);
+    Object.values(this.markers).forEach(marker => {
+      marker.setOpacity(0);
       waypoints.push({
         location: marker.value.getTitle(),
         stopover: true
@@ -105,6 +106,7 @@ class AttractionMap extends React.Component {
       marker = new google.maps.Marker({
         map: map,
         position: attraction.position,
+        attractionId: attraction.id,
         animation: google.maps.Animation.DROP,
         title: attraction.name,
         icon: {
@@ -121,12 +123,13 @@ class AttractionMap extends React.Component {
         map: map,
         position: attraction.position,
         title: attraction.name,
+        attractionId: attraction.id,
         animation: google.maps.Animation.DROP
       });
     }
 
 
-    this.markers.push({ value: marker, attraction: attraction.id });
+    this.markers[attraction.id] = marker;
 
     marker.addListener('click', () => {
       this._openAttractionDetail(attraction);
@@ -136,8 +139,8 @@ class AttractionMap extends React.Component {
   }
 
   _setOpacityMarkers(opacity) {
-    this.markers.forEach(marker => {
-      marker.value.setOpacity(opacity);
+    Object.values(this.markers).forEach(marker => {
+      marker.setOpacity(opacity);
     });
   }
 
@@ -166,16 +169,16 @@ class AttractionMap extends React.Component {
     const attractionItem = document.getElementById(`attraction-item-${attraction.id}`);
     if (attractionItem) {
       attractionItem.onmouseover = () => {
-        this.markers.forEach(otherMarker => {
-          otherMarker.value.setOpacity(0.3);
+        Object.values(this.markers).forEach(otherMarker => {
+          otherMarker.setOpacity(0.3);
         });
         marker.setOpacity(1);
         info.open(this.map, marker);
       };
 
       attractionItem.onmouseout = () => {
-        this.markers.forEach(otherMarker => {
-          otherMarker.value.setOpacity(1);
+        Object.values(this.markers).forEach(otherMarker => {
+          otherMarker.setOpacity(1);
         });
         info.close(this.map, marker);
       };
